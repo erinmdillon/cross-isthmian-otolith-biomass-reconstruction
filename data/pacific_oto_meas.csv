@@ -1,0 +1,1208 @@
+basin,region,site_name,sample,depth,unique,age_group,otolith,length_um,width_um,family
+Pacific,Gulf of Panama,Saboga,AT19-1-1,10,AT19-1-1-10,modern,1,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,25,AT19-1-1-25,modern,1,2023.411,1141.143,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,30,AT19-1-1-30,modern,1,1303.222,860.522,Mullidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,35,AT19-1-1-35,modern,1,2798.703,1159.6,Serranidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,35,AT19-1-1-35,modern,2,2093.878,1375.51,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,40,AT19-1-1-40,modern,1,1093.878,979.592,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,40,AT19-1-1-40,modern,2,1469.388,979.592,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,40,AT19-1-1-40,modern,3,3902.041,2587.755,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,40,AT19-1-1-40,modern,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,45,AT19-1-1-45,modern,1,1583.673,881.633,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,50,AT19-1-1-50,modern,1,2644.898,1428.571,Serranidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,50,AT19-1-1-50,modern,2,2204.082,1183.673,Serranidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,50,AT19-1-1-50,modern,3,NA,808.163,Serranidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,50,AT19-1-1-50,modern,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,55,AT19-1-1-55,modern,1,NA,840.816,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,220,AT19-1-1-220,pre_exp,1,906.122,848.98,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,220,AT19-1-1-220,pre_exp,2,840.816,926.531,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,220,AT19-1-1-220,pre_exp,3,668.027,716.327,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,220,AT19-1-1-220,pre_exp,4,1061.224,771.429,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,220,AT19-1-1-220,pre_exp,5,2522.449,1179.592,Carangidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,220,AT19-1-1-220,pre_exp,6,2138.776,1257.143,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,220,AT19-1-1-220,pre_exp,7,1118.367,688.435,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,225,AT19-1-1-225,pre_exp,1,1673.469,1020.408,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,230,AT19-1-1-230,pre_exp,1,881.633,631.293,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,230,AT19-1-1-230,pre_exp,2,1097.959,595.918,Scorpaenidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,230,AT19-1-1-230,pre_exp,3,1971.429,1289.796,Gerreidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,230,AT19-1-1-230,pre_exp,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,230,AT19-1-1-230,pre_exp,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,230,AT19-1-1-230,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,235,AT19-1-1-235,pre_exp,1,1412.245,1126.531,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,235,AT19-1-1-235,pre_exp,2,857.143,734.694,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,235,AT19-1-1-235,pre_exp,3,1061.224,983.673,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,235,AT19-1-1-235,pre_exp,4,2253.061,1665.306,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,235,AT19-1-1-235,pre_exp,5,1306.122,897.959,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,235,AT19-1-1-235,pre_exp,6,946.27,1771.429,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,235,AT19-1-1-235,pre_exp,7,2489.796,654.946,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,235,AT19-1-1-235,pre_exp,8,2628.571,1244.898,Pomacentridae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,235,AT19-1-1-235,pre_exp,9,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,235,AT19-1-1-235,pre_exp,10,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,240,AT19-1-1-240,pre_exp,1,489.796,563.265,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,240,AT19-1-1-240,pre_exp,2,2212.245,1228.571,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,240,AT19-1-1-240,pre_exp,3,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,240,AT19-1-1-240,pre_exp,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,245,AT19-1-1-245,pre_exp,1,2640.816,1546.939,Mugilidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,245,AT19-1-1-245,pre_exp,2,1689.796,865.306,Serranidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,245,AT19-1-1-245,pre_exp,3,1563.265,726.531,Scorpaenidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,250,AT19-1-1-250,pre_exp,1,865.306,892.517,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,250,AT19-1-1-250,pre_exp,2,1287.075,897.959,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,250,AT19-1-1-250,pre_exp,3,1061.224,748.299,Labridae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,250,AT19-1-1-250,pre_exp,4,560.544,412.245,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,250,AT19-1-1-250,pre_exp,5,636.735,473.469,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,250,AT19-1-1-250,pre_exp,6,1669.388,1091.156,Ophidiidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,250,AT19-1-1-250,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,250,AT19-1-1-250,pre_exp,8,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,255,AT19-1-1-255,pre_exp,1,3853.061,2481.633,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,255,AT19-1-1-255,pre_exp,2,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,255,AT19-1-1-255,pre_exp,3,NA,796.912,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,255,AT19-1-1-255,pre_exp,4,NA,1025.01,Clupeidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,260,AT19-1-1-260,pre_exp,1,1551.02,726.531,Serranidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,260,AT19-1-1-260,pre_exp,2,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,260,AT19-1-1-260,pre_exp,3,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,260,AT19-1-1-260,pre_exp,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,260,AT19-1-1-260,pre_exp,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,260,AT19-1-1-260,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,265,AT19-1-1-265,pre_exp,1,1024.49,967.347,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,265,AT19-1-1-265,pre_exp,2,1469.388,1134.694,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,265,AT19-1-1-265,pre_exp,3,881.633,926.531,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,265,AT19-1-1-265,pre_exp,4,2857.143,1934.694,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,265,AT19-1-1-265,pre_exp,5,2008.163,1175.51,Serranidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,270,AT19-1-1-270,pre_exp,1,1436.735,963.265,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,270,AT19-1-1-270,pre_exp,2,1208.163,612.245,Scorpaenidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,270,AT19-1-1-270,pre_exp,3,979.592,702.041,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,270,AT19-1-1-270,pre_exp,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,270,AT19-1-1-270,pre_exp,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,270,AT19-1-1-270,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,270,AT19-1-1-270,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,275,AT19-1-1-275,pre_exp,1,3640.816,2302.041,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,275,AT19-1-1-275,pre_exp,2,1371.429,938.776,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,275,AT19-1-1-275,pre_exp,3,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,280,AT19-1-1-280,pre_exp,1,1232.653,1110.204,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,280,AT19-1-1-280,pre_exp,2,NA,719.526,Mullidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,280,AT19-1-1-280,pre_exp,3,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,280,AT19-1-1-280,pre_exp,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,280,AT19-1-1-280,pre_exp,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,285,AT19-1-1-285,pre_exp,1,1436.735,NA,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,285,AT19-1-1-285,pre_exp,2,832.943,763.623,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,285,AT19-1-1-285,pre_exp,3,1469.388,1216.327,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,285,AT19-1-1-285,pre_exp,4,1136.073,782.738,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,285,AT19-1-1-285,pre_exp,5,2081.633,1000,Scorpaenidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,285,AT19-1-1-285,pre_exp,6,1861.224,2171.429,Sciaenidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,290,AT19-1-1-290,pre_exp,1,1416.327,1155.102,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,290,AT19-1-1-290,pre_exp,2,922.449,870.748,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,290,AT19-1-1-290,pre_exp,3,1146.939,770.068,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,290,AT19-1-1-290,pre_exp,4,975.51,682.993,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,290,AT19-1-1-290,pre_exp,5,2228.571,1436.735,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,290,AT19-1-1-290,pre_exp,6,2538.776,1648.98,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,290,AT19-1-1-290,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,290,AT19-1-1-290,pre_exp,8,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,290,AT19-1-1-290,pre_exp,9,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,295,AT19-1-1-295,pre_exp,1,2972.202,1828.462,Ophidiidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,300,AT19-1-1-300,pre_exp,1,NA,1130.612,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,300,AT19-1-1-300,pre_exp,2,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,300,AT19-1-1-300,pre_exp,3,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,305,AT19-1-1-305,pre_exp,1,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,310,AT19-1-1-310,pre_exp,1,693.878,770.068,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,310,AT19-1-1-310,pre_exp,2,1306.122,869.388,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,310,AT19-1-1-310,pre_exp,3,3600,2391.837,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,315,AT19-1-1-315,pre_exp,1,669.388,661.224,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,315,AT19-1-1-315,pre_exp,2,1159.184,857.143,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,315,AT19-1-1-315,pre_exp,3,1975.51,1289.796,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,315,AT19-1-1-315,pre_exp,4,1787.755,824.49,Bythididae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,315,AT19-1-1-315,pre_exp,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,315,AT19-1-1-315,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,315,AT19-1-1-315,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,320,AT19-1-1-320,pre_exp,1,971.84,NA,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,320,AT19-1-1-320,pre_exp,2,1657.143,1273.469,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,320,AT19-1-1-320,pre_exp,3,NA,432.653,Blennidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,320,AT19-1-1-320,pre_exp,4,2089.796,1118.367,Ophidiidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,320,AT19-1-1-320,pre_exp,5,1130.612,1012.245,Paralichthyidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,320,AT19-1-1-320,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,320,AT19-1-1-320,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,320,AT19-1-1-320,pre_exp,8,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,325,AT19-1-1-325,pre_exp,1,995.918,955.102,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,325,AT19-1-1-325,pre_exp,2,1273.469,824.49,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,325,AT19-1-1-325,pre_exp,3,1436.735,930.612,Labridae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,330,AT19-1-1-330,pre_exp,1,1200,1020.408,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,330,AT19-1-1-330,pre_exp,2,653.061,767.347,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,330,AT19-1-1-330,pre_exp,3,2204.082,1240.816,Ophidiidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,330,AT19-1-1-330,pre_exp,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,330,AT19-1-1-330,pre_exp,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,330,AT19-1-1-330,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,330,AT19-1-1-330,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,330,AT19-1-1-330,pre_exp,8,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,330,AT19-1-1-330,pre_exp,9,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,330,AT19-1-1-330,pre_exp,10,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,330,AT19-1-1-330,pre_exp,11,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,335,AT19-1-1-335,pre_exp,1,857.143,800,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,335,AT19-1-1-335,pre_exp,2,1510.204,1191.837,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,335,AT19-1-1-335,pre_exp,3,3248.98,1771.429,Ophidiidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,335,AT19-1-1-335,pre_exp,4,1861.224,922.449,Ophidiidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,335,AT19-1-1-335,pre_exp,5,NA,938.776,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,335,AT19-1-1-335,pre_exp,6,1485.714,975.51,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,335,AT19-1-1-335,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,335,AT19-1-1-335,pre_exp,8,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,335,AT19-1-1-335,pre_exp,9,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,335,AT19-1-1-335,pre_exp,10,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,335,AT19-1-1-335,pre_exp,11,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,340,AT19-1-1-340,pre_exp,1,922.449,NA,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,340,AT19-1-1-340,pre_exp,2,873.469,881.633,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,340,AT19-1-1-340,pre_exp,3,889.796,808.163,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,340,AT19-1-1-340,pre_exp,4,2971.429,1730.612,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,340,AT19-1-1-340,pre_exp,5,971.429,767.347,Carapidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,345,AT19-1-1-345,pre_exp,1,1265.306,1236.735,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,345,AT19-1-1-345,pre_exp,2,840.816,840.816,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,345,AT19-1-1-345,pre_exp,3,636.735,715.646,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,345,AT19-1-1-345,pre_exp,4,718.367,716.327,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,345,AT19-1-1-345,pre_exp,5,1648.98,1085.714,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,345,AT19-1-1-345,pre_exp,6,2571.429,1567.347,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,345,AT19-1-1-345,pre_exp,7,3338.776,2089.796,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,345,AT19-1-1-345,pre_exp,8,NA,778.231,Labridae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,345,AT19-1-1-345,pre_exp,9,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,345,AT19-1-1-345,pre_exp,10,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,345,AT19-1-1-345,pre_exp,11,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,345,AT19-1-1-345,pre_exp,12,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,345,AT19-1-1-345,pre_exp,13,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,345,AT19-1-1-345,pre_exp,14,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,345,AT19-1-1-345,pre_exp,15,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,350,AT19-1-1-350,pre_exp,1,1093.878,1004.082,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,350,AT19-1-1-350,pre_exp,2,1012.245,951.02,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,350,AT19-1-1-350,pre_exp,3,881.633,910.204,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,350,AT19-1-1-350,pre_exp,4,1093.878,1081.633,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,350,AT19-1-1-350,pre_exp,5,1322.449,1204.082,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,350,AT19-1-1-350,pre_exp,6,530.612,595.918,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,350,AT19-1-1-350,pre_exp,7,1224.49,779.592,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,350,AT19-1-1-350,pre_exp,8,1489.796,673.469,Serranidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,350,AT19-1-1-350,pre_exp,9,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,350,AT19-1-1-350,pre_exp,10,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,350,AT19-1-1-350,pre_exp,11,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,350,AT19-1-1-350,pre_exp,12,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,350,AT19-1-1-350,pre_exp,13,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,350,AT19-1-1-350,pre_exp,14,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,350,AT19-1-1-350,pre_exp,15,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,355,AT19-1-1-355,pre_exp,1,1371.429,1167.347,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,355,AT19-1-1-355,pre_exp,2,1126.531,1004.082,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,355,AT19-1-1-355,pre_exp,3,2318.367,1363.265,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,355,AT19-1-1-355,pre_exp,4,NA,1102.041,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,355,AT19-1-1-355,pre_exp,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,355,AT19-1-1-355,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,355,AT19-1-1-355,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,355,AT19-1-1-355,pre_exp,8,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,355,AT19-1-1-355,pre_exp,9,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,355,AT19-1-1-355,pre_exp,10,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,355,AT19-1-1-355,pre_exp,11,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,1,971.84,971.84,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,2,1191.837,946.939,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,3,865.306,848.98,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,4,1224.49,1110.204,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,5,1387.755,1257.143,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,6,604.082,644.898,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,7,1120.778,1149.558,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,8,1240.816,1097.959,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,9,NA,751.02,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,10,NA,702.041,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,11,1175.51,763.265,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,12,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,13,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,14,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,15,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,16,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,17,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,18,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,19,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,360,AT19-1-1-360,pre_exp,20,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,365,AT19-1-1-365,pre_exp,1,1036.735,922.449,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,365,AT19-1-1-365,pre_exp,2,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,365,AT19-1-1-365,pre_exp,3,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,365,AT19-1-1-365,pre_exp,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-1,370,AT19-1-1-370,pre_exp,1,897.959,897.959,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-1,370,AT19-1-1-370,pre_exp,2,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,15,AT19-1-2-15,modern,1,914.286,857.143,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,20,AT19-1-2-20,modern,1,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,25,AT19-1-2-25,modern,1,1412.245,832.653,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,30,AT19-1-2-30,modern,1,1387.755,946.939,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,30,AT19-1-2-30,modern,2,1608.163,1697.959,Bregmacerotidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,35,AT19-1-2-35,modern,1,NA,1738.776,Serranidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,35,AT19-1-2-35,modern,2,2514.286,1404.082,Serranidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,35,AT19-1-2-35,modern,3,1453.061,922.449,Serranidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,35,AT19-1-2-35,modern,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,40,AT19-1-2-40,modern,1,857.143,800,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,40,AT19-1-2-40,modern,2,1559.184,759.184,Scorpaenidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,40,AT19-1-2-40,modern,3,1248.98,851.701,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,45,AT19-1-2-45,modern,1,2767.347,1248.98,Scorpaenidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,45,AT19-1-2-45,modern,2,2081.633,1281.633,Batrachoididae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,50,AT19-1-2-50,modern,1,1126.531,767.347,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,50,AT19-1-2-50,modern,2,808.163,481.633,Atherinopsidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,50,AT19-1-2-50,modern,3,1567.347,771.429,Clupeidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,50,AT19-1-2-50,modern,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,50,AT19-1-2-50,modern,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,55,AT19-1-2-55,modern,1,775.51,816.327,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,55,AT19-1-2-55,modern,2,1844.898,881.633,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,55,AT19-1-2-55,modern,3,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,55,AT19-1-2-55,modern,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,60,AT19-1-2-60,modern,1,832.653,791.837,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,60,AT19-1-2-60,modern,2,1453.061,844.898,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,60,AT19-1-2-60,modern,3,2604.082,1232.653,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,60,AT19-1-2-60,modern,4,1934.694,1248.98,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,65,AT19-1-2-65,modern,1,2897.959,1608.163,Pomacentridae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,65,AT19-1-2-65,modern,2,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,270,AT19-1-2-270,pre_exp,1,NA,1151.02,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,270,AT19-1-2-270,pre_exp,2,2383.673,1648.98,Carapidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,270,AT19-1-2-270,pre_exp,3,1200,706.122,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,270,AT19-1-2-270,pre_exp,4,1183.673,783.673,Pomacentridae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,270,AT19-1-2-270,pre_exp,5,1175.51,795.918,Pomacentridae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,270,AT19-1-2-270,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,275,AT19-1-2-275,pre_exp,1,NA,1044.898,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,275,AT19-1-2-275,pre_exp,2,1257.143,808.163,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,275,AT19-1-2-275,pre_exp,3,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,280,AT19-1-2-280,pre_exp,1,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,285,AT19-1-2-285,pre_exp,1,2326.531,1885.714,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,285,AT19-1-2-285,pre_exp,2,2408.163,1526.531,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,285,AT19-1-2-285,pre_exp,3,1273.469,889.796,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,285,AT19-1-2-285,pre_exp,4,2269.388,1077.551,Scorpaenidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,285,AT19-1-2-285,pre_exp,5,2648.98,1567.347,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,290,AT19-1-2-290,pre_exp,1,987.755,628.571,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,290,AT19-1-2-290,pre_exp,2,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,290,AT19-1-2-290,pre_exp,3,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,290,AT19-1-2-290,pre_exp,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,295,AT19-1-2-295,pre_exp,1,1142.857,1012.245,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,295,AT19-1-2-295,pre_exp,2,1844.898,1069.388,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,295,AT19-1-2-295,pre_exp,3,NA,971.429,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,295,AT19-1-2-295,pre_exp,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,300,AT19-1-2-300,pre_exp,1,763.265,746.939,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,300,AT19-1-2-300,pre_exp,2,693.878,772.789,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,300,AT19-1-2-300,pre_exp,3,1118.367,979.592,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,300,AT19-1-2-300,pre_exp,4,1648.98,1053.061,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,300,AT19-1-2-300,pre_exp,5,2506.122,1069.388,Scorpaenidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,300,AT19-1-2-300,pre_exp,6,NA,2293.878,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,300,AT19-1-2-300,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,305,AT19-1-2-305,pre_exp,1,775.51,767.347,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,305,AT19-1-2-305,pre_exp,2,NA,1355.102,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,310,AT19-1-2-310,pre_exp,1,NA,987.755,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,310,AT19-1-2-310,pre_exp,2,NA,653.061,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,310,AT19-1-2-310,pre_exp,3,NA,952.381,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,310,AT19-1-2-310,pre_exp,4,1583.673,1151.02,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,315,AT19-1-2-315,pre_exp,1,702.041,791.837,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,315,AT19-1-2-315,pre_exp,2,1142.857,1096.599,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,315,AT19-1-2-315,pre_exp,3,1024.49,936.054,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,315,AT19-1-2-315,pre_exp,4,1081.633,955.102,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,315,AT19-1-2-315,pre_exp,5,979.592,674.83,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,315,AT19-1-2-315,pre_exp,6,1722.449,1044.898,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,315,AT19-1-2-315,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,320,AT19-1-2-320,pre_exp,1,1697.959,1322.449,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,320,AT19-1-2-320,pre_exp,2,1240.816,995.918,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,320,AT19-1-2-320,pre_exp,3,975.51,718.367,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,320,AT19-1-2-320,pre_exp,4,1710.204,832.653,Serranidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,320,AT19-1-2-320,pre_exp,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,325,AT19-1-2-325,pre_exp,1,1159.184,1044.898,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,325,AT19-1-2-325,pre_exp,2,1730.612,1355.102,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,325,AT19-1-2-325,pre_exp,3,NA,938.776,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,325,AT19-1-2-325,pre_exp,4,NA,1012.245,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,330,AT19-1-2-330,pre_exp,1,1134.694,983.673,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,330,AT19-1-2-330,pre_exp,2,2408.163,1355.102,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,330,AT19-1-2-330,pre_exp,3,1208.163,804.082,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,330,AT19-1-2-330,pre_exp,4,NA,1102.041,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,330,AT19-1-2-330,pre_exp,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,330,AT19-1-2-330,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,335,AT19-1-2-335,pre_exp,1,881.633,715.646,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,335,AT19-1-2-335,pre_exp,2,2179.592,1530.612,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,335,AT19-1-2-335,pre_exp,3,995.918,666.667,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,335,AT19-1-2-335,pre_exp,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,340,AT19-1-2-340,pre_exp,1,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,340,AT19-1-2-340,pre_exp,2,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,340,AT19-1-2-340,pre_exp,3,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-2,345,AT19-1-2-345,pre_exp,1,1012.245,914.286,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,345,AT19-1-2-345,pre_exp,2,1836.735,1265.306,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-2,345,AT19-1-2-345,pre_exp,3,NA,816.327,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,5,AT19-1-3-5,modern,1,1430.894,1154.472,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,5,AT19-1-3-5,modern,2,906.504,865.854,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,20,AT19-1-3-20,modern,1,1650.407,1121.951,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,20,AT19-1-3-20,modern,2,971.545,894.309,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,205,AT19-1-3-205,pre_exp,1,3024.39,1861.789,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,205,AT19-1-3-205,pre_exp,2,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,210,AT19-1-3-210,pre_exp,1,1906.066,956.21,Bythididae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,210,AT19-1-3-210,pre_exp,2,1884.724,1126.904,Pomacentridae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,210,AT19-1-3-210,pre_exp,3,853.659,715.447,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,210,AT19-1-3-210,pre_exp,4,2264.228,1341.463,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,210,AT19-1-3-210,pre_exp,5,1430.894,1040.65,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,210,AT19-1-3-210,pre_exp,6,2247.967,1089.431,Scorpaenidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,210,AT19-1-3-210,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,215,AT19-1-3-215,pre_exp,1,804.878,804.878,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,215,AT19-1-3-215,pre_exp,2,1463.415,886.179,Gerreidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,220,AT19-1-3-220,pre_exp,1,1430.894,1121.951,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,220,AT19-1-3-220,pre_exp,2,829.268,780.488,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,220,AT19-1-3-220,pre_exp,3,1121.951,1036.585,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,220,AT19-1-3-220,pre_exp,4,902.439,897.019,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,220,AT19-1-3-220,pre_exp,5,NA,1373.984,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,220,AT19-1-3-220,pre_exp,6,2292.683,1382.114,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,220,AT19-1-3-220,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,225,AT19-1-3-225,pre_exp,1,NA,825.203,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,225,AT19-1-3-225,pre_exp,2,3252.033,2081.301,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,225,AT19-1-3-225,pre_exp,3,1910.569,943.089,Bythididae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,225,AT19-1-3-225,pre_exp,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,225,AT19-1-3-225,pre_exp,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,230,AT19-1-3-230,pre_exp,1,983.74,886.179,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,230,AT19-1-3-230,pre_exp,2,1032.52,945.799,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,230,AT19-1-3-230,pre_exp,3,1544.715,1048.78,Labridae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,230,AT19-1-3-230,pre_exp,4,764.228,560.976,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,235,AT19-1-3-235,pre_exp,1,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,240,AT19-1-3-240,pre_exp,1,NA,1455.285,Pomacentridae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,240,AT19-1-3-240,pre_exp,2,1658.537,1024.39,Pomacentridae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,240,AT19-1-3-240,pre_exp,3,1430.894,1178.862,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,245,AT19-1-3-245,pre_exp,1,1471.545,1357.724,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,245,AT19-1-3-245,pre_exp,2,1308.943,995.935,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,245,AT19-1-3-245,pre_exp,3,2382.114,1373.984,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,245,AT19-1-3-245,pre_exp,4,1609.756,959.35,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,245,AT19-1-3-245,pre_exp,5,1951.22,910.569,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,250,AT19-1-3-250,pre_exp,1,1186.268,986.164,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,250,AT19-1-3-250,pre_exp,2,1138.211,742.547,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,255,AT19-1-3-255,pre_exp,1,2241.84,1593.247,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,255,AT19-1-3-255,pre_exp,2,1520.325,707.317,Scorpaenidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,260,AT19-1-3-260,pre_exp,1,1081.301,959.35,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,260,AT19-1-3-260,pre_exp,2,1365.854,1040.65,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,260,AT19-1-3-260,pre_exp,3,2243.902,1024.39,Scorpaenidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,260,AT19-1-3-260,pre_exp,4,2804.878,1390.244,Serranidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,265,AT19-1-3-265,pre_exp,1,1394.309,1170.732,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,265,AT19-1-3-265,pre_exp,2,2081.301,1032.52,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,270,AT19-1-3-270,pre_exp,1,1373.984,1097.561,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,270,AT19-1-3-270,pre_exp,2,878.049,825.203,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,270,AT19-1-3-270,pre_exp,3,1853.659,1276.423,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,275,AT19-1-3-275,pre_exp,1,1455.285,869.919,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,275,AT19-1-3-275,pre_exp,2,1353.659,829.268,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,280,AT19-1-3-280,pre_exp,1,1821.138,1227.642,Mullidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,285,AT19-1-3-285,pre_exp,1,1252.033,821.138,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,285,AT19-1-3-285,pre_exp,2,1219.512,753.388,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,285,AT19-1-3-285,pre_exp,3,2699.187,1520.325,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,285,AT19-1-3-285,pre_exp,4,2332.072,1421.37,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,285,AT19-1-3-285,pre_exp,5,1658.537,1455.285,Bregmacerotidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,285,AT19-1-3-285,pre_exp,6,1902.439,1357.724,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,285,AT19-1-3-285,pre_exp,7,1089.431,768.293,Labridae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,290,AT19-1-3-290,pre_exp,1,1040.65,861.789,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,290,AT19-1-3-290,pre_exp,2,886.179,841.463,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,290,AT19-1-3-290,pre_exp,3,1943.089,1077.236,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,290,AT19-1-3-290,pre_exp,4,2121.951,1487.805,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,295,AT19-1-3-295,pre_exp,1,1691.057,1325.203,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,295,AT19-1-3-295,pre_exp,2,1764.228,1231.707,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,295,AT19-1-3-295,pre_exp,3,NA,1520.325,Carangidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,295,AT19-1-3-295,pre_exp,4,1392.91,867.522,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,295,AT19-1-3-295,pre_exp,5,1341.463,873.984,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,295,AT19-1-3-295,pre_exp,6,3113.821,1723.577,Ophidiidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,295,AT19-1-3-295,pre_exp,7,NA,1626.016,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,295,AT19-1-3-295,pre_exp,8,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,295,AT19-1-3-295,pre_exp,9,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,300,AT19-1-3-300,pre_exp,1,1373.984,918.699,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,300,AT19-1-3-300,pre_exp,2,1292.683,804.878,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,300,AT19-1-3-300,pre_exp,3,1284.553,873.984,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,300,AT19-1-3-300,pre_exp,4,1634.146,951.22,Lutjanidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,300,AT19-1-3-300,pre_exp,5,NA,707.317,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,300,AT19-1-3-300,pre_exp,6,2739.837,1650.407,Ophidiidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,305,AT19-1-3-305,pre_exp,1,2853.659,1853.659,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,305,AT19-1-3-305,pre_exp,2,1739.837,1556.911,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,305,AT19-1-3-305,pre_exp,3,1365.854,1162.602,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,305,AT19-1-3-305,pre_exp,4,1544.715,1211.382,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,305,AT19-1-3-305,pre_exp,5,1097.561,1024.39,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,305,AT19-1-3-305,pre_exp,6,2699.187,1638.211,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,305,AT19-1-3-305,pre_exp,7,3089.431,2097.561,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,305,AT19-1-3-305,pre_exp,8,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,310,AT19-1-3-310,pre_exp,1,1487.805,1186.992,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,310,AT19-1-3-310,pre_exp,2,1211.382,1097.561,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,310,AT19-1-3-310,pre_exp,3,1215.447,982.385,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,310,AT19-1-3-310,pre_exp,4,NA,1203.252,Labridae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,310,AT19-1-3-310,pre_exp,5,1495.935,975.61,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,310,AT19-1-3-310,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,310,AT19-1-3-310,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,310,AT19-1-3-310,pre_exp,8,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,315,AT19-1-3-315,pre_exp,1,1134.146,975.61,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,315,AT19-1-3-315,pre_exp,2,1125.4,977.04,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,315,AT19-1-3-315,pre_exp,3,NA,1361.789,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,315,AT19-1-3-315,pre_exp,4,1788.618,983.74,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,315,AT19-1-3-315,pre_exp,5,1166.667,731.707,Pomacentridae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,315,AT19-1-3-315,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,320,AT19-1-3-320,pre_exp,1,1252.033,926.829,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,320,AT19-1-3-320,pre_exp,2,1398.374,1089.431,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,320,AT19-1-3-320,pre_exp,3,NA,780.488,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,320,AT19-1-3-320,pre_exp,4,1146.341,682.927,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,320,AT19-1-3-320,pre_exp,5,2056.911,894.309,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,320,AT19-1-3-320,pre_exp,6,1479.675,1333.333,Pomacentridae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,320,AT19-1-3-320,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,325,AT19-1-3-325,pre_exp,1,1560.976,1203.252,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,325,AT19-1-3-325,pre_exp,2,1110.731,968.128,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,325,AT19-1-3-325,pre_exp,3,1020.325,880.759,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,325,AT19-1-3-325,pre_exp,4,1772.358,1138.211,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,325,AT19-1-3-325,pre_exp,5,2361.309,1390.244,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,325,AT19-1-3-325,pre_exp,6,2357.724,953.441,Scorpaenidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,330,AT19-1-3-330,pre_exp,1,1732.833,1353.726,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,330,AT19-1-3-330,pre_exp,2,845.528,861.789,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,330,AT19-1-3-330,pre_exp,3,2203.267,1605.691,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,330,AT19-1-3-330,pre_exp,4,2951.22,1739.837,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,330,AT19-1-3-330,pre_exp,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,335,AT19-1-3-335,pre_exp,1,1349.593,1105.691,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,335,AT19-1-3-335,pre_exp,2,804.878,837.398,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,335,AT19-1-3-335,pre_exp,3,1260.163,1081.301,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,335,AT19-1-3-335,pre_exp,4,1308.943,672.087,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,335,AT19-1-3-335,pre_exp,5,1983.74,808.943,Scorpaenidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,335,AT19-1-3-335,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,335,AT19-1-3-335,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,340,AT19-1-3-340,pre_exp,1,1347.535,1093.458,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,340,AT19-1-3-340,pre_exp,2,1520.412,1208.111,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,340,AT19-1-3-340,pre_exp,3,1284.553,1117.886,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,340,AT19-1-3-340,pre_exp,4,1552.846,1252.033,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,340,AT19-1-3-340,pre_exp,5,837.398,861.789,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,340,AT19-1-3-340,pre_exp,6,1201.562,1007.409,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,340,AT19-1-3-340,pre_exp,7,1195.936,958.738,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,340,AT19-1-3-340,pre_exp,8,1089.431,930.894,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,340,AT19-1-3-340,pre_exp,9,2829.268,1845.528,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,340,AT19-1-3-340,pre_exp,10,2495.935,1040.65,Scorpaenidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,340,AT19-1-3-340,pre_exp,11,2308.943,1422.764,Pomacentridae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,340,AT19-1-3-340,pre_exp,12,1731.707,951.22,Pomacentridae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,340,AT19-1-3-340,pre_exp,13,1170.732,699.187,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,340,AT19-1-3-340,pre_exp,14,2991.87,1707.317,Pomacentridae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,340,AT19-1-3-340,pre_exp,15,1308.943,796.748,Pomacentridae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,345,AT19-1-3-345,pre_exp,1,1463.415,1252.033,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,345,AT19-1-3-345,pre_exp,2,1490.939,1136.642,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,345,AT19-1-3-345,pre_exp,3,1235.772,1121.951,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,345,AT19-1-3-345,pre_exp,4,378.049,319.106,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,345,AT19-1-3-345,pre_exp,5,1150.407,813.008,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,345,AT19-1-3-345,pre_exp,6,1573.171,943.089,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,345,AT19-1-3-345,pre_exp,7,1227.319,834.987,Labridae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,345,AT19-1-3-345,pre_exp,8,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,345,AT19-1-3-345,pre_exp,9,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,350,AT19-1-3-350,pre_exp,1,1384.049,1141.111,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,350,AT19-1-3-350,pre_exp,2,1512.195,1162.602,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,350,AT19-1-3-350,pre_exp,3,760.163,804.878,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,350,AT19-1-3-350,pre_exp,4,NA,1951.22,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,350,AT19-1-3-350,pre_exp,5,NA,2219.512,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,350,AT19-1-3-350,pre_exp,6,NA,1284.553,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,350,AT19-1-3-350,pre_exp,7,1821.138,1585.366,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,350,AT19-1-3-350,pre_exp,8,NA,666.667,Engraulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,350,AT19-1-3-350,pre_exp,9,2243.902,1300.813,Pomacentridae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,350,AT19-1-3-350,pre_exp,10,1337.398,756.098,Albulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,355,AT19-1-3-355,pre_exp,1,3130.081,1878.049,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,355,AT19-1-3-355,pre_exp,2,1955.551,1352.04,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,355,AT19-1-3-355,pre_exp,3,2915.346,1947.371,Apogonidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,355,AT19-1-3-355,pre_exp,4,2699.187,1552.846,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,355,AT19-1-3-355,pre_exp,5,1117.886,745.257,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,355,AT19-1-3-355,pre_exp,6,1926.829,1552.846,Sciaenidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,360,AT19-1-3-360,pre_exp,1,715.447,715.447,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,360,AT19-1-3-360,pre_exp,2,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,365,AT19-1-3-365,pre_exp,1,1349.593,1016.26,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,365,AT19-1-3-365,pre_exp,2,1040.65,890.244,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,365,AT19-1-3-365,pre_exp,3,890.244,788.618,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,370,AT19-1-3-370,pre_exp,1,NA,1004.065,Atherinopsidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,370,AT19-1-3-370,pre_exp,2,1528.455,853.659,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,370,AT19-1-3-370,pre_exp,3,1138.211,772.358,Gerreidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,370,AT19-1-3-370,pre_exp,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,375,AT19-1-3-375,pre_exp,1,1300.813,1032.52,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,375,AT19-1-3-375,pre_exp,2,1235.772,947.154,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,375,AT19-1-3-375,pre_exp,3,849.593,814.363,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,375,AT19-1-3-375,pre_exp,4,760.163,762.195,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,375,AT19-1-3-375,pre_exp,5,1028.455,646.341,Pomacentridae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,375,AT19-1-3-375,pre_exp,6,2617.886,1528.455,Haemulidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,375,AT19-1-3-375,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,380,AT19-1-3-380,pre_exp,1,1105.691,975.61,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,380,AT19-1-3-380,pre_exp,2,1252.033,1009.485,Gobidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,380,AT19-1-3-380,pre_exp,3,3382.114,1861.789,Ophidiidae
+Pacific,Gulf of Panama,Saboga,AT19-1-3,380,AT19-1-3-380,pre_exp,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Saboga,AT19-1-3,380,AT19-1-3-380,pre_exp,5,NA,1292.683,Gerreidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,20,BF18-1-11-20,modern,1,1114.778,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,20,BF18-1-11-20,modern,2,1576.921,NA,Haemulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,20,BF18-1-11-20,modern,3,1774.267,1129.032,Haemulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,201,BF18-1-11-201,pre_exp,1,3512.534,NA,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,201,BF18-1-11-201,pre_exp,2,1658.616,NA,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,201,BF18-1-11-201,pre_exp,3,1879.227,NA,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,201,BF18-1-11-201,pre_exp,4,1716.198,NA,Bythididae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,201,BF18-1-11-201,pre_exp,5,1148.185,NA,Bythididae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,201,BF18-1-11-201,pre_exp,6,1609.058,NA,Carangidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,201,BF18-1-11-201,pre_exp,7,2354.894,1524.194,Engraulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,201,BF18-1-11-201,pre_exp,8,1349.691,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,201,BF18-1-11-201,pre_exp,9,2512.195,NA,Gonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,201,BF18-1-11-201,pre_exp,10,986.45,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,216,BF18-1-11-216,pre_exp,1,844.262,NA,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,216,BF18-1-11-216,pre_exp,2,1091.273,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,216,BF18-1-11-216,pre_exp,3,870.243,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,216,BF18-1-11-216,pre_exp,4,913.521,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,216,BF18-1-11-216,pre_exp,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,216,BF18-1-11-216,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,216,BF18-1-11-216,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,231,BF18-1-11-231,pre_exp,1,584.699,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,231,BF18-1-11-231,pre_exp,2,726.776,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,231,BF18-1-11-231,pre_exp,3,1639.344,NA,Pomacentridae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,231,BF18-1-11-231,pre_exp,4,2590.164,NA,Sciaenidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,231,BF18-1-11-231,pre_exp,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,231,BF18-1-11-231,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,231,BF18-1-11-231,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,246,BF18-1-11-246,pre_exp,1,1087.432,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,246,BF18-1-11-246,pre_exp,2,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,261,BF18-1-11-261,pre_exp,1,1029.505,NA,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,261,BF18-1-11-261,pre_exp,2,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,261,BF18-1-11-261,pre_exp,3,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,261,BF18-1-11-261,pre_exp,4,1279.03,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,261,BF18-1-11-261,pre_exp,5,926.23,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,261,BF18-1-11-261,pre_exp,6,877.049,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,261,BF18-1-11-261,pre_exp,7,2512.741,1768.355,Haemulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,276,BF18-1-11-276,pre_exp,1,1257.95,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,276,BF18-1-11-276,pre_exp,2,906.637,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,276,BF18-1-11-276,pre_exp,3,965.214,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,276,BF18-1-11-276,pre_exp,4,2218.68,1363.118,Haemulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,276,BF18-1-11-276,pre_exp,5,1579.4,NA,Pomacentridae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,276,BF18-1-11-276,pre_exp,6,1303.511,NA,Engraulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,291,BF18-1-11-291,pre_exp,1,1495.604,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,291,BF18-1-11-291,pre_exp,2,759.002,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,291,BF18-1-11-291,pre_exp,3,1352.856,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,291,BF18-1-11-291,pre_exp,4,825.137,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,291,BF18-1-11-291,pre_exp,5,707.65,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,291,BF18-1-11-291,pre_exp,6,747.521,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,291,BF18-1-11-291,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,291,BF18-1-11-291,pre_exp,8,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,291,BF18-1-11-291,pre_exp,9,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,291,BF18-1-11-291,pre_exp,10,3057.388,NA,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,291,BF18-1-11-291,pre_exp,11,1833.292,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,291,BF18-1-11-291,pre_exp,12,2245.902,NA,Ophidiidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,306,BF18-1-11-306,pre_exp,1,2631.148,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,306,BF18-1-11-306,pre_exp,2,1795.157,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,306,BF18-1-11-306,pre_exp,3,1042.145,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,306,BF18-1-11-306,pre_exp,4,1274.32,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,306,BF18-1-11-306,pre_exp,5,787.914,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,306,BF18-1-11-306,pre_exp,6,1062.842,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,306,BF18-1-11-306,pre_exp,7,846.736,839.272,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,306,BF18-1-11-306,pre_exp,8,869.819,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,306,BF18-1-11-306,pre_exp,9,1792.113,NA,Ophidiidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,306,BF18-1-11-306,pre_exp,10,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,306,BF18-1-11-306,pre_exp,11,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,306,BF18-1-11-306,pre_exp,12,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,306,BF18-1-11-306,pre_exp,13,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,306,BF18-1-11-306,pre_exp,14,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,321,BF18-1-11-321,pre_exp,1,1081.75,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,321,BF18-1-11-321,pre_exp,2,849.063,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,321,BF18-1-11-321,pre_exp,3,869.2,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,321,BF18-1-11-321,pre_exp,4,1033.6,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,321,BF18-1-11-321,pre_exp,5,2752.939,NA,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,321,BF18-1-11-321,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,321,BF18-1-11-321,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,321,BF18-1-11-321,pre_exp,8,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,321,BF18-1-11-321,pre_exp,9,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,321,BF18-1-11-321,pre_exp,10,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,321,BF18-1-11-321,pre_exp,11,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,336,BF18-1-11-336,pre_exp,1,1547.076,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,336,BF18-1-11-336,pre_exp,2,1222.219,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,336,BF18-1-11-336,pre_exp,3,859.064,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,336,BF18-1-11-336,pre_exp,4,1508.397,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,336,BF18-1-11-336,pre_exp,5,1200.113,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,336,BF18-1-11-336,pre_exp,6,1478.162,NA,Scorpaenidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,336,BF18-1-11-336,pre_exp,7,2452.528,1668.342,Haemulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,336,BF18-1-11-336,pre_exp,8,2207.035,NA,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,336,BF18-1-11-336,pre_exp,9,2620.087,1830.432,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,336,BF18-1-11-336,pre_exp,10,2181.776,NA,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,336,BF18-1-11-336,pre_exp,11,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,336,BF18-1-11-336,pre_exp,12,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,336,BF18-1-11-336,pre_exp,13,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,336,BF18-1-11-336,pre_exp,14,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,351,BF18-1-11-351,pre_exp,1,1205.364,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,351,BF18-1-11-351,pre_exp,2,1284.586,NA,Labridae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,351,BF18-1-11-351,pre_exp,3,875.113,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,366,BF18-1-11-366,pre_exp,1,673.928,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,366,BF18-1-11-366,pre_exp,2,903.226,806.492,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,366,BF18-1-11-366,pre_exp,3,1631.209,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,366,BF18-1-11-366,pre_exp,4,1307.3,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,366,BF18-1-11-366,pre_exp,5,1344.478,1175.125,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,366,BF18-1-11-366,pre_exp,6,1118.852,NA,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,366,BF18-1-11-366,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,366,BF18-1-11-366,pre_exp,8,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-11,366,BF18-1-11-366,pre_exp,9,1102.459,NA,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,366,BF18-1-11-366,pre_exp,10,1241.803,NA,Sciaenidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,366,BF18-1-11-366,pre_exp,11,1762.295,NA,Engraulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,366,BF18-1-11-366,pre_exp,12,2360.67,NA,Pomacentridae
+Pacific,Gulf of Panama,Contadora,BF18-1-11,366,BF18-1-11-366,pre_exp,13,1934.426,NA,Scorpaenidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,15,BF18-1-12-15,modern,1,949.29,677.485,Engraulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,15,BF18-1-12-15,modern,2,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-12,20,BF18-1-12-20,modern,1,1626.016,983.74,Engraulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,25,BF18-1-12-25,modern,1,1942.857,1812.245,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,25,BF18-1-12-25,modern,2,1044.898,955.102,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,25,BF18-1-12-25,modern,3,1387.755,759.184,Clupeidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,25,BF18-1-12-25,modern,4,1084.363,907.409,Bregmacerotidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,25,BF18-1-12-25,modern,5,3110.204,1746.939,Pomacentridae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,25,BF18-1-12-25,modern,6,3096.633,1814.891,Scorpaenidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,25,BF18-1-12-25,modern,7,1657.143,1163.265,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,25,BF18-1-12-25,modern,8,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-12,30,BF18-1-12-30,modern,1,1316.54,861.312,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,30,BF18-1-12-30,modern,2,1608.163,816.327,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-12,30,BF18-1-12-30,modern,3,NA,808.163,Engraulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,30,BF18-1-12-30,modern,4,2767.347,1224.49,Scorpaenidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,30,BF18-1-12-30,modern,5,1379.592,677.551,Scorpaenidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,35,BF18-1-12-35,modern,1,1020.408,730.612,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,35,BF18-1-12-35,modern,2,1126.531,689.796,Clupeidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,35,BF18-1-12-35,modern,3,1591.837,922.449,Pomacentridae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,35,BF18-1-12-35,modern,4,2808.163,1338.776,Scorpaenidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,35,BF18-1-12-35,modern,5,1289.796,718.367,Bythididae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,40,BF18-1-12-40,modern,1,2718.367,1322.449,Pomacentridae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,40,BF18-1-12-40,modern,2,1711.173,1029.802,Pomacentridae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,40,BF18-1-12-40,modern,3,2293.878,1420.408,Pomacentridae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,40,BF18-1-12-40,modern,4,2228.571,1151.02,Pomacentridae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,40,BF18-1-12-40,modern,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-12,45,BF18-1-12-45,modern,1,2963.265,1379.592,Serranidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,45,BF18-1-12-45,modern,2,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-12,224,BF18-1-12-224,pre_exp,1,848.548,869.321,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,224,BF18-1-12-224,pre_exp,2,848.98,657.143,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,224,BF18-1-12-224,pre_exp,3,NA,859.763,Engraulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,224,BF18-1-12-224,pre_exp,4,NA,938.776,Engraulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,224,BF18-1-12-224,pre_exp,5,1257.143,832.653,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-12,224,BF18-1-12-224,pre_exp,6,NA,1366.195,Haemulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,224,BF18-1-12-224,pre_exp,7,NA,951.02,Haemulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,224,BF18-1-12-224,pre_exp,8,1877.551,889.796,Bythididae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,224,BF18-1-12-224,pre_exp,9,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-12,224,BF18-1-12-224,pre_exp,10,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-12,224,BF18-1-12-224,pre_exp,11,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-12,224,BF18-1-12-224,pre_exp,12,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-12,229,BF18-1-12-229,pre_exp,1,930.612,930.612,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,229,BF18-1-12-229,pre_exp,2,NA,1224.49,Engraulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,229,BF18-1-12-229,pre_exp,3,1469.388,751.02,Scorpaenidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,229,BF18-1-12-229,pre_exp,4,2995.918,2628.571,Batrachoididae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,229,BF18-1-12-229,pre_exp,5,1126.531,1028.571,Sciaenidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,229,BF18-1-12-229,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-12,229,BF18-1-12-229,pre_exp,7,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-12,234,BF18-1-12-234,pre_exp,1,1232.653,1048.98,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,234,BF18-1-12-234,pre_exp,2,888.261,497.654,Scorpaenidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,234,BF18-1-12-234,pre_exp,3,2783.673,1567.347,Pomacentridae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,234,BF18-1-12-234,pre_exp,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-12,239,BF18-1-12-239,pre_exp,1,840.816,844.898,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,239,BF18-1-12-239,pre_exp,2,1289.796,1142.857,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,239,BF18-1-12-239,pre_exp,3,1061.507,1016.327,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,239,BF18-1-12-239,pre_exp,4,1020.408,951.02,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,239,BF18-1-12-239,pre_exp,5,783.557,826.468,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,239,BF18-1-12-239,pre_exp,6,NA,1338.776,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,239,BF18-1-12-239,pre_exp,7,1102.041,840.816,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,239,BF18-1-12-239,pre_exp,8,1198.375,849.107,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-12,239,BF18-1-12-239,pre_exp,9,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,20,BF18-1-13-20,modern,1,2263.713,2019.117,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,20,BF18-1-13-20,modern,2,1310.325,1104.819,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,20,BF18-1-13-20,modern,3,1885.714,1436.735,Pomacentridae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,20,BF18-1-13-20,modern,4,1505.763,954.177,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,170,BF18-1-13-170,pre_exp,1,1085.714,1028.571,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,170,BF18-1-13-170,pre_exp,2,2318.367,1730.612,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,170,BF18-1-13-170,pre_exp,3,1677.551,1163.265,Haemulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,170,BF18-1-13-170,pre_exp,4,2126.527,1110.744,Ophidiidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,170,BF18-1-13-170,pre_exp,5,922.449,644.226,Engraulidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,170,BF18-1-13-170,pre_exp,6,1526.531,767.347,Scorpaenidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,185,BF18-1-13-185,pre_exp,1,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,200,BF18-1-13-200,pre_exp,1,926.917,850.43,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,200,BF18-1-13-200,pre_exp,2,1922.878,1331.044,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,200,BF18-1-13-200,pre_exp,3,1874.532,998.625,Ophidiidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,200,BF18-1-13-200,pre_exp,4,1918.367,995.918,Ophidiidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,200,BF18-1-13-200,pre_exp,5,NA,1180.065,Labridae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,200,BF18-1-13-200,pre_exp,6,746.939,563.265,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,200,BF18-1-13-200,pre_exp,7,3363.265,1942.857,Pomacentridae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,200,BF18-1-13-200,pre_exp,8,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,200,BF18-1-13-200,pre_exp,9,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,200,BF18-1-13-200,pre_exp,10,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,215,BF18-1-13-215,pre_exp,1,910.204,902.041,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,215,BF18-1-13-215,pre_exp,2,729.252,653.061,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,215,BF18-1-13-215,pre_exp,3,2106.122,1012.245,Pomacentridae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,215,BF18-1-13-215,pre_exp,4,1114.286,783.673,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,215,BF18-1-13-215,pre_exp,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,230,BF18-1-13-230,pre_exp,1,636.735,681.633,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,230,BF18-1-13-230,pre_exp,2,1287.585,633.298,Scorpaenidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,230,BF18-1-13-230,pre_exp,3,2008.163,1248.98,Clupeidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,230,BF18-1-13-230,pre_exp,4,2783.673,1828.571,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,230,BF18-1-13-230,pre_exp,5,3053.061,1665.306,Pomacentridae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,230,BF18-1-13-230,pre_exp,6,2391.837,2457.143,Batrachoididae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,230,BF18-1-13-230,pre_exp,7,1754.817,1083.041,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,230,BF18-1-13-230,pre_exp,8,2938.776,1689.796,Cangridae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,230,BF18-1-13-230,pre_exp,9,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,230,BF18-1-13-230,pre_exp,10,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,245,BF18-1-13-245,pre_exp,1,1673.469,1306.122,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,245,BF18-1-13-245,pre_exp,2,1341.61,973.211,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,245,BF18-1-13-245,pre_exp,3,1177.323,830.018,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,245,BF18-1-13-245,pre_exp,4,2742.857,1469.388,Pomacentridae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,245,BF18-1-13-245,pre_exp,5,1493.878,1020.408,Gerreidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,245,BF18-1-13-245,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,260,BF18-1-13-260,pre_exp,1,1673.469,1142.857,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,260,BF18-1-13-260,pre_exp,2,1329.71,977.208,Scorpaenidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,260,BF18-1-13-260,pre_exp,3,1836.735,869.388,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,260,BF18-1-13-260,pre_exp,4,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,260,BF18-1-13-260,pre_exp,5,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,260,BF18-1-13-260,pre_exp,6,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,275,BF18-1-13-275,pre_exp,1,861.021,885.404,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,275,BF18-1-13-275,pre_exp,2,1235.326,1049.667,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,275,BF18-1-13-275,pre_exp,3,1363.265,1155.102,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,275,BF18-1-13-275,pre_exp,4,1322.449,1097.959,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,275,BF18-1-13-275,pre_exp,5,1024.49,938.776,Gobidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,275,BF18-1-13-275,pre_exp,6,2000,1346.939,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,275,BF18-1-13-275,pre_exp,7,1363.265,1036.735,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,275,BF18-1-13-275,pre_exp,8,3105.616,1956.256,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,275,BF18-1-13-275,pre_exp,9,1681.633,1176.53,Apogonidae
+Pacific,Gulf of Panama,Contadora,BF18-1-13,275,BF18-1-13-275,pre_exp,10,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,275,BF18-1-13-275,pre_exp,11,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,275,BF18-1-13-275,pre_exp,12,NA,NA,sin identificar
+Pacific,Gulf of Panama,Contadora,BF18-1-13,275,BF18-1-13-275,pre_exp,13,NA,NA,sin identificar
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,35,JC22-2-1-35,modern,1,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,40,JC22-2-1-40,modern,1,2655.804,1498.982,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,40,JC22-2-1-40,modern,2,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,45,JC22-2-1-45,modern,1,737.271,725.051,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,45,JC22-2-1-45,modern,2,NA,2647.658,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,45,JC22-2-1-45,modern,3,NA,859.47,Mullidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,45,JC22-2-1-45,modern,4,3079.43,1515.275,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,45,JC22-2-1-45,modern,5,NA,1303.462,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,45,JC22-2-1-45,modern,6,NA,1287.169,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,50,JC22-2-1-50,modern,1,545.825,468.432,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,50,JC22-2-1-50,modern,2,1234.216,782.077,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,50,JC22-2-1-50,modern,3,2883.91,2574.338,Congridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,50,JC22-2-1-50,modern,4,1812.627,1221.996,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,50,JC22-2-1-50,modern,5,3446.029,1873.727,Haemulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,50,JC22-2-1-50,modern,6,2615.071,1458.248,Haemulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,50,JC22-2-1-50,modern,7,1217.923,619.145,Scorpaenidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,50,JC22-2-1-50,modern,8,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,50,JC22-2-1-50,modern,9,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,50,JC22-2-1-50,modern,10,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,50,JC22-2-1-50,modern,11,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,160,JC22-2-1-160,pre_exp,1,1564.155,1340.122,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,160,JC22-2-1-160,pre_exp,2,2183.299,1291.242,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,160,JC22-2-1-160,pre_exp,3,1160.896,852.682,Labridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,160,JC22-2-1-160,pre_exp,4,2521.385,1319.756,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,160,JC22-2-1-160,pre_exp,5,1226.069,839.104,Pomacentridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,160,JC22-2-1-160,pre_exp,6,2598.778,1441.955,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,160,JC22-2-1-160,pre_exp,7,NA,1034.623,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,160,JC22-2-1-160,pre_exp,8,1340.122,863.544,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,160,JC22-2-1-160,pre_exp,9,1213.849,741.344,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,160,JC22-2-1-160,pre_exp,10,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,160,JC22-2-1-160,pre_exp,11,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,160,JC22-2-1-160,pre_exp,12,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,160,JC22-2-1-160,pre_exp,13,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,160,JC22-2-1-160,pre_exp,14,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,160,JC22-2-1-160,pre_exp,15,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,160,JC22-2-1-160,pre_exp,16,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,1,2170.189,1502.166,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,2,1042.77,735.913,Labridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,3,1873.727,NA,Sciaenidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,4,1384.929,1323.829,Bregmacerotidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,5,2004.073,977.597,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,6,1865.58,875.764,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,7,2118.126,1311.609,Pomacentridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,8,NA,741.344,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,9,1490.835,810.591,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,10,1763.747,969.45,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,11,1120.163,623.218,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,12,1283.096,737.271,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,13,1143.245,730.482,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,14,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,15,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,16,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,17,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,18,114.053,945.01,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,19,1857.434,1128.31,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,20,1075.356,663.951,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,21,1808.554,1075.356,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,22,1230.143,776.646,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,23,1539.715,898.846,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,24,1588.595,977.597,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,25,1625.255,993.89,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,26,1243.72,768.5,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,27,NA,839.104,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,165,JC22-2-1-165,pre_exp,28,1531.568,892.057,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,1,1556.008,1466.395,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,2,1336.049,843.177,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,3,1270.876,773.931,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,4,1670.061,863.544,Labridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,5,32.587,1075.356,Clupeidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,6,2615.071,1547.862,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,7,1198.415,794.964,Batrachoididae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,8,NA,1189.409,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,9,1564.155,1046.843,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,10,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,11,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,12,3242.363,1865.58,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,13,2574.338,1376.782,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,14,1865.58,1116.09,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,15,1389.002,859.47,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,16,1279.022,792.94,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,17,2016.293,1107.943,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,18,1560.081,916.497,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,19,1670.061,973.523,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,20,1446.029,830.957,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,170,JC22-2-1-170,pre_exp,21,1336.049,801.086,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,175,JC22-2-1-175,pre_exp,1,1645.621,1054.99,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,175,JC22-2-1-175,pre_exp,2,1613.035,896.13,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,175,JC22-2-1-175,pre_exp,3,2016.293,1193.483,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,175,JC22-2-1-175,pre_exp,4,1591.548,955.039,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,175,JC22-2-1-175,pre_exp,5,1435.751,846.437,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,175,JC22-2-1-175,pre_exp,6,1099.796,686.354,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,175,JC22-2-1-175,pre_exp,7,NA,924.644,Muraenidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,175,JC22-2-1-175,pre_exp,8,2036.66,1087.576,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,175,JC22-2-1-175,pre_exp,9,1433.809,953.157,Scaridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,175,JC22-2-1-175,pre_exp,10,1287.169,906.993,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,175,JC22-2-1-175,pre_exp,11,3494.908,2264.766,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,175,JC22-2-1-175,pre_exp,12,3413.442,1686.354,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,175,JC22-2-1-175,pre_exp,13,1564.155,961.303,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,175,JC22-2-1-175,pre_exp,14,2114.053,1197.556,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,175,JC22-2-1-175,pre_exp,15,2240.326,1201.629,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,175,JC22-2-1-175,pre_exp,16,1498.982,883.91,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,1,1767.821,1629.328,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,2,1063.136,859.47,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,3,1054.99,776.646,Labridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,4,1026.477,696.538,Labridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,5,1173.116,719.62,Labridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,6,2207.739,1169.043,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,7,2264.766,1527.495,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,8,NA,1116.09,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,9,NA,1156.823,Pomacentridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,10,1556.008,725.051,Pomacentridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,11,2940.937,1686.354,Scorpaenidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,12,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,13,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,14,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,15,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,16,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,17,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,18,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,19,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,20,2533.605,1494.908,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,21,1686.354,969.45,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,22,2008.147,1189.409,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,23,1670.061,1050.916,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,24,1665.988,985.743,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,25,1995.927,1177.189,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,26,1841.141,1018.33,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,27,1739.308,1014.257,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,28,1629.328,1010.183,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,29,2101.833,1287.169,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,30,1547.862,896.13,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,31,1767.821,1002.037,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,32,1360.489,820.095,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,180,JC22-2-1-180,pre_exp,33,1156.823,754.922,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,185,JC22-2-1-185,pre_exp,1,3356.415,1572.301,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,185,JC22-2-1-185,pre_exp,2,NA,765.784,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,185,JC22-2-1-185,pre_exp,3,1873.727,1067.21,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,185,JC22-2-1-185,pre_exp,4,1254.582,836.388,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,185,JC22-2-1-185,pre_exp,5,1360.489,1349.627,Bregmacerotidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,185,JC22-2-1-185,pre_exp,6,NA,993.89,Haemulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,185,JC22-2-1-185,pre_exp,7,NA,1462.322,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,185,JC22-2-1-185,pre_exp,8,2655.804,1653.768,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,185,JC22-2-1-185,pre_exp,9,2398.85,1638.042,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,185,JC22-2-1-185,pre_exp,10,1315.682,847.251,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,185,JC22-2-1-185,pre_exp,11,1262.729,773.931,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,190,JC22-2-1-190,pre_exp,1,NA,1140.53,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,190,JC22-2-1-190,pre_exp,2,1543.788,936.864,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,190,JC22-2-1-190,pre_exp,3,1678.208,973.523,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,190,JC22-2-1-190,pre_exp,4,2272.912,1177.189,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,190,JC22-2-1-190,pre_exp,5,2435.845,1246.436,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,190,JC22-2-1-190,pre_exp,6,2826.884,1596.741,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,190,JC22-2-1-190,pre_exp,7,1727.088,936.864,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,190,JC22-2-1-190,pre_exp,8,1926.68,1169.043,Haemulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,190,JC22-2-1-190,pre_exp,9,2057.026,1254.582,Haemulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,190,JC22-2-1-190,pre_exp,10,NA,2468.432,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,190,JC22-2-1-190,pre_exp,11,3354.25,2074.948,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,190,JC22-2-1-190,pre_exp,12,NA,1270.876,Pomacentridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,1,2338.086,1751.527,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,2,741.344,768.5,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,3,1547.862,916.497,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,4,2696.538,1527.495,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,5,1152.749,706.042,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,6,NA,912.424,sin identificar
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,7,1107.943,752.206,sin identificar
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,8,1947.047,1596.741,Paralichthyidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,9,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,10,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,11,2097.74,1235.418,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,12,1987.78,1197.556,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,13,1230.143,818.737,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,14,1963.34,1169.043,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,15,NA,749.491,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,16,1099.796,757.637,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,17,2835.031,1466.395,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,18,2175.153,1262.729,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,19,2232.179,1238.289,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,20,2342.159,1181.263,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,195,JC22-2-1-195,pre_exp,21,2297.352,1254.582,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,1,NA,1865.58,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,2,NA,1181.263,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,3,1979.633,1014.257,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,4,1393.075,753.564,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,5,1197.556,681.602,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,6,1221.996,738.629,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,7,2908.35,1303.462,Opistognathidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,8,1238.852,1288.85,Bregmacerotidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,9,NA,1539.715,Pomacentridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,10,1067.21,795.655,Labridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,11,2362.525,2004.073,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,12,1221.996,778.004,Gerreidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,13,NA,839.104,sin identificar
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,14,1556.008,1091.65,Clupeidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,15,NA,945.01,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,16,1747.454,1026.477,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,17,NA,932.79,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,18,1498.982,896.13,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,19,1547.862,985.743,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,20,1600.815,945.01,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,21,1413.442,879.837,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,22,1311.609,851.324,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,23,1299.389,765.784,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,24,2427.699,1368.635,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,25,1987.78,993.89,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,26,2427.699,1393.075,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,27,2452.138,1181.263,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,28,2297.352,1197.556,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,29,1755.601,936.864,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,30,1922.607,1010.183,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,31,2313.646,1242.363,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,32,1991.853,945.01,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,33,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,34,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,35,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,36,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,37,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,38,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,200,JC22-2-1-200,pre_exp,39,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,1,1922.607,1095.723,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,2,1458.248,859.47,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,3,1694.501,1034.623,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,4,NA,1686.354,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,5,1498.982,893.415,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,6,1287.169,847.251,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,7,NA,1121.521,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,8,1735.234,867.617,Bythitidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,9,1879.43,1187.86,Congridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,10,1580.448,1718.941,Bregmacerotidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,11,1287.169,746.775,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,12,2167.006,1034.623,Scorpaenidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,13,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,14,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,15,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,16,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,17,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,18,1507.128,920.57,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,19,2004.073,1071.283,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,20,1547.862,898.846,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,21,1450.102,957.23,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,22,2567.794,1436.791,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,23,2395.846,1405.679,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,24,2517.312,1348.269,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,25,1613.035,993.89,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,26,1535.642,993.89,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,27,2940.937,1808.554,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,28,1873.727,1018.33,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,29,1853.36,1034.623,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,30,2308.663,1232.945,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,31,2085.54,1156.823,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,32,1543.788,904.277,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,33,1816.701,887.984,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,34,1975.56,1026.477,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,35,2164.114,1134.754,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,36,1947.047,1050.916,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,37,NA,1099.796,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,205,JC22-2-1-205,pre_exp,38,1678.208,936.864,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,1,1760.428,985.773,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,2,1143.245,752.206,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,3,1295.316,792.94,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,4,1531.568,773.931,Bythitidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,5,2647.658,1637.475,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,6,2704.684,1637.475,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,7,1262.729,818.737,Haemulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,8,NA,822.811,Gerreidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,9,NA,993.89,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,10,2282.644,1345.947,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,11,NA,1307.536,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,12,1938.9,1194.84,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,13,NA,1087.576,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,14,NA,773.931,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,15,2631.365,1458.248,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,16,2476.578,1376.782,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,17,2052.953,1197.556,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,18,65.173,928.717,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,19,1947.047,1083.503,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,20,2492.872,1360.489,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,21,2272.912,1287.169,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,22,1854.904,973.966,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,23,NA,945.01,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,24,1983.707,1164.969,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,25,2590.631,1466.395,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,26,1649.695,879.837,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,27,2521.345,1393.075,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,28,1775.967,953.157,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-1,212,JC22-2-1-212,pre_exp,29,2240.326,1287.169,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,35,JC22-2-2-35,modern,1,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,40,JC22-2-2-40,modern,1,2912.779,1647.059,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,40,JC22-2-2-40,modern,2,NA,957.404,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,40,JC22-2-2-40,modern,3,NA,1054.767,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,40,JC22-2-2-40,modern,4,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,45,JC22-2-2-45,modern,1,1784.99,1281.947,Labridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,45,JC22-2-2-45,modern,2,1557.809,908.722,Labridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,45,JC22-2-2-45,modern,3,1995.943,1221.095,Priacanthidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,45,JC22-2-2-45,modern,4,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,50,JC22-2-2-50,modern,1,681.542,746.45,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,50,JC22-2-2-50,modern,2,3018.256,1655.172,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,50,JC22-2-2-50,modern,3,1817.444,1006.085,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,50,JC22-2-2-50,modern,4,1517.241,860.041,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,55,JC22-2-2-55,modern,1,1541.582,892.495,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,55,JC22-2-2-55,modern,2,1252.197,778.905,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,55,JC22-2-2-55,modern,3,1565.923,970.926,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,55,JC22-2-2-55,modern,4,1557.809,873.563,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,55,JC22-2-2-55,modern,5,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,55,JC22-2-2-55,modern,6,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,60,JC22-2-2-60,modern,1,1655.172,1492.901,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,60,JC22-2-2-60,modern,2,1582.15,1492.901,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,60,JC22-2-2-60,modern,3,1054.767,774.848,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,60,JC22-2-2-60,modern,4,2126.333,1099.264,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,60,JC22-2-2-60,modern,5,97.363,868.154,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,60,JC22-2-2-60,modern,6,2807.302,1541.582,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,60,JC22-2-2-60,modern,7,1395.538,847.87,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,60,JC22-2-2-60,modern,8,2393.509,2304.26,Congridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,60,JC22-2-2-60,modern,9,1103.448,576.065,Scorpaenidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,60,JC22-2-2-60,modern,10,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,60,JC22-2-2-60,modern,11,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,60,JC22-2-2-60,modern,12,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,60,JC22-2-2-60,modern,13,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,65,JC22-2-2-65,modern,1,1647.059,1574.037,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,65,JC22-2-2-65,modern,2,NA,1411.765,Clupeidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,65,JC22-2-2-65,modern,3,3075.051,1622.718,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,65,JC22-2-2-65,modern,4,2141.988,1200.811,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,65,JC22-2-2-65,modern,5,NA,957.404,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,70,JC22-2-2-70,modern,1,1168.357,742.394,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,70,JC22-2-2-70,modern,2,NA,916.836,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,70,JC22-2-2-70,modern,3,2515.213,1290.061,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,70,JC22-2-2-70,modern,4,1720.081,1115.619,Congridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,1,NA,1184.584,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,2,NA,904.665,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,3,2085.193,1119.675,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,4,NA,1038.54,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,5,1342.799,868.154,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,6,NA,868.154,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,7,2052.738,1070.994,Albulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,8,1127.789,551.724,Scorpaenidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,9,NA,584.178,Scorpaenidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,10,2215.01,1281.947,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,11,1192.698,924.949,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,12,NA,1229.209,Engraulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,13,1752.535,985.801,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,14,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,15,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,16,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,17,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,18,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,19,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,20,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,21,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,135,JC22-2-2-135,pre_exp,22,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,1,2969.574,1557.809,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,2,NA,1006.085,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,3,129.817,1152.13,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,4,146.045,965.517,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,5,129.817,900.609,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,6,1557.809,1484.787,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,7,1030.426,1172.414,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,8,1208.925,56.795,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,9,2823.529,1744.422,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,10,2028.398,1144.016,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,11,1858.012,989.858,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,12,NA,1006.085,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,13,73.022,860.041,Haemulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,14,57.372,746.45,Haemulidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,15,1492.901,1249.493,sin identificar
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,16,NA,1379.31,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,17,1367.14,1095.335,Muraenidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,18,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,19,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,20,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,21,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,22,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,23,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,24,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,25,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-2,142,JC22-2-2-142,pre_exp,26,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,20,JC22-2-3-20,modern,1,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,20,JC22-2-3-20,modern,2,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,20,JC22-2-3-20,modern,3,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,30,JC22-2-3-30,modern,1,NA,1062.88,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,30,JC22-2-3-30,modern,2,2068.966,1208.925,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,1,2101.42,1225.152,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,2,NA,1091.278,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,3,1290.061,789.723,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,4,NA,985.801,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,5,NA,912.779,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,6,NA,1030.426,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,7,1403.651,824.882,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,8,2239.351,1971.602,Congridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,9,1638.945,1257.606,Congridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,10,1882.353,916.836,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,11,2012.17,1026.369,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,12,NA,1014.199,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,13,2434.077,1212.982,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,14,1582.15,945.233,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,15,2044.625,1302.231,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,16,NA,746.45,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,17,NA,1468.56,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,18,NA,1249.493,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,19,1687.627,1087.221,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,20,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,21,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,22,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,23,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,24,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,25,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,26,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,27,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,28,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,135,JC22-2-3-135,pre_exp,29,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,1,1687.627,1006.085,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,2,1419.878,835.7,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,3,1638.945,1460.446,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,4,1354.97,1103.448,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,5,2182.556,1411.765,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,6,2190.669,1411.765,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,7,NA,1338.742,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,8,1346.856,973.631,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,9,NA,1014.199,Muraenidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,10,3116.675,2507.099,Congridae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,11,1890.467,1062.88,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,12,1342.799,787.018,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,13,1135.903,677.485,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,14,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,15,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,16,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,17,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,18,NA,NA,sin identificar
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,19,NA,NA,sin identificar
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,20,NA,NA,sin identificar
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,21,NA,NA,sin identificar
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,140,JC22-2-3-140,pre_exp,22,NA,NA,sin identificar
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,1,2697.436,1552.772,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,2,1890.467,1103.448,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,3,NA,1038.54,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,4,NA,1436.105,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,5,1711.968,933.063,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,6,1192.698,770.791,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,7,2259.635,1233.266,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,8,1360.551,852.323,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,9,1354.97,839.757,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,10,1752.535,1030.426,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,11,NA,1334.686,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,12,1342.799,823.529,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,13,NA,1306.288,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,14,NA,1026.369,Serranidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,15,1403.651,778.905,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,16,1095.335,669.371,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,17,1245.436,727.519,Lutjanidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,18,2645.03,1549.696,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,19,2093.306,1152.13,Ophidiidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,20,2101.42,1371.197,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,21,1744.422,1131.846,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,22,NA,896.781,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,23,1107.505,827.586,Apogonidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,24,738.337,750.507,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,25,938.472,827.586,Gobidae
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,26,746.45,686.951,sin identificar
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,27,758.621,722.11,sin identificar
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,28,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,29,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,30,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,31,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,32,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,33,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,34,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,35,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,36,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,37,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,38,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,39,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,40,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,41,NA,NA,fragmento de otolito
+Pacific,Gulf of Panama,Isla Iguana,JC22-2-3,147,JC22-2-3-147,pre_exp,42,NA,NA,fragmento de otolito
