@@ -23,7 +23,7 @@ Selin, Payne, and Bytnar Families
 
 ########## SHARING/ACCESS INFORMATION ##########
 
-This dataset is supplement to: Dillon et al. (2025) Fossil otolith assemblages reveal millennial-scale changes in reef fish biomass and trophic structure across the Isthmus of Panama. 
+This dataset is supplement to: Dillon et al. (2026) Fossil otolith assemblages reveal millennial-scale changes in reef fish biomass and trophic structure across the Isthmus of Panama. 
 Philosophical Transactions B. https://doi.org/10.1098/rstb.2024.0419.
 
 Scripts for data analysis are available at: https://github.com/erinmdillon/cross-isthmian-otolith-biomass-reconstruction
@@ -358,4 +358,5 @@ e. Family: family name
 f. Order: order name
 g. Class: class name
 h. SuperClass: super class name
+
 
