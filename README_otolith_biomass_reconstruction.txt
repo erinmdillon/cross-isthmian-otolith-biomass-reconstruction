@@ -28,7 +28,7 @@ Philosophical Transactions B. https://doi.org/10.1098/rstb.2024.0419.
 
 Scripts for data analysis are available at: https://github.com/erinmdillon/cross-isthmian-otolith-biomass-reconstruction
 
-Dataset citation: Dillon et al. (2025), Data from: Fossil otolith assemblages reveal millennial-scale changes in reef fish biomass and trophic structure across the Isthmus of Panama, Zenodo, Dataset.
+Dataset citation: Dillon et al. (2025), Data from: Fossil otolith assemblages reveal millennial-scale changes in reef fish biomass and trophic structure across the Isthmus of Panama, Zenodo, Dataset. https://doi.org/10.5281/zenodo.17576843.
 
 
 ########## DATA & FILE OVERVIEW ##########
@@ -358,3 +358,4 @@ e. Family: family name
 f. Order: order name
 g. Class: class name
 h. SuperClass: super class name
+
