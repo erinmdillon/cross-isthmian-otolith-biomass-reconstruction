@@ -1,0 +1,839 @@
+---
+title: "cross-isthmian-otolith-abundance-final"
+author: "Erin Dillon"
+date: "2025-06-28"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This script cleans, aligns, and analyzes the otolith abundance and assemblage composition data.
+
+# Libraries
+```{r warning=F}
+library(vegan)
+library(plotrix)
+library(tidyverse)
+library(ggplot2)
+library(janitor) 
+library(grid)
+library(patchwork)
+```
+
+# Age-depth model
+```{r}
+
+#load age model output
+bchron_age_depth_raw <- read.csv("bchron_age_depth.csv",header=T)
+
+
+#map sample midpoint predictions from age model onto our labeling system for sampling intervals
+sample_interval <- read.csv("sampling_intervals_pacific.csv")
+
+bchron_age_depth <- bchron_age_depth_raw %>% 
+  left_join(sample_interval,by=c("region","date_locality","unique","sample","depth")) %>% 
+  #rename a couple of columns for clarity
+  rename(midpoint=depth) %>% 
+  rename(depth=depth_lower) %>% 
+  rename(date_unique=unique) %>% 
+  rename(unique=sampling_unique) %>% 
+  rename(median_num_years_per_sample=perc_50)
+
+```
+
+# Otolith counts
+```{r}
+
+#load otolith count data
+oto_pan_raw <- read.csv("oto_abund.csv",header=T,na.strings=".")
+
+
+#match up age model for core samples; use `num_yrs_est_bulks` column for bulk samples (from a separate age model)
+oto_pan <- oto_pan_raw %>% 
+  left_join(bchron_age_depth,by=c("region","sample","depth","unique")) %>%
+  mutate(basin = as.factor(basin),
+         region = as.factor(region),
+         site_name = as.factor(site_name),
+         sample = as.factor(sample)) %>%
+  mutate(no_years=case_when(
+    basin=="Caribbean" ~ num_yrs_est_bulks, #collection date - estimate at ~10cm depth
+    basin=="Pacific" ~ median_num_years_per_sample)) %>% #median from age-depth model
+  mutate(oto_kg=total_oto_count/sed_weight_500_kg, #correcting by the amount of sediment processed
+         oto_kg_yr=oto_kg/no_years) %>% #correcting by the estimated time duration represented by each sample
+  #cleaning up some of the time columns
+  mutate(max_AD_BC=1950-max,
+         min_AD_BC=1950-min,
+         width_CI = min_AD_BC-max_AD_BC) %>% 
+  rename(age_AD_BC=predicted_age_AD_BC,
+         age_BP=predicted_age_BP)
+
+
+#select the historic & modern cut-off dates
+oto_pan_clean <- oto_pan %>%
+  mutate(age_group = case_when(
+      age_AD_BC > 1900 ~ "modern",
+      site_name == "Contadora" & age_AD_BC < -2000 ~ "pre_exp",
+      site_name == "Isla Iguana" & age_AD_BC < -2000 ~ "pre_exp",
+      site_name == "Saboga" & age_AD_BC < -1000 ~ "pre_exp",
+      basin == "Caribbean" & type == "modern_bulk" ~ "modern",
+      basin == "Caribbean" & type == "Holocene_bulk" ~ "pre_exp",
+      #edge cases, placing within pre_exp bin
+      unique == "JC22-2-2-135" ~ "pre_exp",
+      unique == "JC22-2-3-135" ~ "pre_exp")) %>% 
+  #just keeping samples in the time periods of interest
+  mutate(age_group = fct_relevel(age_group,c("pre_exp","modern")))%>%
+  filter(age_group %in% c("modern","pre_exp")) %>% 
+  #filtering out sites that represent non-reef or anomalous depositional environments or poor preservation
+  filter(!site_name %in% c('Sweet Bocas Trench 6','Airport Point','Playa Estrella','SW Bocas Island')) %>%
+  filter(sample != "AT14-11")  #poor preservation
+
+
+#estimated time-averaging
+oto_pan_clean %>% 
+  select(site_name,group_name,no_years) %>% 
+  distinct() %>% 
+  summarize(mean_no_yrs = mean(no_years,na.rm=T))
+
+```
+
+sample grouping
+```{r}
+
+#grouping samples with low n
+group_counts <- oto_pan_clean %>% 
+  group_by(region,group_name) %>% 
+  summarize(n = sum(total_oto_count,na.rm=T),
+            sed_weight = sum(sed_weight_500_kg,na.rm=T),
+            mean_no_yrs = mean(no_years,na.rm=T))
+
+#summaries
+mean(group_counts$n,na.rm=T)
+mean(group_counts$n[group_counts$region=="Bocas del Toro"],na.rm=T)
+mean(group_counts$n[group_counts$region=="Gulf of Panama"],na.rm=T)
+  
+
+#histogram of group counts
+hist(group_counts$n[group_counts$region=='Bocas del Toro'],col = adjustcolor("darkgoldenrod2", alpha.f = 0.5))
+hist(group_counts$n[group_counts$region=='Gulf of Panama'],col= adjustcolor("deepskyblue3",alpha.f = 0.5), add=T)
+
+```
+
+## figure S2
+plotting otolith accumulation rates across regions
+```{r fig.width=3.5}
+
+ggplot(oto_pan_clean,aes(x=region, y=oto_kg_yr*100, fill=basin))+
+  geom_point(aes(fill=basin),color="gray70",alpha=0.4,size=2,position=position_jitterdodge(jitter.width=0.8,dodge.width=0.7,seed=10))+
+  geom_boxplot(aes(fill=basin),alpha=0.8,outlier.shape = NA,width=0.5,position=position_dodge(width = 0.7))+
+  theme_bw()+
+  labs(y="Otolith accumulation\nper kg sediment per century",x="Region",fill="Region") +
+  scale_x_discrete(limits=c("Bocas del Toro","Gulf of Panama"),labels=c("Caribbean\n(Bocas del Toro)","Pacific\n(Gulf of Panama)"))+
+  scale_fill_manual(values=c("darkgoldenrod2","deepskyblue3"))+
+  theme(axis.text = element_text(size=12),axis.title= element_text(size=16))+
+  theme(legend.text = element_text(size=12),legend.title = element_text(size=16))+
+  theme(axis.text=element_text(color="black",family="sans"),axis.title= element_text(color="black",family="sans",hjust=0.5))+
+  theme(panel.grid.minor = element_blank())+
+  guides(fill="none")+
+  scale_y_continuous(trans='log10')+
+  annotation_logticks(sides="l")+
+  theme(legend.position = "bottom")+
+  theme(aspect.ratio=1.2)
+
+```
+
+# Compositional data
+```{r}
+
+#load data
+oto_families_raw <- read.csv("oto_family.csv",header=T,na.strings=".")
+
+
+#cleaning
+oto_families <- oto_families_raw %>% 
+  mutate(basin = as.factor(basin),
+         region = as.factor(region),
+         site_name = as.factor(site_name),
+         sample = as.factor(sample),
+         family = as.factor(family)) %>% 
+  #filtering out same sites as before (see above)
+  filter(!site_name %in% c('Sweet Bocas Trench 6','Airport Point','Playa Estrella','SW Bocas Island')) %>%
+  filter(sample != "AT14-11") %>% #poor preservation
+  left_join(oto_pan_clean[,c(5,40)],by="unique") #add age groups   
+  
+```
+
+## figure S5
+plotting rank abundance of families in Caribbean and Pacific
+```{r fig.width=3.5}
+
+oto_families %>%
+  filter(family != "NA") %>% 
+  mutate(region=factor(region, levels = c("Bocas del Toro", "Gulf of Panama"),labels=c("Caribbean (Bocas del Toro)","Pacific (Gulf of Panama)"))) %>%
+  filter(!is.na(age_group)) %>% #just keeping the relevant age groups
+  group_by(region,family) %>%
+  summarize(fam_count = sum(family_count)) %>% 
+  ggplot(aes(y=reorder(family,-fam_count),x=fam_count,fill=region))+
+  geom_bar(stat="identity",position=position_dodge(),color="gray30",alpha=0.8)+
+  labs(y="",x="Count",fill="Region") +
+  scale_x_continuous(trans='log10')+
+  scale_fill_manual(values=c("darkgoldenrod2","deepskyblue3"))+
+  theme_bw()+
+  theme(aspect.ratio = 1.5)+
+  theme(legend.position = "none")+
+  facet_grid(~region)
+
+```
+
+## Ecological groupings
+add functional group info for each family
+```{r}
+
+###############CARIBBEAN
+#load trait table for caribbean
+fish_traits_carib <- read.csv("carib_fish_functions.csv",header=T)
+
+#relevant trait info
+fish_traits_matrix_carib <- fish_traits_carib[,c(2,3,5,6,8,9)] %>% 
+  clean_names()%>% 
+  rename(harvested=harvested_in_sitio_drago)
+
+names(fish_traits_matrix_carib) #check columns
+  
+
+#sample the Pomacentridae given their multiple feeding groups
+#pull out just the Pomacentridae trait data
+Pom_carib <- fish_traits_matrix_carib %>%
+  filter(family == "Pomacentridae") %>%
+  #probabilities from Reef Life Survey - Caribbean reefs in Panama
+  mutate(prob = case_when(
+    feeding == "omnivore_carnivore" ~ 0.04, #e.g., abudefduf, microspathodon
+    feeding == "herbivore" ~ 0.94, #e.g., stegastes
+    feeding == "planktivore" ~ 0.02)) #e.g., azurina
+
+
+oto_families_clean_carib_Pom <- oto_families %>% 
+  filter(basin=="Caribbean" & family == "Pomacentridae") %>%
+  mutate(feeding = sample(Pom_carib$feeding, size = n(), replace = TRUE, prob = Pom_carib$prob)) %>% 
+  mutate(habit = Pom_carib$habit[1],
+         cryptobenthic = Pom_carib$cryptobenthic[1],
+         harvested = Pom_carib$harvested[1],
+         prey_of_harvested_fishes = Pom_carib$prey_of_harvested_fishes[1])
+
+
+#add functional groupings to the otolith dataset (except Pomacentridae)
+oto_families_clean_carib_noPom <- oto_families %>% 
+  filter(basin=="Caribbean") %>% 
+  filter(!family %in% c("Pomacentridae")) %>% 
+  left_join(fish_traits_matrix_carib,by="family")
+
+#check names
+names(oto_families_clean_carib_Pom);names(oto_families_clean_carib_noPom)
+
+#recombine
+oto_families_clean_carib <- rbind(oto_families_clean_carib_noPom,oto_families_clean_carib_Pom)
+
+
+###############PACIFIC
+#load trait table
+fish_traits_pacific <- read.csv("pacific_fish_functions.csv",header=T)
+
+#relevant trait info
+fish_traits_matrix_pacific <- fish_traits_pacific[,c(2,3,5,7,11,12)] %>% 
+  clean_names() %>% 
+  rename(harvested=harvested_combined)
+
+head(fish_traits_matrix_pacific) #check that the columns match up
+names(fish_traits_matrix_pacific)
+
+
+#sample the pomacentridae given their multiple feeding groups
+
+#pull out just the Pomacentridae trait data
+Pom <- fish_traits_matrix_pacific %>%
+  filter(family == "Pomacentridae") %>%
+  #probabilies from Reef Life Survey - TEP reefs in Panama
+  mutate(prob = case_when(
+    feeding == "omnivore_carnivore" ~ 0.03, #e.g., abudefduf, microspathodon
+    feeding == "herbivore" ~ 0.13, #e.g., stegastes
+    feeding == "planktivore" ~ 0.84)) #e.g., chromis
+
+#Assign each row in the orig dataframe to a trait based on given probabilities
+set.seed(46)
+oto_families_clean_pacific_Pom <- oto_families %>% 
+  filter(basin=="Pacific" & family == "Pomacentridae") %>%
+  mutate(feeding = sample(Pom$feeding, size = n(), replace = TRUE, prob = Pom$prob)) %>% 
+  mutate(habit = Pom$habit[1],
+         cryptobenthic = Pom$cryptobenthic[1],
+         harvested = Pom$harvested[1],
+         prey_of_harvested_fishes = Pom$prey_of_harvested_fishes[1])
+
+
+#add functional groupings to the otolith dataset (except Pomacentridae)
+oto_families_clean_pacific_noPom <- oto_families %>% 
+  filter(basin=="Pacific") %>% 
+  filter(!family %in% c("Pomacentridae")) %>% 
+  left_join(fish_traits_matrix_pacific,by="family")
+
+#check names
+names(oto_families_clean_pacific_Pom);names(oto_families_clean_pacific_noPom)
+
+#recombine
+oto_families_clean_pacific <- rbind(oto_families_clean_pacific_noPom,oto_families_clean_pacific_Pom)
+
+
+#################RE-COMBINE DATASET
+
+oto_families_clean <- rbind(oto_families_clean_carib,oto_families_clean_pacific)
+
+```
+
+implement sample groupings in the compositional dataset
+```{r}
+
+#calculate sediment weights of pooled samples
+pooled_weights <- oto_pan_clean %>% 
+  group_by(group_name) %>% 
+  summarize(sed_weight_500_kg_group = sum(sed_weight_500_kg,na.rm=T),
+            oto_check = sum(total_oto_count,na.rm=T))
+
+#summarize by group
+oto_families_clean_summ <- oto_families_clean %>%
+  left_join(oto_pan[,c(5,13)],by="unique") %>%  #add group numbers, for pooling
+  left_join(pooled_weights,by="group_name") %>% #add pooled weights for each group (calculated above)
+  filter(age_group %in% c("modern","pre_exp")) %>% #filter to relevant time bins
+  group_by(group_name) %>% #group by each pooled sampling group
+  mutate(group_oto_total = sum(family_count,na.rm=T), #oto count, should be the same as oto_check
+         no_ID_prop = sum(family_count[family=="Sin_identificar"], na.rm=T)/group_oto_total, #un-ID'd otos
+         #counts
+         pisc_count = sum(family_count[feeding == 'piscivore'],na.rm=T),
+         pisc_abund = pisc_count/sed_weight_500_kg_group, #used in pred-prey ratios below
+         oto_abund = group_oto_total/sed_weight_500_kg_group,
+         #relative abundance
+         prop_plank = sum(family_count[feeding == 'planktivore'],na.rm=T)/group_oto_total,
+         prop_carn = sum(family_count[feeding == 'omnivore_carnivore'],na.rm=T)/group_oto_total,
+         prop_pisc = sum(family_count[feeding == 'piscivore'],na.rm=T)/group_oto_total,
+         prop_herb = sum(family_count[feeding == 'herbivore'],na.rm=T)/group_oto_total) %>%
+  ungroup()
+
+
+
+#streamline columns and re-level age groupings
+#ALL oto data
+oto_pan_clean_grouped <- oto_families_clean_summ %>% 
+  select(basin, region, sample, group_name,type, age_group,sed_weight_500_kg_group,group_oto_total,no_ID_prop,prop_plank,prop_carn,prop_pisc,prop_herb,oto_abund,pisc_abund) %>% 
+  #adds corresponding age classification for each group
+  mutate(age_group = as.factor(age_group)) %>%
+  mutate(age_group = fct_relevel(age_group,c("pre_exp","modern"))) %>% 
+  distinct()
+
+#make a longform version for plotting
+oto_pan_clean_grouped_long <- oto_pan_clean_grouped %>%
+  select(basin, region, sample, group_name,type, age_group,group_oto_total,prop_plank,prop_carn,prop_pisc,prop_herb) %>%
+  gather(prop_plank,prop_carn,prop_pisc,prop_herb,key="feeding",value="prop_abund")
+
+```
+
+align with available shark dermal denticle data from the same sample groups
+```{r}
+
+#read in denticle data
+dd_pan_age_clean <- read.csv("dd_abund.csv",header=T)
+
+
+#add sample groupings
+dd_pan_age_clean_grouped <- dd_pan_age_clean %>% 
+  left_join(oto_pan[,c(5,13)],by="unique") %>%   #add group numbers, to align the sample groups
+  group_by(group_name) %>%  
+  mutate(group_dd_total = sum(total_dd_count,na.rm=T),
+         sed_weight_kg_group = sum(sed_weight_kg,na.rm=T),
+         dd_abund = group_dd_total/sed_weight_kg_group) %>% 
+  select(basin, region, site_name,sample, group_name, type, group_dd_total,sed_weight_kg_group,dd_abund) %>%
+  distinct()
+
+
+#now join the grouped denticle and otolith data by sample group #
+#this contains ALL samples (note: some were NOT picked for denticles, so dd_oto_ratio = NA)
+dd_oto_pan_joined <- oto_pan_clean_grouped %>% 
+  full_join(dd_pan_age_clean_grouped,by=c("basin","region","sample","group_name","type")) %>% 
+  mutate(pred_prey_ratio = (dd_abund+pisc_abund)/(oto_abund-pisc_abund))
+
+
+#sites with corresponding data
+table(dd_oto_pan_joined$site_name)  
+
+```
+
+overall sample sizes
+```{r}
+
+#families represented in the dataset
+levels(oto_families_clean_summ$family)
+
+#sites and sample sizes
+table(oto_families_clean_summ$site_name)
+table(oto_families_clean_summ$sample)
+length(table(oto_families_clean_summ$unique))
+
+oto_families_clean_summ %>% 
+  select(site_name,sample,unique) %>%
+  group_by(site_name,sample) %>%
+  distinct() %>% 
+  tally()
+
+oto_families_clean_summ %>% 
+  select(basin,site_name,sample,unique) %>%
+  group_by(basin) %>%
+  distinct() %>% 
+  tally()
+
+#total n by basin        
+oto_families_clean_summ %>% 
+  group_by(basin) %>% 
+  summarize(oto_sum=sum(family_count,na.rm=T))
+
+
+```
+
+## figure S6
+plotting relative abundance of different trophic groups between regions and time periods
+```{r}
+
+### summary for each region, age
+summary_trophic_prop_abund <- oto_pan_clean_grouped_long %>% 
+  mutate(perc_abund=prop_abund*100) %>% 
+  group_by(basin,age_group,feeding) %>% 
+  #summary statistics
+  summarize(abund_mean=mean(perc_abund, na.rm=T), 
+            abund_sd=sd(perc_abund, na.rm=T),
+            abund_stderr=std.error(perc_abund, na.rm=T)) %>% 
+  #create variable for plotting
+  unite(age_group_region, c("basin","age_group"),remove=F) %>% 
+  mutate(age_group_region=as.factor(age_group_region))
+summary_trophic_prop_abund
+
+
+#plot Caribbean
+carib_oto_prop <- summary_trophic_prop_abund %>% 
+  filter(basin=="Caribbean") %>% 
+  #filter to trophic groups
+  filter(feeding %in% c("prop_plank","prop_herb","prop_carn","prop_pisc")) %>% 
+ggplot(aes(y=feeding, x=abund_mean,fill=age_group_region,color=basin))+
+  geom_bar(aes(color=basin),stat="identity",position="dodge",linewidth=0.8,alpha=0.7)+
+  geom_errorbarh(aes(xmin=abund_mean-abund_stderr, xmax=abund_mean+abund_stderr), height=.2,
+                 position=position_dodge(.9),color="gray30",linetype=1,size=0.6)+
+  theme_bw()+
+  scale_y_discrete(limits=c("prop_herb","prop_plank","prop_carn","prop_pisc"),labels=c("herbivores","planktivores","generalized\ncarnivores","piscivores"))+
+  scale_color_manual(values=c("darkgoldenrod2"))+
+  scale_fill_manual(values=c("darkgoldenrod2","gray80"),labels=c("Caribbean_pre_exp","Caribbean_modern"))+
+  theme(axis.text = element_text(size=12),axis.title= element_text(size=16),axis.text.y = element_text(size=14))+
+  theme(axis.text=element_text(color="black",family="sans"),axis.title= element_text(color="black",family="sans"))+
+  theme(axis.title.x = element_text(vjust=-0.4))+
+  theme(legend.position="none")+
+  labs(y="", x="",fill="Age group",title="Caribbean (Bocas del Toro)") +
+  coord_cartesian(xlim = c(60, 0))+
+  theme(aspect.ratio=1.2)
+carib_oto_prop
+
+
+#plot Pacific
+pac_oto_prop <- summary_trophic_prop_abund %>% 
+  filter(basin=="Pacific") %>%
+  #filter to trophic groups
+  filter(feeding %in% c("prop_plank","prop_herb","prop_carn","prop_pisc")) %>% 
+ggplot(aes(y=feeding, x=abund_mean,fill=age_group_region,color=basin))+
+  geom_bar(aes(color=basin),stat="identity",position="dodge",linewidth=0.8,alpha=0.7)+
+  geom_errorbarh(aes(xmin=abund_mean-abund_stderr, xmax=abund_mean+abund_stderr), height=.2,
+                 position=position_dodge(.9),color="gray30",linetype=1,size=0.6)+
+  theme_bw()+
+  scale_y_discrete(limits=c("prop_herb","prop_plank","prop_carn","prop_pisc"),labels=c("herbivores","planktivores","generalized\ncarnivores","piscivores"))+
+  scale_color_manual(values=c("deepskyblue3"))+
+  scale_fill_manual(values=c("deepskyblue3","gray80"),labels=c("Pacific_pre_exp","Pacific_modern"))+
+  theme(axis.text = element_text(size=12),axis.title= element_text(size=16),axis.text.y = element_text(size=14))+
+  theme(axis.text=element_text(color="black",family="sans"),axis.title= element_text(color="black",family="sans"))+
+  theme(axis.title.x = element_text(vjust=-0.4))+
+  theme(axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank())+
+  theme(legend.position="none")+
+  labs(y="", x="",fill="Age group",color="Region",title="Pacific (Gulf of Panama)") +
+  coord_cartesian(xlim = c(0, 60))+
+  theme(aspect.ratio=1.2)
+pac_oto_prop
+
+
+#combined and arranged to be side-by-side
+carib_oto_prop+pac_oto_prop+
+  plot_layout(widths = c(1, 1)) & 
+  theme(plot.margin = margin(1, 1, 1, 1))&
+  plot_annotation(
+    theme = theme(
+      plot.caption = element_text(hjust = 0.62,vjust=6, size = 16)),
+    caption = "Relative abundance (%)")
+
+```
+
+
+## figure 3C
+plotting log predator/prey ratios
+```{r}
+
+#summarized data for plotting
+dd_oto_pan_summary <- dd_oto_pan_joined %>% 
+  group_by(region,age_group) %>% 
+  summarize(mean_ratio_predprey=mean(log(pred_prey_ratio), na.rm=T),
+            sd_ratio_predprey = sd(log(pred_prey_ratio), na.rm=T),
+            mean_raw = mean(pred_prey_ratio,na.rm=T)) %>% 
+  #create variable for plotting
+  unite(age_group_region, c("region","age_group"),remove=F) %>% 
+  mutate(age_group_region=as.factor(age_group_region))
+
+
+#amount of change over time
+((dd_oto_pan_summary$mean_raw[1]-dd_oto_pan_summary$mean_raw[2])/dd_oto_pan_summary$mean_raw[1])*100 #carib
+((dd_oto_pan_summary$mean_raw[3]-dd_oto_pan_summary$mean_raw[4])/dd_oto_pan_summary$mean_raw[3])*100 #pacific
+
+#diff across oceans
+dd_oto_pan_summary$mean_raw[3]/dd_oto_pan_summary$mean_raw[1]
+dd_oto_pan_summary$mean_raw[4]/dd_oto_pan_summary$mean_raw[2]
+
+#plot
+fig3c <- dd_oto_pan_joined %>% 
+ggplot(aes(x=region, y=log(pred_prey_ratio)))+
+  geom_hline(yintercept=0,linetype="dashed",color="gray60",linewidth=0.8)+
+  #geom_point(color="gray80",fill="gray80",alpha=0.4,size=2,position=position_jitterdodge(seed=10),shape=21)+
+  geom_pointrange(data=dd_oto_pan_summary,aes(y=mean_ratio_predprey,ymin=mean_ratio_predprey-sd_ratio_predprey, ymax=mean_ratio_predprey+sd_ratio_predprey, fill=age_group_region,color=region),size=1,fatten=5.5,position=position_jitterdodge(seed=10),shape=21)+
+  theme_bw(base_size=12)+
+  labs(y="Log predator/prey ratio",x=" ",fill=" ",shape="Age Group") +
+  scale_x_discrete(limits=c("Bocas del Toro","Gulf of Panama"),labels=c("Caribbean","Pacific"))+
+  scale_color_manual(values=c("darkgoldenrod2","deepskyblue3"))+
+  scale_fill_manual(values=c("gray80","darkgoldenrod2","gray80","deepskyblue3"),labels=c("Caribbean_pre_exp","Caribbean_modern" ,"Pacific_pre_exp","Pacific_modern"))+
+  theme(axis.text = element_text(size=12),axis.title= element_text(size=14))+
+  theme(legend.text = element_text(size=12),legend.title = element_text(size=14))+
+  theme(axis.text=element_text(color="black",family="sans"),axis.title= element_text(color="black",family="sans",hjust=0.5))+
+  theme(legend.position = "none")+
+  guides(fill="none")+
+  theme(aspect.ratio=0.3)
+fig3c
+
+```
+
+
+```{r}
+##output
+ggsave("xmus_oto_fig3c.pdf",plot=fig3c,device="pdf",useDingbats=FALSE)
+
+```
+
+
+# NMDS
+
+Clean data
+```{r}
+
+#combining duplicates here, and then summing by group
+oto_families_distinct <- oto_families %>% 
+  filter(unique != 'AT19-1-2-5') %>% #remove NA row
+  left_join(oto_pan[,c(5,13)],by="unique") %>%  #add group numbers (pooling samples to get enough otoliths)
+  mutate(age_group=as.character(age_group)) %>% 
+  mutate(age_group=case_when(
+    type== 'core' ~ age_group,
+    type=='modern_bulk' ~ 'modern',
+    type== 'Holocene_bulk' ~ 'pre_exp')) %>%
+  group_by(basin, region, site_name, type, group_name, age_group, family) %>% 
+  summarize(family_count=sum(family_count)) %>% 
+  left_join(pooled_weights,by="group_name") %>%  #adding otolith counts and sed weights per group
+  rename(oto_count_total=oto_check) 
+
+
+#make the dataframe wideform with family counts (for the ordination)
+oto_families_wide <- oto_families_distinct %>% 
+  filter(age_group %in% c("modern","pre_exp")) %>% #just keep time periods of interest
+  spread(family,family_count) %>% 
+  select(-c('Sin_identificar','<NA>')) %>%  #remove unidentifiable otoliths
+  replace(is.na(.), 0) %>% #replacing NAs for each species with 0s (absent from that sample)
+  unite(age_group_region, c("basin","age_group"),remove=F) %>% #makes a combined group-age classifier
+  mutate(age_group_region=as.factor(age_group_region))
+
+
+table(oto_families_wide$age_group_region)
+
+```
+
+
+counts of each family
+```{r}
+
+#check data
+head(oto_families_wide[,c(10:42)])
+
+#run nmds, horn index
+oto_nmds_horn <- metaMDS(oto_families_wide[,c(10:42)],distance="horn",k=4,trymax=100)
+
+#test stress
+stressplot(oto_nmds_horn)
+oto_nmds_horn$stress #0.15
+plot(oto_nmds_horn)
+
+#extract NMDS outputs
+oto_nmds_df <- as_tibble(oto_nmds_horn$points) %>% 
+  # bind with metadata
+  bind_cols(oto_families_wide[,1:9],.)
+
+
+#plot ellipses, showing standard error
+plot(oto_nmds_horn)
+ordiellipse(oto_nmds_horn, oto_nmds_df$age_group_region, display = "sites", kind = "se", conf = 0.95, label = F) 
+
+
+```
+
+test plot, with ellipses
+```{r}
+
+#calculate ellipses for age-region combo, 40% around data centroid
+NMDS_oto_horn = data.frame(MDS1 = oto_nmds_horn$points[,1], MDS2 = oto_nmds_horn$points[,2],group=oto_nmds_df$age_group_region)
+
+plot(oto_nmds_horn)
+ord_oto_horn <- ordiellipse(oto_nmds_horn, oto_nmds_df$age_group_region, display = "sites", kind = "sd", conf = 0.4)
+
+
+#function to pull ellipse data
+veganCovEllipse<-function (cov, center = c(0, 0), scale = 1, npoints = 100) 
+  {
+    theta <- (0:npoints) * 2 * pi/npoints
+    Circle <- cbind(cos(theta), sin(theta))
+    t(center + scale * t(Circle %*% chol(cov)))
+}
+
+
+
+#add to df with NMDS loadings
+df_combined_oto_horn <- data.frame()
+for(g in levels(NMDS_oto_horn$group)){
+  df_combined_oto_horn <- rbind(df_combined_oto_horn, cbind(as.data.frame(with(NMDS_oto_horn[NMDS_oto_horn$group==g,],
+                  veganCovEllipse(ord_oto_horn[[g]]$cov,ord_oto_horn[[g]]$center,ord_oto_horn[[g]]$scale)))
+                                ,group=g))
+}
+
+#add basin grouping variable
+df_combined_oto_horn <- df_combined_oto_horn %>% 
+  mutate(basin = case_when(
+    group == "Caribbean_modern" ~ "Caribbean",
+    group == "Caribbean_pre_exp" ~ "Caribbean",
+    group == "Pacific_modern" ~ "Pacific",
+    group == "Pacific_pre_exp" ~ "Pacific",
+  )) %>% 
+  mutate(age_group = case_when(
+    group == "Caribbean_modern" ~ "modern",
+    group == "Caribbean_pre_exp" ~ "pre_exp",
+    group == "Pacific_modern" ~ "modern",
+    group == "Pacific_pre_exp" ~ "pre_exp",
+  ))
+
+```
+
+family-level vectors
+```{r}
+
+#drivers & directionality
+env_oto_horn <- envfit(oto_nmds_horn, oto_families_wide[,c(10:42)], permutations=999,display='sites',p.max=0.05)
+env_oto_horn 
+
+spp_scrs_horn <- as.data.frame(scores(env_oto_horn, display = "vectors"))
+spp_scrs_horn <- cbind(spp_scrs_horn, Family = rownames(spp_scrs_horn))
+
+
+```
+
+functional-level vectors
+```{r}
+
+#families
+nmds_fam <- colnames(oto_families_wide[,c(10:42)])
+  
+#matching trait matrix
+feeding_matrix <- fish_traits_matrix_pacific %>% 
+  rename(Pacific_feeding=feeding) %>% 
+  full_join (fish_traits_matrix_carib[,c(1,2,5)],by="family") %>% 
+  rename(Caribbean_feeding=feeding) %>% 
+  filter(family %in% nmds_fam) %>% 
+  select(family,Caribbean_feeding,Pacific_feeding) %>% 
+  mutate(
+    piscivore = case_when(
+    Caribbean_feeding  == "piscivore" ~ 1,
+    Pacific_feeding == "piscivore" ~ 1,
+    TRUE ~ 0),
+    gen_carnivore = case_when(
+    Caribbean_feeding == "omnivore_carnivore" ~ 1,
+    Pacific_feeding == "omnivore_carnivore" ~ 1,
+    TRUE ~ 0),
+    planktivore = case_when(
+    Caribbean_feeding == "planktivore" ~ 1,
+    Pacific_feeding == "planktivore" ~ 1,
+    TRUE ~ 0),
+    herbivore = case_when(
+    Caribbean_feeding == "herbivore" ~ 1,
+    Pacific_feeding == "herbivore" ~ 1,
+    TRUE ~ 0)) %>% 
+  filter(family != "Pomacentridae") %>% 
+  select(family,piscivore,gen_carnivore,planktivore,herbivore)
+
+pomtrait <- tibble(
+  family = "Pomacentridae",
+  piscivore = 0,
+  gen_carnivore = 1,
+  planktivore = 1,
+  herbivore = 1)
+
+feeding_matrix <- rbind(feeding_matrix,pomtrait) %>% 
+  arrange(match(family, nmds_fam))%>% 
+  column_to_rownames("family") %>%
+  as.matrix()
+
+
+species_nmds <- rownames(oto_nmds_horn$species)
+feeding_matrix_mat <- feeding_matrix[species_nmds, ]
+
+species_scores <- scores(oto_nmds_horn, display = "species")
+
+#run envfit
+traits_oto_horn <- envfit(species_scores, feeding_matrix_mat)
+traits_oto_horn 
+
+
+spp_scrs_horn_feeding <- as.data.frame(scores(traits_oto_horn, display = "vectors"))
+spp_scrs_horn_feeding <- cbind(spp_scrs_horn_feeding, Trophic_Group = rownames(spp_scrs_horn_feeding))
+
+spp_scrs_horn_feeding <-spp_scrs_horn_feeding%>%
+  mutate(x_lab = NMDS1 * 1.25,
+         y_lab = NMDS2 * 1.25) %>% 
+  mutate(
+    x_lab = case_when(
+      Trophic_Group == "piscivore" ~ NMDS1 + 0.24,
+      Trophic_Group == "gen_carnivore" ~ NMDS1 + 0.35,
+      Trophic_Group == "planktivore" ~ NMDS1 - 0.28,
+      Trophic_Group == "herbivore" ~ NMDS1 - 0.15
+    ),
+    y_lab = case_when(
+      Trophic_Group == "piscivore" ~ NMDS2 - 0.02,
+      Trophic_Group == "gen_carnivore" ~ NMDS2 + 0.04,
+      Trophic_Group == "planktivore" ~ NMDS2 - 0,
+      Trophic_Group == "herbivore" ~ NMDS2 + 0.09
+    )
+  )
+
+```
+
+
+## figure 4
+```{r}
+
+fig4 <- ggplot(oto_nmds_df, aes(x = MDS1, y = MDS2)) +
+  geom_hline(yintercept=0, color="gray60")+
+  geom_vline(xintercept=0, color="gray60")+
+  geom_point(aes(shape=age_group_region,color=basin),size = 3.5, alpha = 1)+
+  geom_polygon(data=df_combined_oto_horn, aes(x=NMDS1, y=NMDS2,color=basin,fill=group), size=1,alpha=0.4)+
+   geom_segment(data = spp_scrs_horn_feeding, #feeding groups
+                aes(x = 0, xend = NMDS1, y = 0, yend = NMDS2),
+                #linetype="dashed",
+                size=0.8,
+                colour = "gray20",
+                arrow=arrow(length=unit(0.03,"npc")),
+                linejoin='mitre') +
+  geom_text(data = spp_scrs_horn_feeding, aes(x = x_lab, y = y_lab, label = c("piscivore","gen carnivore", "planktivore","herbivore"),fontface = "italic"),
+            size = 4.5)+
+  annotate("text",x = 0.55, y = 1.2, label = "Stress = 0.15", size = 4, hjust = 0,color="black")+
+  theme_bw()+
+  scale_color_manual(values=c("darkgoldenrod2","deepskyblue3"))+
+  scale_fill_manual(values=c("darkgoldenrod2","gray80","deepskyblue3","gray80"),breaks=c("Caribbean_pre_exp","Caribbean_modern" ,"Pacific_pre_exp","Pacific_modern"),labels=c("Caribbean (Mid-Holocene)","Caribbean (Modern)" ,"Pacific (Mid-Holocene)","Pacific (Modern)"))+
+  scale_shape_manual(values=c(16,17,16,17),breaks=c("Caribbean_pre_exp","Caribbean_modern" ,"Pacific_pre_exp","Pacific_modern"),labels=c("Caribbean (Mid-Holocene)","Caribbean (Modern)" ,"Pacific (Mid-Holocene)","Pacific (Modern)"))+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+  xlab("NMDS 1")+
+  ylab("NMDS 2")+
+  labs(color="Region",shape="Group",fill="Group")+
+  guides(color="none")+
+  theme(axis.text = element_text(size=12),axis.title= element_text(size=16))+
+  theme(legend.text = element_text(size=12),legend.title = element_text(size=16))+
+  theme(axis.text=element_text(color="black",family="sans"),axis.title= element_text(color="black",family="sans"))+
+  theme(legend.position="right")+
+  theme(aspect.ratio=1)
+fig4
+
+```
+
+```{r}
+##output
+ggsave("xmus_oto_fig4.pdf",plot=fig4,device="pdf",useDingbats=FALSE)
+
+```
+
+## PERMANOVA
+all
+```{r}
+
+#across age_group_regions
+dis_mat <- vegdist(oto_families_wide[,c(10:42)], method="horn")
+adonis2(dis_mat~oto_families_wide$age_group_region,permutations=999) 
+
+#across regions 
+adonis2(dis_mat~oto_families_wide$region,permutations=999)
+adonis2(dis_mat~oto_families_wide$age_group+oto_families_wide$region,permutations=999) 
+
+#testing assumptions
+mod_age_all <- betadisper(dis_mat, oto_families_wide$age_group_region) #age_group_region
+boxplot(mod_age_all)
+permutest(mod_age_all)
+
+mod_age_all <- betadisper(dis_mat, oto_families_wide$region) #basin
+boxplot(mod_age_all)
+permutest(mod_age_all)
+
+```
+
+Caribbean
+```{r}
+
+#calculate dissimilarity matrix
+oto_families_wide_carib <- oto_families_wide %>% 
+  filter(basin=="Caribbean")
+
+dis_mat_carib <- vegdist(oto_families_wide_carib[,c(10:42)], method="horn")
+
+#across age groups & sites
+adonis2(dis_mat_carib~oto_families_wide_carib$age_group + oto_families_wide_carib$site_name,permutations=999) 
+
+#testing dispersion assumption
+mod_age_carib <- betadisper(dis_mat_carib, oto_families_wide_carib$age_group) #age_group
+boxplot(mod_age_carib)
+permutest(mod_age_carib)
+
+mod_age_carib <- betadisper(dis_mat_carib, oto_families_wide_carib$site_name) #site 
+boxplot(mod_age_carib)
+permutest(mod_age_carib)
+
+```
+
+Pacific
+```{r}
+
+#calculate dissimilarity matrix
+oto_families_wide_pacif <- oto_families_wide %>% 
+  filter(basin=="Pacific")
+
+dis_mat_pacif <- vegdist(oto_families_wide_pacif[,c(10:42)], method="horn")
+
+#across age groups & sites
+adonis2(dis_mat_pacif~oto_families_wide_pacif$age_group + oto_families_wide_pacif$site_name,permutations=999)
+
+#testing dispersion assumption
+mod_age_pacif <- betadisper(dis_mat_pacif, oto_families_wide_pacif$age_group) #age_group
+boxplot(mod_age_pacif)
+permutest(mod_age_pacif)
+
+mod_age_pacif <- betadisper(dis_mat_pacif, oto_families_wide_pacif$site_name) #site 
+boxplot(mod_age_pacif)
+permutest(mod_age_pacif)
+
+```

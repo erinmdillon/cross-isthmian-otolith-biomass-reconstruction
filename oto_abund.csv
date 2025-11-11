@@ -1,0 +1,621 @@
+basin,region,sample,depth,unique,site_name,type,num_yrs_est_bulks,total_oto_count,sed_weight_whole_sample_kg,sed_weight_500_kg,group,group_name,age_ref
+Caribbean,Bocas del Toro,AT12-1,.,AT12-1-1-1,STRI Point,modern_bulk,.,34,0.85,0.1563,1,AT12-1_1,modern
+Caribbean,Bocas del Toro,AT12-1,.,AT12-1-2-1,STRI Point,modern_bulk,.,93,1.15,0.261,2,AT12-1_2,modern
+Caribbean,Bocas del Toro,AT12-1,.,AT12-1-2-2,STRI Point,modern_bulk,.,73,1.15,0.23893,3,AT12-1_3,modern
+Caribbean,Bocas del Toro,AT12-1,.,AT12-1-3-1,STRI Point,modern_bulk,.,62,1.15,0.23809,4,AT12-1_4,modern
+Caribbean,Bocas del Toro,AT12-1,.,AT12-1-4-1,STRI Point,modern_bulk,.,85,1.15,0.21289,5,AT12-1_5,modern
+Caribbean,Bocas del Toro,AT12-1,.,AT12-1-5-1,STRI Point,modern_bulk,.,20,1.1,0.27754,6,AT12-1_6,modern
+Caribbean,Bocas del Toro,AT12-1,.,AT12-1-6-1,STRI Point,modern_bulk,.,16,1.2,0.19713,7,AT12-1_7,modern
+Caribbean,Bocas del Toro,AT12-2,.,AT12-2-1,Sunset Point,Holocene_bulk,20,82,1.15,0.05814,1,AT12-2_1,pre_exp
+Caribbean,Bocas del Toro,AT12-2,.,AT12-2-10,Sunset Point,Holocene_bulk,20,12,1.5,0.13242,7,AT12-2_7,pre_exp
+Caribbean,Bocas del Toro,AT12-2,.,AT12-2-2,Sunset Point,Holocene_bulk,20,53,1.1,0.029,2,AT12-2_2,pre_exp
+Caribbean,Bocas del Toro,AT12-2,.,AT12-2-3,Sunset Point,Holocene_bulk,20,132,0.85,0.05566,3,AT12-2_3,pre_exp
+Caribbean,Bocas del Toro,AT12-2,.,AT12-2-4,Sunset Point,Holocene_bulk,20,89,0.9,0.05891,4,AT12-2_4,pre_exp
+Caribbean,Bocas del Toro,AT12-2,.,AT12-2-5,Sunset Point,Holocene_bulk,20,78,0.85,0.14546,5,AT12-2_5,pre_exp
+Caribbean,Bocas del Toro,AT12-2,.,AT12-2-6,Sunset Point,Holocene_bulk,20,12,1.2,0.11762,6,AT12-2_6,pre_exp
+Caribbean,Bocas del Toro,AT12-2,.,AT12-2-7,Sunset Point,Holocene_bulk,20,15,1.15,0.10883,6,AT12-2_6,pre_exp
+Caribbean,Bocas del Toro,AT12-2,.,AT12-2-9,Sunset Point,Holocene_bulk,20,4,1.05,0.11992,7,AT12-2_7,pre_exp
+Caribbean,Bocas del Toro,AT12-3,.,AT12-3-1-1,Playa Estrella,modern_bulk,.,13,0.9,0.03255,1,AT12-3_1,modern
+Caribbean,Bocas del Toro,AT12-3,.,AT12-3-2-1,Playa Estrella,modern_bulk,.,124,0.95,0.19737,2,AT12-3_2,modern
+Caribbean,Bocas del Toro,AT12-3,.,AT12-3-3-1,Playa Estrella,modern_bulk,.,269,0.9,0.16892,3,AT12-3_3,modern
+Caribbean,Bocas del Toro,AT12-3,.,AT12-3-3-2,Playa Estrella,modern_bulk,.,1,0.8,.,3,AT12-3_3,modern
+Caribbean,Bocas del Toro,AT12-4,.,AT12-4-1-1,SW Bocas Island,modern_bulk,.,5,1.05,0.33829,1,AT12-4_1,modern
+Caribbean,Bocas del Toro,AT12-4,.,AT12-4-2-1,SW Bocas Island,modern_bulk,.,37,1.25,0.42226,1,AT12-4_1,modern
+Caribbean,Bocas del Toro,AT12-4,.,AT12-4-2-2,SW Bocas Island,modern_bulk,.,2,1.3,0.83397,1,AT12-4_1,modern
+Caribbean,Bocas del Toro,AT12-4,.,AT12-4-3-1,SW Bocas Island,modern_bulk,.,48,1.3,0.28267,2,AT12-4_2,modern
+Caribbean,Bocas del Toro,AT12-4,.,AT12-4-3-2,SW Bocas Island,modern_bulk,.,2,1.15,0.402436688,2,AT12-4_2,modern
+Caribbean,Bocas del Toro,AT12-4,.,AT12-4-4-1,SW Bocas Island,modern_bulk,.,1,1.1,0.36709,3,AT12-4_3,modern
+Caribbean,Bocas del Toro,AT12-4,.,AT12-4-4-2,SW Bocas Island,modern_bulk,.,52,1.15,0.28406,3,AT12-4_3,modern
+Caribbean,Bocas del Toro,AT12-4,.,AT12-4-5-2,SW Bocas Island,modern_bulk,.,3,1.1,0.384939441,3,AT12-4_3,modern
+Caribbean,Bocas del Toro,AT13-10,.,AT13-10-1-1,Punta Caracol,modern_bulk,.,26,0.6473,0.26303,1,AT13-10_1,modern
+Caribbean,Bocas del Toro,AT13-10,.,AT13-10-1-2,Punta Caracol,modern_bulk,.,21,0.9095,0.37675,2,AT13-10_2,modern
+Caribbean,Bocas del Toro,AT13-10,.,AT13-10-2-1,Punta Caracol,modern_bulk,.,18,0.6821,0.27105,3,AT13-10_3,modern
+Caribbean,Bocas del Toro,AT13-10,.,AT13-10-2-2,Punta Caracol,modern_bulk,.,7,0.6996,0.33569,3,AT13-10_3,modern
+Caribbean,Bocas del Toro,AT13-10,.,AT13-10-3-1,Punta Caracol,modern_bulk,.,23,0.6704,0.31716,4,AT13-10_4,modern
+Caribbean,Bocas del Toro,AT13-10,.,AT13-10-3-2,Punta Caracol,modern_bulk,.,38,0.6716,0.31048,5,AT13-10_5,modern
+Caribbean,Bocas del Toro,AT13-10,.,AT13-10-4-1,Punta Caracol,modern_bulk,.,27,0.7088,0.33121,6,AT13-10_6,modern
+Caribbean,Bocas del Toro,AT13-10,.,AT13-10-4-2,Punta Caracol,modern_bulk,.,21,0.7047,0.29614,7,AT13-10_7,modern
+Caribbean,Bocas del Toro,AT13-10,.,AT13-10-5-1,Punta Caracol,modern_bulk,.,14,0.5594,0.20766,8,AT13-10_8,modern
+Caribbean,Bocas del Toro,AT13-10,.,AT13-10-5-2,Punta Caracol,modern_bulk,.,20,0.7013,0.35729,9,AT13-10_9,modern
+Caribbean,Bocas del Toro,AT13-11,.,AT13-11-1-1,Crawl Cay,modern_bulk,.,3,0.4153,0.09181,1,AT13-11_1,modern
+Caribbean,Bocas del Toro,AT13-11,.,AT13-11-2-1,Crawl Cay,modern_bulk,.,13,0.4023,0.12526,1,AT13-11_1,modern
+Caribbean,Bocas del Toro,AT13-11,.,AT13-11-3-1,Crawl Cay,modern_bulk,.,5,0.4373,0.12953,1,AT13-11_1,modern
+Caribbean,Bocas del Toro,AT13-12,.,AT13-12-1-1,Casa Blanca,modern_bulk,54.3,44,0.5786,0.22898,1,AT13-12_1,modern
+Caribbean,Bocas del Toro,AT13-12,.,AT13-12-1-2,Casa Blanca,modern_bulk,54.3,38,0.6281,0.29472,2,AT13-12_2,modern
+Caribbean,Bocas del Toro,AT13-12,.,AT13-12-2-1,Casa Blanca,modern_bulk,54.3,34,0.6656,0.27994,3,AT13-12_3,modern
+Caribbean,Bocas del Toro,AT13-12,.,AT13-12-2-2,Casa Blanca,modern_bulk,54.3,40,0.6317,0.27237,4,AT13-12_4,modern
+Caribbean,Bocas del Toro,AT13-12,.,AT13-12-3-1,Casa Blanca,modern_bulk,54.3,38,0.582,0.26412,5,AT13-12_5,modern
+Caribbean,Bocas del Toro,AT13-12,.,AT13-12-3-2,Casa Blanca,modern_bulk,54.3,57,0.6298,0.33171,6,AT13-12_6,modern
+Caribbean,Bocas del Toro,AT13-12,.,AT13-12-4-1,Casa Blanca,modern_bulk,54.3,73,0.5885,0.28469,7,AT13-12_7,modern
+Caribbean,Bocas del Toro,AT13-12,.,AT13-12-4-2,Casa Blanca,modern_bulk,54.3,48,0.6922,0.28791,8,AT13-12_8,modern
+Caribbean,Bocas del Toro,AT13-2,.,AT13-2-1,Sweet Bocas Trench 1,Holocene_bulk,20,7,0.65,0.18316,1,AT13-2_1,pre_exp
+Caribbean,Bocas del Toro,AT13-2,.,AT13-2-10,Sweet Bocas Trench 1,Holocene_bulk,20,8,0.7,0.20235,1,AT13-2_1,pre_exp
+Caribbean,Bocas del Toro,AT13-2,.,AT13-2-8,Sweet Bocas Trench 1,Holocene_bulk,20,9,0.6,0.211,2,AT13-2_2,pre_exp
+Caribbean,Bocas del Toro,AT13-2,.,AT13-2-9,Sweet Bocas Trench 1,Holocene_bulk,20,2,0.65,0.16508,2,AT13-2_2,pre_exp
+Caribbean,Bocas del Toro,AT13-3,.,AT13-3-10,Sweet Bocas Trench 2,Holocene_bulk,20,13,0.5,0.22852,1,AT13-3_1,pre_exp
+Caribbean,Bocas del Toro,AT13-3,.,AT13-3-11,Sweet Bocas Trench 2,Holocene_bulk,20,4,0.6,0.14227,1,AT13-3_1,pre_exp
+Caribbean,Bocas del Toro,AT13-3,.,AT13-3-12,Sweet Bocas Trench 2,Holocene_bulk,20,5,0.75,0.14146,1,AT13-3_1,pre_exp
+Caribbean,Bocas del Toro,AT13-3,.,AT13-3-13,Sweet Bocas Trench 2,Holocene_bulk,20,12,0.95,0.19035,2,AT13-3_2,pre_exp
+Caribbean,Bocas del Toro,AT13-3,.,AT13-3-14,Sweet Bocas Trench 2,Holocene_bulk,20,7,0.6,0.13263,2,AT13-3_2,pre_exp
+Caribbean,Bocas del Toro,AT13-4,.,AT13-4-2,Sweet Bocas Trench 3,Holocene_bulk,20,28,0.4,0.02926,1,AT13-4_1,pre_exp
+Caribbean,Bocas del Toro,AT13-4,.,AT13-4-3,Sweet Bocas Trench 3,Holocene_bulk,20,167,0.6,0.06838,2,AT13-4_2,pre_exp
+Caribbean,Bocas del Toro,AT13-4,.,AT13-4-4,Sweet Bocas Trench 3,Holocene_bulk,20,1,0.6,0.09913,1,AT13-4_1,pre_exp
+Caribbean,Bocas del Toro,AT13-4,.,AT13-4-5,Sweet Bocas Trench 3,Holocene_bulk,20,2,0.6,0.0807,1,AT13-4_1,pre_exp
+Caribbean,Bocas del Toro,AT13-4,.,AT13-4-6,Sweet Bocas Trench 3,Holocene_bulk,20,3,0.4,0.03634,1,AT13-4_1,pre_exp
+Caribbean,Bocas del Toro,AT13-5,.,AT13-5-1,Sweet Bocas Trench 4,Holocene_bulk,20,3,0.55,0.13887,1,AT13-5_1,pre_exp
+Caribbean,Bocas del Toro,AT13-5,.,AT13-5-2,Sweet Bocas Trench 4,Holocene_bulk,20,0,0.75,0.184581818,1,AT13-5_1,pre_exp
+Caribbean,Bocas del Toro,AT13-5,.,AT13-5-3,Sweet Bocas Trench 4,Holocene_bulk,20,2,0.55,0.13185,1,AT13-5_1,pre_exp
+Caribbean,Bocas del Toro,AT13-6,.,AT13-6-1,Sweet Bocas Trench 5,Holocene_bulk,20,9,0.6,0.14335,1,AT13-6_1,pre_exp
+Caribbean,Bocas del Toro,AT13-6,.,AT13-6-2,Sweet Bocas Trench 5,Holocene_bulk,20,1,0.6,0.1846,1,AT13-6_1,pre_exp
+Caribbean,Bocas del Toro,AT13-6,.,AT13-6-3,Sweet Bocas Trench 5,Holocene_bulk,20,8,0.6,0.19434,1,AT13-6_1,pre_exp
+Caribbean,Bocas del Toro,AT13-6,.,AT13-6-6,Sweet Bocas Trench 5,Holocene_bulk,20,3,0.4,0.0741,1,AT13-6_1,pre_exp
+Caribbean,Bocas del Toro,AT13-7,.,AT13-7-1,Sweet Bocas Trench 6,Holocene_bulk,20,13,0.55,0.17862,1,AT13-7_1,pre_exp
+Caribbean,Bocas del Toro,AT13-7,.,AT13-7-2,Sweet Bocas Trench 6,Holocene_bulk,20,18,0.55,0.16704,2,AT13-7_2,pre_exp
+Caribbean,Bocas del Toro,AT13-7,.,AT13-7-3,Sweet Bocas Trench 6,Holocene_bulk,20,18,0.6,0.13949,3,AT13-7_3,pre_exp
+Caribbean,Bocas del Toro,AT13-7,.,AT13-7-4,Sweet Bocas Trench 6,Holocene_bulk,20,94,0.65,0.18724,4,AT13-7_4,pre_exp
+Caribbean,Bocas del Toro,AT13-7,.,AT13-7-5,Sweet Bocas Trench 6,Holocene_bulk,20,328,0.6,0.19617,5,AT13-7_5,pre_exp
+Caribbean,Bocas del Toro,AT13-7,.,AT13-7-6,Sweet Bocas Trench 6,Holocene_bulk,20,255,0.65,0.15817,6,AT13-7_6,pre_exp
+Caribbean,Bocas del Toro,AT13-7,.,AT13-7-7,Sweet Bocas Trench 6,Holocene_bulk,20,292,0.6,0.17684,7,AT13-7_7,pre_exp
+Caribbean,Bocas del Toro,AT13-7,.,AT13-7-8,Sweet Bocas Trench 6,Holocene_bulk,20,17,0.6,0.04407,8,AT13-7_8,pre_exp
+Caribbean,Bocas del Toro,AT13-7,.,AT13-7-9,Sweet Bocas Trench 6,Holocene_bulk,20,1,0.45,0.00559,8,AT13-7_8,pre_exp
+Caribbean,Bocas del Toro,AT13-8,.,AT13-8-1,Sweet Bocas Trench 7,Holocene_bulk,20,7,0.65,0.13863,1,AT13-8_1,pre_exp
+Caribbean,Bocas del Toro,AT13-8,.,AT13-8-2,Sweet Bocas Trench 7,Holocene_bulk,20,7,0.6,0.13529,1,AT13-8_1,pre_exp
+Caribbean,Bocas del Toro,AT13-9,.,AT13-9-1,Sweet Bocas Trench 8,Holocene_bulk,20,19,0.8,0.08838,1,AT13-9_1,pre_exp
+Caribbean,Bocas del Toro,AT13-9,.,AT13-9-2,Sweet Bocas Trench 8,Holocene_bulk,20,7,0.5,0.0566,1,AT13-9_1,pre_exp
+Caribbean,Bocas del Toro,AT14-10,.,AT14-10-1,Sweet Bocas SE Face,Holocene_bulk,20,13,0.5584,0.135993,1,AT14-10_1,pre_exp
+Caribbean,Bocas del Toro,AT14-10,.,AT14-10-2,Sweet Bocas SE Face,Holocene_bulk,20,9,0.5324,0.126992,2,AT14-10_2,pre_exp
+Caribbean,Bocas del Toro,AT14-10,.,AT14-10-3,Sweet Bocas SE Face,Holocene_bulk,20,12,0.5128,0.168592,2,AT14-10_2,pre_exp
+Caribbean,Bocas del Toro,AT14-11,.,AT14-11-1,Sweet Bocas SE Face,Holocene_bulk,20,1,0.50105,0.113417,1,AT14-11_1,pre_exp
+Caribbean,Bocas del Toro,AT14-11,.,AT14-11-2,Sweet Bocas SE Face,Holocene_bulk,20,0,0.4543,0.081919,1,AT14-11_1,pre_exp
+Caribbean,Bocas del Toro,AT14-11,.,AT14-11-3,Sweet Bocas SE Face,Holocene_bulk,20,4,0.5395,0.0975,1,AT14-11_1,pre_exp
+Caribbean,Bocas del Toro,AT14-1,.,AT14-1-1,Casa Blanca new,modern_bulk,54.3,39,0.6604,0.235586,1,AT14-1_1,modern
+Caribbean,Bocas del Toro,AT14-1,.,AT14-1-2,Casa Blanca new,modern_bulk,54.3,102,0.58385,0.255748,2,AT14-1_2,modern
+Caribbean,Bocas del Toro,AT14-1,.,AT14-1-3,Casa Blanca new,modern_bulk,54.3,95,0.6843,0.177701,3,AT14-1_3,modern
+Caribbean,Bocas del Toro,AT14-1,.,AT14-1-5,Casa Blanca new,modern_bulk,54.3,23,0.4014,0.093953,4,AT14-1_4,modern
+Caribbean,Bocas del Toro,AT14-1,.,AT14-1-7,Casa Blanca new,modern_bulk,54.3,58,0.6442,0.178184,5,AT14-1_5,modern
+Caribbean,Bocas del Toro,AT14-1,.,AT14-1-8,Casa Blanca new,modern_bulk,54.3,63,0.6334,0.186586,6,AT14-1_6,modern
+Caribbean,Bocas del Toro,AT14-2,.,AT14-2-1,Punta Donato,modern_bulk,65.3,39,0.6472,0.126321,1,AT14-2_1,modern
+Caribbean,Bocas del Toro,AT14-2,.,AT14-2-2,Punta Donato,modern_bulk,65.3,17,0.5441,0.085008,2,AT14-2_2,modern
+Caribbean,Bocas del Toro,AT14-2,.,AT14-2-4,Punta Donato,modern_bulk,65.3,30,0.5598,0.074169,3,AT14-2_3,modern
+Caribbean,Bocas del Toro,AT14-2,.,AT14-2-5,Punta Donato,modern_bulk,65.3,28,0.6014,0.121947,4,AT14-2_4,modern
+Caribbean,Bocas del Toro,AT14-3,.,AT14-3-1,Cayo Adriana,modern_bulk,356.3,23,0.5189,0.193504,1,AT14-3_1,modern
+Caribbean,Bocas del Toro,AT14-3,.,AT14-3-2,Cayo Adriana,modern_bulk,356.3,7,0.4314,0.078406,1,AT14-3_1,modern
+Caribbean,Bocas del Toro,AT14-3,.,AT14-3-3,Cayo Adriana,modern_bulk,356.3,34,0.5768,0.195697,2,AT14-3_2,modern
+Caribbean,Bocas del Toro,AT14-3,.,AT14-3-4,Cayo Adriana,modern_bulk,356.3,27,0.625,0.207246,3,AT14-3_3,modern
+Caribbean,Bocas del Toro,AT14-3,.,AT14-3-5,Cayo Adriana,modern_bulk,356.3,60,0.6827,0.279638,4,AT14-3_4,modern
+Caribbean,Bocas del Toro,AT14-3,.,AT14-3-6,Cayo Adriana,modern_bulk,356.3,40,0.6877,0.31401,5,AT14-3_5,modern
+Caribbean,Bocas del Toro,AT14-4,.,AT14-4-1,Airport Point,modern_bulk,.,31,0.4467,0.131869,1,AT14-4_1,modern
+Caribbean,Bocas del Toro,AT14-4,.,AT14-4-2,Airport Point,modern_bulk,.,35,0.535,0.13061,2,AT14-4_2,modern
+Caribbean,Bocas del Toro,AT14-4,.,AT14-4-3,Airport Point,modern_bulk,.,56,0.604,0.181854,3,AT14-4_3,modern
+Caribbean,Bocas del Toro,AT14-4,.,AT14-4-4,Airport Point,modern_bulk,.,61,0.5557,0.175348,4,AT14-4_4,modern
+Caribbean,Bocas del Toro,AT14-4,.,AT14-4-5,Airport Point,modern_bulk,.,44,0.5742,0.151667,5,AT14-4_5,modern
+Caribbean,Bocas del Toro,AT14-4,.,AT14-4-6,Airport Point,modern_bulk,.,37,0.5891,0.162548,6,AT14-4_6,modern
+Caribbean,Bocas del Toro,AT14-5,.,AT14-5-1,Sweet Bocas SE Face,Holocene_bulk,20,1,0.5442,0.100525,1,AT14-5_1,pre_exp
+Caribbean,Bocas del Toro,AT14-5,.,AT14-5-2,Sweet Bocas SE Face,Holocene_bulk,20,3,0.4309,0.073918,1,AT14-5_1,pre_exp
+Caribbean,Bocas del Toro,AT14-5,.,AT14-5-3,Sweet Bocas SE Face,Holocene_bulk,20,3,0.4393,0.103568,1,AT14-5_1,pre_exp
+Caribbean,Bocas del Toro,AT14-6,.,AT14-6-1,Sweet Bocas SE Face,Holocene_bulk,20,6,0.563,0.132093,1,AT14-6_1,pre_exp
+Caribbean,Bocas del Toro,AT14-6,.,AT14-6-2,Sweet Bocas SE Face,Holocene_bulk,20,1,0.6379,0.142345,1,AT14-6_1,pre_exp
+Caribbean,Bocas del Toro,AT14-6,.,AT14-6-3,Sweet Bocas SE Face,Holocene_bulk,20,8,0.6066,0.136416,1,AT14-6_1,pre_exp
+Caribbean,Bocas del Toro,AT14-7,.,AT14-7-1,Sweet Bocas SE Face,Holocene_bulk,20,4,0.5221,0.131628,1,AT14-7_1,pre_exp
+Caribbean,Bocas del Toro,AT14-7,.,AT14-7-2,Sweet Bocas SE Face,Holocene_bulk,20,2,0.5237,0.076114,1,AT14-7_1,pre_exp
+Caribbean,Bocas del Toro,AT14-7,.,AT14-7-3,Sweet Bocas SE Face,Holocene_bulk,20,3,0.4433,0.088157,1,AT14-7_1,pre_exp
+Caribbean,Bocas del Toro,AT14-9,.,AT14-9-1,Sweet Bocas SE Face,Holocene_bulk,20,18,0.4646,0.100533,1,AT14-9_1,pre_exp
+Caribbean,Bocas del Toro,AT14-9,.,AT14-9-2,Sweet Bocas SE Face,Holocene_bulk,20,5,0.6022,0.104355,2,AT14-9_2,pre_exp
+Caribbean,Bocas del Toro,AT14-9,.,AT14-9-3,Sweet Bocas SE Face,Holocene_bulk,20,13,0.5371,0.114332,2,AT14-9_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,5,BF18-1-11-5,Contadora,core,.,0,0.16391,0.01211,1,BF18-1-11_1,modern
+Pacific,Gulf of Panama,BF18-1-11,10,BF18-1-11-10,Contadora,core,.,.,0.23033,.,1,BF18-1-11_1,modern
+Pacific,Gulf of Panama,BF18-1-11,15,BF18-1-11-15,Contadora,core,.,.,0.2918,.,1,BF18-1-11_1,modern
+Pacific,Gulf of Panama,BF18-1-11,20,BF18-1-11-20,Contadora,core,.,3,0.29427,0.08379,1,BF18-1-11_1,modern
+Pacific,Gulf of Panama,BF18-1-11,25,BF18-1-11-25,Contadora,core,.,.,0.31929,.,1,BF18-1-11_1,modern
+Pacific,Gulf of Panama,BF18-1-11,30,BF18-1-11-30,Contadora,core,.,.,0.30278,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,35,BF18-1-11-35,Contadora,core,.,3,0.31098,0.0795,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,40,BF18-1-11-40,Contadora,core,.,.,0.3,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,45,BF18-1-11-45,Contadora,core,.,.,0.27797,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,50,BF18-1-11-50,Contadora,core,.,1,0.28933,0.08208,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,55,BF18-1-11-55,Contadora,core,.,.,0.30607,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,60,BF18-1-11-60,Contadora,core,.,.,0.28057,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,66,BF18-1-11-66,Contadora,core,.,3,0.3231,0.09024,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,71,BF18-1-11-71,Contadora,core,.,.,0.30658,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,76,BF18-1-11-76,Contadora,core,.,.,0.30787,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,81,BF18-1-11-81,Contadora,core,.,1,0.15327,0.04217,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,86,BF18-1-11-86,Contadora,core,.,.,0.30873,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,91,BF18-1-11-91,Contadora,core,.,.,0.32469,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,96,BF18-1-11-96,Contadora,core,.,8,0.28241,0.09161,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,101,BF18-1-11-101,Contadora,core,.,.,0.27863,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,106,BF18-1-11-106,Contadora,core,.,.,0.27871,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,111,BF18-1-11-111,Contadora,core,.,5,0.12292,0.07294,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,116,BF18-1-11-116,Contadora,core,.,.,0.26872,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,121,BF18-1-11-121,Contadora,core,.,.,0.33867,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,126,BF18-1-11-126,Contadora,core,.,8,0.34691,0.10379,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,131,BF18-1-11-131,Contadora,core,.,.,0.31732,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,136,BF18-1-11-136,Contadora,core,.,.,0.31929,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,141,BF18-1-11-141,Contadora,core,.,4,0.31251,0.08458,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,146,BF18-1-11-146,Contadora,core,.,.,0.33073,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,151,BF18-1-11-151,Contadora,core,.,.,0.29291,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,156,BF18-1-11-156,Contadora,core,.,1,0.13994,0.0362,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,161,BF18-1-11-161,Contadora,core,.,.,0.29779,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,166,BF18-1-11-166,Contadora,core,.,.,0.33,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,171,BF18-1-11-171,Contadora,core,.,6,0.27874,0.0888,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,176,BF18-1-11-176,Contadora,core,.,.,0.2695,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,181,BF18-1-11-181,Contadora,core,.,.,0.2849,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,186,BF18-1-11-186,Contadora,core,.,12,0.28086,0.09091,.,.,.
+Pacific,Gulf of Panama,BF18-1-11,191,BF18-1-11-191,Contadora,core,.,.,0.27605,.,2,BF18-1-11_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,196,BF18-1-11-196,Contadora,core,.,.,0.31704,.,2,BF18-1-11_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,201,BF18-1-11-201,Contadora,core,.,10,0.26957,0.09337,2,BF18-1-11_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,206,BF18-1-11-206,Contadora,core,.,.,0.2848,.,2,BF18-1-11_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,211,BF18-1-11-211,Contadora,core,.,.,0.33804,.,2,BF18-1-11_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,216,BF18-1-11-216,Contadora,core,.,7,0.29876,0.08588,2,BF18-1-11_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,221,BF18-1-11-221,Contadora,core,.,.,0.3229,.,2,BF18-1-11_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,226,BF18-1-11-226,Contadora,core,.,.,0.26783,.,2,BF18-1-11_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,231,BF18-1-11-231,Contadora,core,.,7,0.31804,0.10458,2,BF18-1-11_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,236,BF18-1-11-236,Contadora,core,.,.,0.28898,.,3,BF18-1-11_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,241,BF18-1-11-241,Contadora,core,.,.,0.3122,.,3,BF18-1-11_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,246,BF18-1-11-246,Contadora,core,.,3,0.29353,0.08041,3,BF18-1-11_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,251,BF18-1-11-251,Contadora,core,.,.,0.292,.,3,BF18-1-11_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,256,BF18-1-11-256,Contadora,core,.,.,0.30356,.,3,BF18-1-11_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,261,BF18-1-11-261,Contadora,core,.,7,0.30785,0.08747,3,BF18-1-11_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,266,BF18-1-11-266,Contadora,core,.,.,0.33933,.,3,BF18-1-11_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,271,BF18-1-11-271,Contadora,core,.,.,0.22796,.,3,BF18-1-11_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,276,BF18-1-11-276,Contadora,core,.,6,0.14505,0.0594,3,BF18-1-11_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,281,BF18-1-11-281,Contadora,core,.,.,0.25657,.,4,BF18-1-11_4,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,286,BF18-1-11-286,Contadora,core,.,.,0.32531,.,4,BF18-1-11_4,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,291,BF18-1-11-291,Contadora,core,.,12,0.25551,0.08688,4,BF18-1-11_4,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,296,BF18-1-11-296,Contadora,core,.,.,0.30568,.,4,BF18-1-11_4,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,301,BF18-1-11-301,Contadora,core,.,.,0.30752,.,4,BF18-1-11_4,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,306,BF18-1-11-306,Contadora,core,.,13,0.26891,0.08111,4,BF18-1-11_4,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,311,BF18-1-11-311,Contadora,core,.,.,0.33119,.,4,BF18-1-11_4,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,316,BF18-1-11-316,Contadora,core,.,.,0.27767,.,4,BF18-1-11_4,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,321,BF18-1-11-321,Contadora,core,.,11,0.18332,0.04929,4,BF18-1-11_4,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,326,BF18-1-11-326,Contadora,core,.,.,0.23835,.,5,BF18-1-11_5,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,331,BF18-1-11-331,Contadora,core,.,.,0.29657,.,5,BF18-1-11_5,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,336,BF18-1-11-336,Contadora,core,.,14,0.29977,0.07923,5,BF18-1-11_5,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,341,BF18-1-11-341,Contadora,core,.,.,0.28185,.,5,BF18-1-11_5,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,346,BF18-1-11-346,Contadora,core,.,.,0.3158,.,5,BF18-1-11_5,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,351,BF18-1-11-351,Contadora,core,.,3,0.15435,0.03413,5,BF18-1-11_5,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,356,BF18-1-11-356,Contadora,core,.,.,0.30756,.,5,BF18-1-11_5,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,361,BF18-1-11-361,Contadora,core,.,.,0.28952,.,5,BF18-1-11_5,pre_exp
+Pacific,Gulf of Panama,BF18-1-11,366,BF18-1-11-366,Contadora,core,.,13,0.27278,0.06835,5,BF18-1-11_5,pre_exp
+Pacific,Gulf of Panama,BF18-1-12,5,BF18-1-12-5,Contadora,core,.,0,0.15943,0.00331,1,BF18-1-12_1,modern
+Pacific,Gulf of Panama,BF18-1-12,11,BF18-1-12-11,Contadora,core,.,0,0.22598,0.02531,1,BF18-1-12_1,modern
+Pacific,Gulf of Panama,BF18-1-12,15,BF18-1-12-15,Contadora,core,.,2,0.20039,0.0396,1,BF18-1-12_1,modern
+Pacific,Gulf of Panama,BF18-1-12,20,BF18-1-12-20,Contadora,core,.,1,0.26526,0.06479,1,BF18-1-12_1,modern
+Pacific,Gulf of Panama,BF18-1-12,25,BF18-1-12-25,Contadora,core,.,8,0.31031,0.06504,1,BF18-1-12_1,modern
+Pacific,Gulf of Panama,BF18-1-12,30,BF18-1-12-30,Contadora,core,.,5,0.32292,0.08058,2,BF18-1-12_2,modern
+Pacific,Gulf of Panama,BF18-1-12,35,BF18-1-12-35,Contadora,core,.,5,0.28143,0.07936,2,BF18-1-12_2,modern
+Pacific,Gulf of Panama,BF18-1-12,40,BF18-1-12-40,Contadora,core,.,5,0.41376,0.10816,2,BF18-1-12_2,modern
+Pacific,Gulf of Panama,BF18-1-12,45,BF18-1-12-45,Contadora,core,.,2,0.26778,0.07312,2,BF18-1-12_2,modern
+Pacific,Gulf of Panama,BF18-1-12,50,BF18-1-12-50,Contadora,core,.,2,0.31307,0.09736,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,55,BF18-1-12-55,Contadora,core,.,3,0.29961,0.09197,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,60,BF18-1-12-60,Contadora,core,.,4,0.32914,0.08786,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,65,BF18-1-12-65,Contadora,core,.,4,0.31904,0.08169,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,70,BF18-1-12-70,Contadora,core,.,5,0.26741,0.06917,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,75,BF18-1-12-75,Contadora,core,.,0,0.31806,0.07009,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,80,BF18-1-12-80,Contadora,core,.,7,0.299,0.07208,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,85,BF18-1-12-85,Contadora,core,.,0,0.30703,0.07739,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,90,BF18-1-12-90,Contadora,core,.,2,0.30186,0.07576,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,95,BF18-1-12-95,Contadora,core,.,4,0.34017,0.08806,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,100,BF18-1-12-100,Contadora,core,.,12,0.31419,0.07327,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,105,BF18-1-12-105,Contadora,core,.,2,0.2952,0.08023,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,110,BF18-1-12-110,Contadora,core,.,10,0.28475,0.08502,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,115,BF18-1-12-115,Contadora,core,.,7,0.29545,0.06707,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,120,BF18-1-12-120,Contadora,core,.,7,0.28738,0.09627,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,125,BF18-1-12-125,Contadora,core,.,8,0.30867,0.10465,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,130,BF18-1-12-130,Contadora,core,.,8,0.30616,0.09179,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,135,BF18-1-12-135,Contadora,core,.,5,0.29673,0.08337,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,139,BF18-1-12-139,Contadora,core,.,14,0.27471,0.07979,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,144,BF18-1-12-144,Contadora,core,.,19,0.35606,0.0962,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,149,BF18-1-12-149,Contadora,core,.,7,0.29749,0.09608,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,154,BF18-1-12-154,Contadora,core,.,12,0.32333,0.10932,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,159,BF18-1-12-159,Contadora,core,.,8,0.33175,0.10225,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,164,BF18-1-12-164,Contadora,core,.,7,0.34137,0.10558,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,169,BF18-1-12-169,Contadora,core,.,11,0.3094,0.06841,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,174,BF18-1-12-174,Contadora,core,.,4,0.31246,0.07847,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,179,BF18-1-12-179,Contadora,core,.,5,0.34093,0.09741,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,184,BF18-1-12-184,Contadora,core,.,23,0.33694,0.10931,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,189,BF18-1-12-189,Contadora,core,.,14,0.33826,0.10702,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,194,BF18-1-12-194,Contadora,core,.,12,0.29352,0.09605,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,199,BF18-1-12-199,Contadora,core,.,10,0.33685,0.08513,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,204,BF18-1-12-204,Contadora,core,.,5,0.30993,0.07731,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,209,BF18-1-12-209,Contadora,core,.,16,0.35633,0.1037,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,214,BF18-1-12-214,Contadora,core,.,25,0.32503,0.10014,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,219,BF18-1-12-219,Contadora,core,.,15,0.35464,0.09105,.,.,.
+Pacific,Gulf of Panama,BF18-1-12,224,BF18-1-12-224,Contadora,core,.,12,0.37243,0.10243,3,BF18-1-12_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-12,229,BF18-1-12-229,Contadora,core,.,7,0.3296,0.08627,3,BF18-1-12_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-12,234,BF18-1-12-234,Contadora,core,.,4,0.33851,0.08362,4,BF18-1-12_4,pre_exp
+Pacific,Gulf of Panama,BF18-1-12,239,BF18-1-12-239,Contadora,core,.,9,0.33637,0.10361,4,BF18-1-12_4,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,5,BF18-1-13-5,Contadora,core,.,0,0.14837,0.01814,1,BF18-1-11_1,modern
+Pacific,Gulf of Panama,BF18-1-13,10,BF18-1-13-10,Contadora,core,.,.,0.2358,.,1,BF18-1-11_1,modern
+Pacific,Gulf of Panama,BF18-1-13,15,BF18-1-13-15,Contadora,core,.,.,0.29093,.,1,BF18-1-11_1,modern
+Pacific,Gulf of Panama,BF18-1-13,20,BF18-1-13-20,Contadora,core,.,4,0.24985,0.04733,1,BF18-1-11_1,modern
+Pacific,Gulf of Panama,BF18-1-13,25,BF18-1-13-25,Contadora,core,.,.,0.25794,.,1,BF18-1-11_1,modern
+Pacific,Gulf of Panama,BF18-1-13,30,BF18-1-13-30,Contadora,core,.,.,0.3031,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,35,BF18-1-13-35,Contadora,core,.,0,0.29215,0.04834,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,40,BF18-1-13-40,Contadora,core,.,.,0.31816,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,45,BF18-1-13-45,Contadora,core,.,.,0.30583,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,50,BF18-1-13-50,Contadora,core,.,3,0.32595,0.08023,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,55,BF18-1-13-55,Contadora,core,.,.,0.26462,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,60,BF18-1-13-60,Contadora,core,.,.,0.30166,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,65,BF18-1-13-65,Contadora,core,.,1,0.28259,0.06553,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,70,BF18-1-13-70,Contadora,core,.,.,0.2819,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,75,BF18-1-13-75,Contadora,core,.,.,0.27514,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,80,BF18-1-13-80,Contadora,core,.,1,0.293,0.055,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,85,BF18-1-13-85,Contadora,core,.,.,0.21421,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,90,BF18-1-13-90,Contadora,core,.,.,0.23154,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,95,BF18-1-13-95,Contadora,core,.,2,0.24677,0.06261,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,100,BF18-1-13-100,Contadora,core,.,.,0.213,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,105,BF18-1-13-105,Contadora,core,.,.,0.172,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,110,BF18-1-13-110,Contadora,core,.,5,0.23829,0.05785,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,115,BF18-1-13-115,Contadora,core,.,.,0.2304,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,120,BF18-1-13-120,Contadora,core,.,.,0.24474,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,125,BF18-1-13-125,Contadora,core,.,1,0.26946,0.06856,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,130,BF18-1-13-130,Contadora,core,.,.,0.26464,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,135,BF18-1-13-135,Contadora,core,.,.,0.3069,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,140,BF18-1-13-140,Contadora,core,.,0,0.27457,0.06981,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,145,BF18-1-13-145,Contadora,core,.,.,0.28586,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,150,BF18-1-13-150,Contadora,core,.,.,0.25511,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,155,BF18-1-13-155,Contadora,core,.,6,0.32118,0.08739,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,160,BF18-1-13-160,Contadora,core,.,.,0.27985,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,165,BF18-1-13-165,Contadora,core,.,.,0.27041,.,.,.,.
+Pacific,Gulf of Panama,BF18-1-13,170,BF18-1-13-170,Contadora,core,.,6,0.29808,0.07614,2,BF18-1-13_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,175,BF18-1-13-175,Contadora,core,.,.,0.31418,.,2,BF18-1-13_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,180,BF18-1-13-180,Contadora,core,.,.,0.31929,.,2,BF18-1-13_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,185,BF18-1-13-185,Contadora,core,.,1,0.29822,0.06254,2,BF18-1-13_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,190,BF18-1-13-190,Contadora,core,.,.,0.32059,.,2,BF18-1-13_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,195,BF18-1-13-195,Contadora,core,.,.,0.31211,.,2,BF18-1-13_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,200,BF18-1-13-200,Contadora,core,.,10,0.34281,0.07249,2,BF18-1-13_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,205,BF18-1-13-205,Contadora,core,.,.,0.34896,.,2,BF18-1-13_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,210,BF18-1-13-210,Contadora,core,.,.,0.30924,.,2,BF18-1-13_2,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,215,BF18-1-13-215,Contadora,core,.,6,0.32357,0.06468,3,BF18-1-13_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,220,BF18-1-13-220,Contadora,core,.,.,0.27204,.,3,BF18-1-13_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,225,BF18-1-13-225,Contadora,core,.,.,0.31221,.,3,BF18-1-13_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,230,BF18-1-13-230,Contadora,core,.,10,0.25096,0.08171,3,BF18-1-13_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,235,BF18-1-13-235,Contadora,core,.,.,0.2977,.,3,BF18-1-13_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,240,BF18-1-13-240,Contadora,core,.,.,0.28171,.,3,BF18-1-13_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,245,BF18-1-13-245,Contadora,core,.,6,0.27824,0.06246,3,BF18-1-13_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,250,BF18-1-13-250,Contadora,core,.,.,0.30372,.,3,BF18-1-13_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,255,BF18-1-13-255,Contadora,core,.,.,0.26824,.,3,BF18-1-13_3,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,260,BF18-1-13-260,Contadora,core,.,6,0.28617,0.07983,4,BF18-1-13_4,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,265,BF18-1-13-265,Contadora,core,.,.,0.28617,.,4,BF18-1-13_4,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,270,BF18-1-13-270,Contadora,core,.,.,0.29817,.,4,BF18-1-13_4,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,275,BF18-1-13-275,Contadora,core,.,15,0.31752,0.08369,4,BF18-1-13_4,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,280,BF18-1-13-280,Contadora,core,.,.,0.28694,.,4,BF18-1-13_4,pre_exp
+Pacific,Gulf of Panama,BF18-1-13,286,BF18-1-13-286,Contadora,core,.,.,0.21413,.,4,BF18-1-13_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,5,AT19-1-1-5,Saboga,core,.,0,0.23281,0.019266,1,AT19-1-1_1,modern
+Pacific,Gulf of Panama,AT19-1-1,10,AT19-1-1-10,Saboga,core,.,1,0.29162,0.039649,1,AT19-1-1_1,modern
+Pacific,Gulf of Panama,AT19-1-1,15,AT19-1-1-15,Saboga,core,.,0,0.26936,0.032041,1,AT19-1-1_1,modern
+Pacific,Gulf of Panama,AT19-1-1,20,AT19-1-1-20,Saboga,core,.,0,0.32332,0.039827,1,AT19-1-1_1,modern
+Pacific,Gulf of Panama,AT19-1-1,25,AT19-1-1-25,Saboga,core,.,1,0.31811,0.039895,1,AT19-1-1_1,modern
+Pacific,Gulf of Panama,AT19-1-1,30,AT19-1-1-30,Saboga,core,.,1,0.31114,0.042444,1,AT19-1-1_1,modern
+Pacific,Gulf of Panama,AT19-1-1,35,AT19-1-1-35,Saboga,core,.,2,0.29255,0.046021,1,AT19-1-1_1,modern
+Pacific,Gulf of Panama,AT19-1-1,40,AT19-1-1-40,Saboga,core,.,4,0.29888,0.066425,1,AT19-1-1_1,modern
+Pacific,Gulf of Panama,AT19-1-1,45,AT19-1-1-45,Saboga,core,.,1,0.22664,0.055532,1,AT19-1-1_1,modern
+Pacific,Gulf of Panama,AT19-1-1,50,AT19-1-1-50,Saboga,core,.,4,0.31887,0.074606,1,AT19-1-1_1,modern
+Pacific,Gulf of Panama,AT19-1-1,55,AT19-1-1-55,Saboga,core,.,1,0.26917,0.05265,1,AT19-1-1_1,modern
+Pacific,Gulf of Panama,AT19-1-1,60,AT19-1-1-60,Saboga,core,.,3,0.29992,0.054302,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,65,AT19-1-1-65,Saboga,core,.,6,0.32856,0.062988,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,70,AT19-1-1-70,Saboga,core,.,5,0.32333,0.06815,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,75,AT19-1-1-75,Saboga,core,.,1,0.30911,0.074509,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,80,AT19-1-1-80,Saboga,core,.,4,0.30217,0.078455,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,85,AT19-1-1-85,Saboga,core,.,0,0.25863,0.054683,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,90,AT19-1-1-90,Saboga,core,.,2,0.26932,0.05839,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,95,AT19-1-1-95,Saboga,core,.,1,0.25166,0.055005,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,100,AT19-1-1-100,Saboga,core,.,6,0.20196,0.040146,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,105,AT19-1-1-105,Saboga,core,.,0,0.27965,0.059011,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,110,AT19-1-1-110,Saboga,core,.,5,0.2602,0.064366,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,115,AT19-1-1-115,Saboga,core,.,0,0.27041,0.058319,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,120,AT19-1-1-120,Saboga,core,.,3,0.27712,0.053211,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,125,AT19-1-1-125,Saboga,core,.,1,0.26041,0.053958,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,130,AT19-1-1-130,Saboga,core,.,6,0.28762,0.054556,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,135,AT19-1-1-135,Saboga,core,.,3,0.28983,0.075535,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,140,AT19-1-1-140,Saboga,core,.,10,0.26964,0.071521,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,145,AT19-1-1-145,Saboga,core,.,3,0.29116,0.05797,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,150,AT19-1-1-150,Saboga,core,.,11,0.27077,0.077352,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,155,AT19-1-1-155,Saboga,core,.,7,0.24138,0.068996,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,160,AT19-1-1-160,Saboga,core,.,5,0.25249,0.067208,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,165,AT19-1-1-165,Saboga,core,.,7,0.28912,0.070338,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,170,AT19-1-1-170,Saboga,core,.,10,0.26864,0.070002,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,175,AT19-1-1-175,Saboga,core,.,4,0.24747,0.060061,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,180,AT19-1-1-180,Saboga,core,.,11,0.28221,0.060727,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,185,AT19-1-1-185,Saboga,core,.,7,0.2695,0.073538,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,190,AT19-1-1-190,Saboga,core,.,7,0.26787,0.075283,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,195,AT19-1-1-195,Saboga,core,.,7,0.27058,0.064268,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,200,AT19-1-1-200,Saboga,core,.,3,0.24482,0.048577,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,205,AT19-1-1-205,Saboga,core,.,7,0.23888,0.068188,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,210,AT19-1-1-210,Saboga,core,.,9,0.27638,0.084677,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,215,AT19-1-1-215,Saboga,core,.,11,0.28252,0.08127,.,.,.
+Pacific,Gulf of Panama,AT19-1-1,220,AT19-1-1-220,Saboga,core,.,7,0.2338,0.06602,2,AT19-1-1_2,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,225,AT19-1-1-225,Saboga,core,.,1,0.30509,0.064881,2,AT19-1-1_2,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,230,AT19-1-1-230,Saboga,core,.,7,0.24886,0.081734,2,AT19-1-1_2,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,235,AT19-1-1-235,Saboga,core,.,10,0.29319,0.063517,2,AT19-1-1_2,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,240,AT19-1-1-240,Saboga,core,.,4,0.26557,0.081381,2,AT19-1-1_2,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,245,AT19-1-1-245,Saboga,core,.,3,0.27605,0.084485,2,AT19-1-1_2,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,250,AT19-1-1-250,Saboga,core,.,8,0.26856,0.083889,3,AT19-1-1_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,255,AT19-1-1-255,Saboga,core,.,4,0.24253,0.081935,3,AT19-1-1_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,260,AT19-1-1-260,Saboga,core,.,6,0.23916,0.072706,3,AT19-1-1_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,265,AT19-1-1-265,Saboga,core,.,5,0.27193,0.082766,3,AT19-1-1_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,270,AT19-1-1-270,Saboga,core,.,7,0.28011,0.079732,3,AT19-1-1_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,275,AT19-1-1-275,Saboga,core,.,3,0.26145,0.064417,3,AT19-1-1_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,280,AT19-1-1-280,Saboga,core,.,5,0.24492,0.073325,4,AT19-1-1_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,285,AT19-1-1-285,Saboga,core,.,6,0.27282,0.074311,4,AT19-1-1_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,290,AT19-1-1-290,Saboga,core,.,9,0.23597,0.068657,4,AT19-1-1_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,295,AT19-1-1-295,Saboga,core,.,1,0.25809,0.070912,4,AT19-1-1_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,300,AT19-1-1-300,Saboga,core,.,3,0.24244,0.050012,4,AT19-1-1_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,305,AT19-1-1-305,Saboga,core,.,1,0.21187,0.040182,4,AT19-1-1_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,310,AT19-1-1-310,Saboga,core,.,3,0.28017,0.06386,5,AT19-1-1_5,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,315,AT19-1-1-315,Saboga,core,.,7,0.30385,0.087797,5,AT19-1-1_5,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,320,AT19-1-1-320,Saboga,core,.,8,0.31294,0.078948,5,AT19-1-1_5,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,325,AT19-1-1-325,Saboga,core,.,3,0.31576,0.073186,5,AT19-1-1_5,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,330,AT19-1-1-330,Saboga,core,.,12,0.3135,0.117263,5,AT19-1-1_5,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,335,AT19-1-1-335,Saboga,core,.,12,0.28423,0.087737,5,AT19-1-1_5,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,340,AT19-1-1-340,Saboga,core,.,5,0.34762,0.085775,6,AT19-1-1_6,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,345,AT19-1-1-345,Saboga,core,.,15,0.3282,0.112914,6,AT19-1-1_6,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,350,AT19-1-1-350,Saboga,core,.,15,0.31233,0.124884,6,AT19-1-1_6,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,355,AT19-1-1-355,Saboga,core,.,11,0.30294,0.111698,6,AT19-1-1_6,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,360,AT19-1-1-360,Saboga,core,.,19,0.31661,0.09655,7,AT19-1-1_7,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,365,AT19-1-1-365,Saboga,core,.,4,0.32083,0.071431,7,AT19-1-1_7,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,370,AT19-1-1-370,Saboga,core,.,2,0.32563,0.060309,7,AT19-1-1_7,pre_exp
+Pacific,Gulf of Panama,AT19-1-1,375,AT19-1-1-375,Saboga,core,.,0,0.34166,0.065335,7,AT19-1-1_7,pre_exp
+Pacific,Gulf of Panama,AT19-1-2,10,AT19-1-2-10,Saboga,core,.,0,0.30727,0.025844,1,AT19-1-2_1,modern
+Pacific,Gulf of Panama,AT19-1-2,15,AT19-1-2-15,Saboga,core,.,1,0.27123,0.03019,1,AT19-1-2_1,modern
+Pacific,Gulf of Panama,AT19-1-2,20,AT19-1-2-20,Saboga,core,.,1,0.2867,0.031304,1,AT19-1-2_1,modern
+Pacific,Gulf of Panama,AT19-1-2,25,AT19-1-2-25,Saboga,core,.,1,0.34524,0.03503,1,AT19-1-2_1,modern
+Pacific,Gulf of Panama,AT19-1-2,30,AT19-1-2-30,Saboga,core,.,2,0.27967,0.035989,1,AT19-1-2_1,modern
+Pacific,Gulf of Panama,AT19-1-2,35,AT19-1-2-35,Saboga,core,.,4,0.32641,0.03945,1,AT19-1-2_1,modern
+Pacific,Gulf of Panama,AT19-1-2,40,AT19-1-2-40,Saboga,core,.,3,0.2685,0.037715,1,AT19-1-2_1,modern
+Pacific,Gulf of Panama,AT19-1-2,45,AT19-1-2-45,Saboga,core,.,2,0.30996,0.04686,2,AT19-1-2_2,modern
+Pacific,Gulf of Panama,AT19-1-2,50,AT19-1-2-50,Saboga,core,.,5,0.28007,0.060799,2,AT19-1-2_2,modern
+Pacific,Gulf of Panama,AT19-1-2,55,AT19-1-2-55,Saboga,core,.,6,0.29507,0.06322,2,AT19-1-2_2,modern
+Pacific,Gulf of Panama,AT19-1-2,60,AT19-1-2-60,Saboga,core,.,4,0.30833,0.067239,2,AT19-1-2_2,modern
+Pacific,Gulf of Panama,AT19-1-2,65,AT19-1-2-65,Saboga,core,.,2,0.31819,0.06243,2,AT19-1-2_2,modern
+Pacific,Gulf of Panama,AT19-1-2,70,AT19-1-2-70,Saboga,core,.,0,0.2685,0.059228,2,AT19-1-2_2,modern
+Pacific,Gulf of Panama,AT19-1-2,75,AT19-1-2-75,Saboga,core,.,6,0.31357,0.06646,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,80,AT19-1-2-80,Saboga,core,.,2,0.3031,0.07486,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,85,AT19-1-2-85,Saboga,core,.,1,0.32332,0.06696,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,90,AT19-1-2-90,Saboga,core,.,1,0.28538,0.054202,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,95,AT19-1-2-95,Saboga,core,.,1,0.30454,0.05158,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,100,AT19-1-2-100,Saboga,core,.,4,0.30203,0.056278,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,105,AT19-1-2-105,Saboga,core,.,7,0.28818,0.05478,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,110,AT19-1-2-110,Saboga,core,.,3,0.23451,0.054436,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,115,AT19-1-2-115,Saboga,core,.,9,0.30364,0.067726,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,120,AT19-1-2-120,Saboga,core,.,3,0.29226,0.056548,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,125,AT19-1-2-125,Saboga,core,.,5,0.28633,0.056331,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,130,AT19-1-2-130,Saboga,core,.,9,0.31089,0.071208,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,135,AT19-1-2-135,Saboga,core,.,4,0.25162,0.057047,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,140,AT19-1-2-140,Saboga,core,.,7,0.30158,0.069621,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,145,AT19-1-2-145,Saboga,core,.,4,0.29206,0.073618,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,150,AT19-1-2-150,Saboga,core,.,5,0.2968,0.08938,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,155,AT19-1-2-155,Saboga,core,.,7,0.29306,0.08113,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,160,AT19-1-2-160,Saboga,core,.,6,0.29773,0.067947,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,165,AT19-1-2-165,Saboga,core,.,6,0.28146,0.066162,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,170,AT19-1-2-170,Saboga,core,.,9,0.30498,0.089234,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,175,AT19-1-2-175,Saboga,core,.,5,0.31516,0.070878,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,180,AT19-1-2-180,Saboga,core,.,6,0.33095,0.074486,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,185,AT19-1-2-185,Saboga,core,.,8,0.28814,0.080362,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,190,AT19-1-2-190,Saboga,core,.,8,0.32401,0.085062,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,195,AT19-1-2-195,Saboga,core,.,8,0.27902,0.068393,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,200,AT19-1-2-200,Saboga,core,.,4,0.27157,0.066019,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,205,AT19-1-2-205,Saboga,core,.,6,0.25986,0.066391,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,210,AT19-1-2-210,Saboga,core,.,3,0.28746,0.066611,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,215,AT19-1-2-215,Saboga,core,.,4,0.2443,0.06901,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,220,AT19-1-2-220,Saboga,core,.,4,0.23594,0.069625,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,225,AT19-1-2-225,Saboga,core,.,4,0.23299,0.055572,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,230,AT19-1-2-230,Saboga,core,.,4,0.23796,0.063536,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,235,AT19-1-2-235,Saboga,core,.,7,0.22995,0.087612,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,240,AT19-1-2-240,Saboga,core,.,6,0.24335,0.066505,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,245,AT19-1-2-245,Saboga,core,.,5,0.24028,0.078147,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,250,AT19-1-2-250,Saboga,core,.,6,0.29955,0.078425,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,255,AT19-1-2-255,Saboga,core,.,3,0.26471,0.091294,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,260,AT19-1-2-260,Saboga,core,.,4,0.25116,0.087993,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,265,AT19-1-2-265,Saboga,core,.,4,0.24754,0.072106,.,.,.
+Pacific,Gulf of Panama,AT19-1-2,270,AT19-1-2-270,Saboga,core,.,7,0.25437,0.0737,3,AT19-1-2_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-2,275,AT19-1-2-275,Saboga,core,.,3,0.25892,0.060009,3,AT19-1-2_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-2,280,AT19-1-2-280,Saboga,core,.,1,0.26036,0.082257,3,AT19-1-2_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-2,285,AT19-1-2-285,Saboga,core,.,5,0.26176,0.097618,3,AT19-1-2_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-2,290,AT19-1-2-290,Saboga,core,.,4,0.29635,0.082089,3,AT19-1-2_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-2,295,AT19-1-2-295,Saboga,core,.,4,0.28811,0.082532,3,AT19-1-2_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-2,300,AT19-1-2-300,Saboga,core,.,7,0.28476,0.089793,4,AT19-1-2_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-2,305,AT19-1-2-305,Saboga,core,.,2,0.26971,0.07801,4,AT19-1-2_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-2,310,AT19-1-2-310,Saboga,core,.,4,0.27535,0.068151,4,AT19-1-2_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-2,315,AT19-1-2-315,Saboga,core,.,7,0.303,0.101208,4,AT19-1-2_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-2,320,AT19-1-2-320,Saboga,core,.,5,0.25687,0.079584,4,AT19-1-2_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-2,325,AT19-1-2-325,Saboga,core,.,4,0.24675,0.076195,4,AT19-1-2_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-2,330,AT19-1-2-330,Saboga,core,.,6,0.28129,0.091263,5,AT19-1-2_5,pre_exp
+Pacific,Gulf of Panama,AT19-1-2,335,AT19-1-2-335,Saboga,core,.,4,0.30943,0.105655,5,AT19-1-2_5,pre_exp
+Pacific,Gulf of Panama,AT19-1-2,340,AT19-1-2-340,Saboga,core,.,3,0.21034,0.05254,5,AT19-1-2_5,pre_exp
+Pacific,Gulf of Panama,AT19-1-2,345,AT19-1-2-345,Saboga,core,.,3,0.12028,0.042752,5,AT19-1-2_5,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,5,AT19-1-3-5,Saboga,core,.,2,0.26475,0.062328,1,AT19-1-1_1,modern
+Pacific,Gulf of Panama,AT19-1-3,10,AT19-1-3-10,Saboga,core,.,0,0.30638,0.061822,1,AT19-1-1_1,modern
+Pacific,Gulf of Panama,AT19-1-3,15,AT19-1-3-15,Saboga,core,.,.,.,.,1,AT19-1-1_1,modern
+Pacific,Gulf of Panama,AT19-1-3,20,AT19-1-3-20,Saboga,core,.,2,0.30006,0.058817,1,AT19-1-1_1,modern
+Pacific,Gulf of Panama,AT19-1-3,25,AT19-1-3-25,Saboga,core,.,6,0.27276,0.057164,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,30,AT19-1-3-30,Saboga,core,.,5,0.28651,0.054781,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,35,AT19-1-3-35,Saboga,core,.,5,0.31711,0.064009,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,40,AT19-1-3-40,Saboga,core,.,5,0.29725,0.067756,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,45,AT19-1-3-45,Saboga,core,.,6,0.27581,0.037908,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,50,AT19-1-3-50,Saboga,core,.,6,0.30253,0.043713,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,55,AT19-1-3-55,Saboga,core,.,3,0.2953,0.053674,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,60,AT19-1-3-60,Saboga,core,.,9,0.29403,0.056092,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,65,AT19-1-3-65,Saboga,core,.,8,0.28114,0.062389,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,70,AT19-1-3-70,Saboga,core,.,5,0.31532,0.071462,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,75,AT19-1-3-75,Saboga,core,.,5,0.30855,0.073627,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,80,AT19-1-3-80,Saboga,core,.,6,0.32986,0.077033,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,85,AT19-1-3-85,Saboga,core,.,3,0.27583,0.055737,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,90,AT19-1-3-90,Saboga,core,.,7,0.30121,0.052976,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,95,AT19-1-3-95,Saboga,core,.,2,0.29962,0.055643,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,100,AT19-1-3-100,Saboga,core,.,0,0.31139,0.055397,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,105,AT19-1-3-105,Saboga,core,.,4,0.26438,0.048338,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,110,AT19-1-3-110,Saboga,core,.,3,0.27426,0.051402,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,115,AT19-1-3-115,Saboga,core,.,1,0.2753,0.043228,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,120,AT19-1-3-120,Saboga,core,.,5,0.32173,0.042931,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,125,AT19-1-3-125,Saboga,core,.,3,0.31235,0.036277,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,130,AT19-1-3-130,Saboga,core,.,3,0.2544,0.039688,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,135,AT19-1-3-135,Saboga,core,.,3,0.24169,0.040165,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,140,AT19-1-3-140,Saboga,core,.,8,0.25578,0.041373,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,145,AT19-1-3-145,Saboga,core,.,2,0.24726,0.04111,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,150,AT19-1-3-150,Saboga,core,.,1,0.2873,0.046676,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,155,AT19-1-3-155,Saboga,core,.,4,0.27396,0.035234,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,160,AT19-1-3-160,Saboga,core,.,3,0.24312,0.035292,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,165,AT19-1-3-165,Saboga,core,.,4,0.26069,0.033252,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,170,AT19-1-3-170,Saboga,core,.,4,0.27285,0.034418,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,175,AT19-1-3-175,Saboga,core,.,2,0.28849,0.041644,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,180,AT19-1-3-180,Saboga,core,.,2,0.28908,0.040177,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,185,AT19-1-3-185,Saboga,core,.,5,0.26568,0.050785,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,190,AT19-1-3-190,Saboga,core,.,2,0.26254,0.04536,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,195,AT19-1-3-195,Saboga,core,.,5,0.29595,0.050239,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,200,AT19-1-3-200,Saboga,core,.,15,0.2921,0.060369,.,.,.
+Pacific,Gulf of Panama,AT19-1-3,205,AT19-1-3-205,Saboga,core,.,2,0.27875,0.048102,2,AT19-1-3_2,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,210,AT19-1-3-210,Saboga,core,.,7,0.29989,0.046283,2,AT19-1-3_2,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,215,AT19-1-3-215,Saboga,core,.,2,0.29278,0.045988,2,AT19-1-3_2,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,220,AT19-1-3-220,Saboga,core,.,7,0.31945,0.047674,2,AT19-1-3_2,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,225,AT19-1-3-225,Saboga,core,.,5,0.29565,0.041024,2,AT19-1-3_2,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,230,AT19-1-3-230,Saboga,core,.,4,0.28036,0.038102,2,AT19-1-3_2,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,235,AT19-1-3-235,Saboga,core,.,1,0.28898,0.039828,3,AT19-1-3_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,240,AT19-1-3-240,Saboga,core,.,3,0.28972,0.041084,3,AT19-1-3_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,245,AT19-1-3-245,Saboga,core,.,5,0.24547,0.040011,3,AT19-1-3_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,250,AT19-1-3-250,Saboga,core,.,2,0.24871,0.042736,3,AT19-1-3_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,255,AT19-1-3-255,Saboga,core,.,2,0.2425,0.038454,3,AT19-1-3_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,260,AT19-1-3-260,Saboga,core,.,4,0.27868,0.045996,3,AT19-1-3_3,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,265,AT19-1-3-265,Saboga,core,.,2,0.23025,0.039296,4,AT19-1-3_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,270,AT19-1-3-270,Saboga,core,.,3,0.25157,0.040719,4,AT19-1-3_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,275,AT19-1-3-275,Saboga,core,.,2,0.25224,0.044787,4,AT19-1-3_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,280,AT19-1-3-280,Saboga,core,.,1,0.24245,0.044772,4,AT19-1-3_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,285,AT19-1-3-285,Saboga,core,.,7,0.2274,0.045404,4,AT19-1-3_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,290,AT19-1-3-290,Saboga,core,.,4,0.25278,0.049462,4,AT19-1-3_4,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,295,AT19-1-3-295,Saboga,core,.,9,0.26349,0.054593,5,AT19-1-3_5,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,300,AT19-1-3-300,Saboga,core,.,6,0.28356,0.055804,5,AT19-1-3_5,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,305,AT19-1-3-305,Saboga,core,.,8,0.26212,0.055944,5,AT19-1-3_5,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,310,AT19-1-3-310,Saboga,core,.,8,0.25084,0.052557,5,AT19-1-3_5,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,315,AT19-1-3-315,Saboga,core,.,6,0.30082,0.060443,5,AT19-1-3_5,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,320,AT19-1-3-320,Saboga,core,.,7,0.26091,0.061267,5,AT19-1-3_5,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,325,AT19-1-3-325,Saboga,core,.,6,0.31289,0.049144,6,AT19-1-3_6,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,330,AT19-1-3-330,Saboga,core,.,5,0.26827,0.05618,6,AT19-1-3_6,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,335,AT19-1-3-335,Saboga,core,.,7,0.30761,0.068204,6,AT19-1-3_6,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,340,AT19-1-3-340,Saboga,core,.,15,0.30505,0.066394,6,AT19-1-3_6,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,345,AT19-1-3-345,Saboga,core,.,9,0.29898,0.083216,6,AT19-1-3_6,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,350,AT19-1-3-350,Saboga,core,.,10,0.35712,0.071602,6,AT19-1-3_6,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,355,AT19-1-3-355,Saboga,core,.,6,0.32493,0.052363,7,AT19-1-3_7,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,360,AT19-1-3-360,Saboga,core,.,2,0.29408,0.051453,7,AT19-1-3_7,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,365,AT19-1-3-365,Saboga,core,.,3,0.30506,0.045389,7,AT19-1-3_7,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,370,AT19-1-3-370,Saboga,core,.,4,0.27698,0.03025,7,AT19-1-3_7,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,375,AT19-1-3-375,Saboga,core,.,7,0.3235,0.048466,7,AT19-1-3_7,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,380,AT19-1-3-380,Saboga,core,.,5,0.29584,0.047448,7,AT19-1-3_7,pre_exp
+Pacific,Gulf of Panama,AT19-1-3,385,AT19-1-3-385,Saboga,core,.,0,0.27229,0.04911,7,AT19-1-3_7,pre_exp
+Pacific,Gulf of Panama,JC22-2-1,5,JC22-2-1-5,Isla Iguana,core,.,0,0.22595,0.00215,1,JC22-2-1_1,modern
+Pacific,Gulf of Panama,JC22-2-1,10,JC22-2-1-10,Isla Iguana,core,.,0,0.19027,0.00222,1,JC22-2-1_1,modern
+Pacific,Gulf of Panama,JC22-2-1,15,JC22-2-1-15,Isla Iguana,core,.,0,0.18995,0.00344,1,JC22-2-1_1,modern
+Pacific,Gulf of Panama,JC22-2-1,20,JC22-2-1-20,Isla Iguana,core,.,0,0.21912,0.00466,1,JC22-2-1_1,modern
+Pacific,Gulf of Panama,JC22-2-1,25,JC22-2-1-25,Isla Iguana,core,.,0,0.17045,0.00542,1,JC22-2-1_1,modern
+Pacific,Gulf of Panama,JC22-2-1,30,JC22-2-1-30,Isla Iguana,core,.,0,0.26116,0.01312,1,JC22-2-1_1,modern
+Pacific,Gulf of Panama,JC22-2-1,35,JC22-2-1-35,Isla Iguana,core,.,1,0.30645,0.0348,1,JC22-2-1_1,modern
+Pacific,Gulf of Panama,JC22-2-1,40,JC22-2-1-40,Isla Iguana,core,.,2,0.32091,0.04282,1,JC22-2-1_1,modern
+Pacific,Gulf of Panama,JC22-2-1,45,JC22-2-1-45,Isla Iguana,core,.,6,0.27913,0.04118,1,JC22-2-1_1,modern
+Pacific,Gulf of Panama,JC22-2-1,50,JC22-2-1-50,Isla Iguana,core,.,11,0.22212,0.04636,1,JC22-2-1_1,modern
+Pacific,Gulf of Panama,JC22-2-1,55,JC22-2-1-55,Isla Iguana,core,.,4,0.22625,0.03297,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,60,JC22-2-1-60,Isla Iguana,core,.,10,0.33886,0.03989,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,65,JC22-2-1-65,Isla Iguana,core,.,7,0.23241,0.02527,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,70,JC22-2-1-70,Isla Iguana,core,.,3,0.26792,0.02008,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,75,JC22-2-1-75,Isla Iguana,core,.,6,0.28299,0.01701,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,80,JC22-2-1-80,Isla Iguana,core,.,8,0.30703,0.02066,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,85,JC22-2-1-85,Isla Iguana,core,.,9,0.26052,0.03519,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,90,JC22-2-1-90,Isla Iguana,core,.,16,0.31721,0.0399,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,95,JC22-2-1-95,Isla Iguana,core,.,18,0.24296,0.03302,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,100,JC22-2-1-100,Isla Iguana,core,.,11,0.26608,0.04424,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,105,JC22-2-1-105,Isla Iguana,core,.,21,0.25829,0.05008,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,110,JC22-2-1-110,Isla Iguana,core,.,21,0.25062,0.05945,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,115,JC22-2-1-115,Isla Iguana,core,.,41,0.28852,0.07336,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,120,JC22-2-1-120,Isla Iguana,core,.,24,0.30043,0.05857,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,125,JC22-2-1-125,Isla Iguana,core,.,29,0.31191,0.07048,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,130,JC22-2-1-130,Isla Iguana,core,.,22,0.30659,0.0641,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,135,JC22-2-1-135,Isla Iguana,core,.,25,0.31126,0.07175,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,140,JC22-2-1-140,Isla Iguana,core,.,32,0.29761,0.0697,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,145,JC22-2-1-145,Isla Iguana,core,.,16,0.29198,0.05236,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,150,JC22-2-1-150,Isla Iguana,core,.,14,0.28058,0.05467,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,155,JC22-2-1-155,Isla Iguana,core,.,17,0.36342,0.08202,.,.,.
+Pacific,Gulf of Panama,JC22-2-1,160,JC22-2-1-160,Isla Iguana,core,.,17,0.3382,0.08823,2,JC22-2-1_2,pre_exp
+Pacific,Gulf of Panama,JC22-2-1,165,JC22-2-1-165,Isla Iguana,core,.,27,0.32298,0.08187,2,JC22-2-1_2,pre_exp
+Pacific,Gulf of Panama,JC22-2-1,170,JC22-2-1-170,Isla Iguana,core,.,21,0.32524,0.04389,3,JC22-2-1_3,pre_exp
+Pacific,Gulf of Panama,JC22-2-1,175,JC22-2-1-175,Isla Iguana,core,.,16,0.31188,0.04642,3,JC22-2-1_3,pre_exp
+Pacific,Gulf of Panama,JC22-2-1,180,JC22-2-1-180,Isla Iguana,core,.,30,0.3519,0.05003,4,JC22-2-1_4,pre_exp
+Pacific,Gulf of Panama,JC22-2-1,185,JC22-2-1-185,Isla Iguana,core,.,11,0.27702,0.0451,4,JC22-2-1_4,pre_exp
+Pacific,Gulf of Panama,JC22-2-1,190,JC22-2-1-190,Isla Iguana,core,.,12,0.28817,0.05158,5,JC22-2-1_5,pre_exp
+Pacific,Gulf of Panama,JC22-2-1,195,JC22-2-1-195,Isla Iguana,core,.,21,0.28943,0.04379,5,JC22-2-1_5,pre_exp
+Pacific,Gulf of Panama,JC22-2-1,200,JC22-2-1-200,Isla Iguana,core,.,39,0.2694,0.03777,6,JC22-2-1_6,pre_exp
+Pacific,Gulf of Panama,JC22-2-1,205,JC22-2-1-205,Isla Iguana,core,.,38,0.2875,0.05496,7,JC22-2-1_7,pre_exp
+Pacific,Gulf of Panama,JC22-2-1,212,JC22-2-1-212,Isla Iguana,core,.,30,0.38415,0.08168,8,JC22-2-1_8,pre_exp
+Pacific,Gulf of Panama,JC22-2-2,5,JC22-2-2-5,Isla Iguana,core,.,0,0.13594,0.00075,1,JC22-2-2_1,modern
+Pacific,Gulf of Panama,JC22-2-2,10,JC22-2-2-10,Isla Iguana,core,.,0,0.2071,0.00488,1,JC22-2-2_1,modern
+Pacific,Gulf of Panama,JC22-2-2,15,JC22-2-2-15,Isla Iguana,core,.,0,0.20464,0.00552,1,JC22-2-2_1,modern
+Pacific,Gulf of Panama,JC22-2-2,20,JC22-2-2-20,Isla Iguana,core,.,0,0.22221,0.00602,1,JC22-2-2_1,modern
+Pacific,Gulf of Panama,JC22-2-2,25,JC22-2-2-25,Isla Iguana,core,.,0,0.26671,0.00639,1,JC22-2-2_1,modern
+Pacific,Gulf of Panama,JC22-2-2,30,JC22-2-2-30,Isla Iguana,core,.,0,0.33907,0.02605,1,JC22-2-2_1,modern
+Pacific,Gulf of Panama,JC22-2-2,35,JC22-2-2-35,Isla Iguana,core,.,1,0.2461,0.02884,1,JC22-2-2_1,modern
+Pacific,Gulf of Panama,JC22-2-2,40,JC22-2-2-40,Isla Iguana,core,.,4,0.32089,0.03393,1,JC22-2-2_1,modern
+Pacific,Gulf of Panama,JC22-2-2,45,JC22-2-2-45,Isla Iguana,core,.,4,0.28879,0.03568,1,JC22-2-2_1,modern
+Pacific,Gulf of Panama,JC22-2-2,50,JC22-2-2-50,Isla Iguana,core,.,4,0.32597,0.03597,1,JC22-2-2_1,modern
+Pacific,Gulf of Panama,JC22-2-2,55,JC22-2-2-55,Isla Iguana,core,.,6,0.27058,0.03624,1,JC22-2-2_1,modern
+Pacific,Gulf of Panama,JC22-2-2,60,JC22-2-2-60,Isla Iguana,core,.,12,0.29829,0.0496,2,JC22-2-2_2,modern
+Pacific,Gulf of Panama,JC22-2-2,65,JC22-2-2-65,Isla Iguana,core,.,7,0.30398,0.02882,2,JC22-2-2_2,modern
+Pacific,Gulf of Panama,JC22-2-2,70,JC22-2-2-70,Isla Iguana,core,.,4,0.27765,0.0275,2,JC22-2-2_2,modern
+Pacific,Gulf of Panama,JC22-2-2,75,JC22-2-2-75,Isla Iguana,core,.,5,0.25293,0.02547,.,.,.
+Pacific,Gulf of Panama,JC22-2-2,80,JC22-2-2-80,Isla Iguana,core,.,.,0.32692,0.03253,.,.,.
+Pacific,Gulf of Panama,JC22-2-2,85,JC22-2-2-85,Isla Iguana,core,.,4,0.28548,0.02883,.,.,.
+Pacific,Gulf of Panama,JC22-2-2,90,JC22-2-2-90,Isla Iguana,core,.,7,0.3541,0.03273,.,.,.
+Pacific,Gulf of Panama,JC22-2-2,95,JC22-2-2-95,Isla Iguana,core,.,21,0.29937,0.03459,.,.,.
+Pacific,Gulf of Panama,JC22-2-2,100,JC22-2-2-100,Isla Iguana,core,.,24,0.23873,0.03355,.,.,.
+Pacific,Gulf of Panama,JC22-2-2,105,JC22-2-2-105,Isla Iguana,core,.,32,0.36013,0.0736,.,.,.
+Pacific,Gulf of Panama,JC22-2-2,110,JC22-2-2-110,Isla Iguana,core,.,38,0.26248,0.08076,.,.,.
+Pacific,Gulf of Panama,JC22-2-2,115,JC22-2-2-115,Isla Iguana,core,.,50,0.34489,0.13725,.,.,.
+Pacific,Gulf of Panama,JC22-2-2,120,JC22-2-2-120,Isla Iguana,core,.,59,0.29987,0.14553,.,.,.
+Pacific,Gulf of Panama,JC22-2-2,125,JC22-2-2-125,Isla Iguana,core,.,33,0.3216,0.08915,.,.,.
+Pacific,Gulf of Panama,JC22-2-2,130,JC22-2-2-130,Isla Iguana,core,.,28,0.35243,0.08171,.,.,.
+Pacific,Gulf of Panama,JC22-2-2,135,JC22-2-2-135,Isla Iguana,core,.,21,0.35401,0.08753,3,JC22-2-2_3,pre_exp
+Pacific,Gulf of Panama,JC22-2-2,142,JC22-2-2-142,Isla Iguana,core,.,26,0.51274,0.11745,3,JC22-2-2_3,pre_exp
+Pacific,Gulf of Panama,JC22-2-3,5,JC22-2-3-5,Isla Iguana,core,.,.,0.20426,0.00619,1,JC22-2-1_1,modern
+Pacific,Gulf of Panama,JC22-2-3,10,JC22-2-3-10,Isla Iguana,core,.,0,0.18682,0.0069,1,JC22-2-1_1,modern
+Pacific,Gulf of Panama,JC22-2-3,15,JC22-2-3-15,Isla Iguana,core,.,0,0.25806,0.00945,1,JC22-2-1_1,modern
+Pacific,Gulf of Panama,JC22-2-3,20,JC22-2-3-20,Isla Iguana,core,.,.,0.22085,0.01005,1,JC22-2-1_1,modern
+Pacific,Gulf of Panama,JC22-2-3,25,JC22-2-3-25,Isla Iguana,core,.,0,0.29548,0.0235,1,JC22-2-1_1,modern
+Pacific,Gulf of Panama,JC22-2-3,30,JC22-2-3-30,Isla Iguana,core,.,2,0.33966,0.05359,1,JC22-2-1_1,modern
+Pacific,Gulf of Panama,JC22-2-3,35,JC22-2-3-35,Isla Iguana,core,.,4,0.28756,0.05137,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,40,JC22-2-3-40,Isla Iguana,core,.,3,0.25185,0.04503,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,45,JC22-2-3-45,Isla Iguana,core,.,3,0.24136,0.03169,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,50,JC22-2-3-50,Isla Iguana,core,.,2,0.2562,0.03746,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,55,JC22-2-3-55,Isla Iguana,core,.,3,0.26104,0.0191,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,60,JC22-2-3-60,Isla Iguana,core,.,2,0.25555,0.01928,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,65,JC22-2-3-65,Isla Iguana,core,.,2,0.30046,0.03246,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,70,JC22-2-3-70,Isla Iguana,core,.,1,0.25225,0.02625,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,75,JC22-2-3-75,Isla Iguana,core,.,6,0.2694,0.01893,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,80,JC22-2-3-80,Isla Iguana,core,.,.,0.26948,0.05862,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,85,JC22-2-3-85,Isla Iguana,core,.,25,0.29569,0.04926,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,90,JC22-2-3-90,Isla Iguana,core,.,19,0.26426,0.04593,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,95,JC22-2-3-95,Isla Iguana,core,.,.,0.26643,0.03837,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,100,JC22-2-3-100,Isla Iguana,core,.,23,0.33599,0.05309,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,105,JC22-2-3-105,Isla Iguana,core,.,43,0.31075,0.06933,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,110,JC22-2-3-110,Isla Iguana,core,.,.,0.34817,0.10244,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,115,JC22-2-3-115,Isla Iguana,core,.,25,0.34287,0.1053,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,120,JC22-2-3-120,Isla Iguana,core,.,27,0.32561,0.08398,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,125,JC22-2-3-125,Isla Iguana,core,.,.,0.31685,0.09561,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,130,JC22-2-3-130,Isla Iguana,core,.,17,0.374,0.11426,.,.,.
+Pacific,Gulf of Panama,JC22-2-3,135,JC22-2-3-135,Isla Iguana,core,.,29,0.36029,0.09067,2,JC22-2-3_2,pre_exp
+Pacific,Gulf of Panama,JC22-2-3,140,JC22-2-3-140,Isla Iguana,core,.,22,0.37723,0.11349,2,JC22-2-3_2,pre_exp
+Pacific,Gulf of Panama,JC22-2-3,147,JC22-2-3-147,Isla Iguana,core,.,40,0.34772,0.08389,3,JC22-2-3_3,pre_exp

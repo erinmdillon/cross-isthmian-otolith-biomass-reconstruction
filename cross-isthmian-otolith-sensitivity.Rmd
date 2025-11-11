@@ -1,0 +1,418 @@
+---
+title: "cross-isthmian-otolith-error-propagation"
+author: "Erin Dillon"
+date: "2025-08-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This script runs a sensitivity analysis using bootstrapping to explore how power model uncertainty affects our reconstructions of 1) fish total length and 2) per-capita biomass.
+
+Run after `cross-isthmian-otolith-size-final.Rmd` so variables from biomass reconstruction are loaded.
+
+#Libraries
+```{r warning=F}
+library(tidyverse)
+library(ggplot2)
+library(ggforce)
+library(MASS)
+```
+
+
+# 1) Otolith length --> fish length
+
+## Otolith length coefficients
+
+Parametric bootstrap of allometric power model coefficients relating otolith length to fish TL.
+
+Fallback coefficients from the global model
+```{r}
+
+#fit overall fallback model
+fallback_fit <- nls(
+  total_length_cm ~ a * otolith_length_mm^b,
+  data = size_size_merged_corefam2,
+  start = list(a = 1, b = 1))
+
+#extract coefficient means and covariance
+mu <- coef(fallback_fit)        
+Sigma <- vcov(fallback_fit)     
+
+#parametric bootstrap, draw 100 samples
+set.seed(123)  
+boot_coefs_fallback <- MASS::mvrnorm(n = 100, mu = mu, Sigma = Sigma)
+
+#add column names
+colnames(boot_coefs_fallback) <- names(mu)
+
+#create matrix
+fallback_coefs <- as.matrix(boot_coefs_fallback)
+
+```
+
+creating a function to do this more efficiently
+```{r}
+
+# Function: parametric bootstrap of coefficients
+boot_nls_coefs <- function(fit, nboot = 100, seed = NULL) {
+  if (!is.null(seed)) set.seed(seed)
+  
+  mu <- coef(fit)      
+  Sigma <- vcov(fit)   
+  
+  boot_coefs <- MASS::mvrnorm(n = nboot, mu = mu, Sigma = Sigma)
+  colnames(boot_coefs) <- names(mu)
+  
+  return(boot_coefs)
+}
+
+```
+
+Generate coefficients for each family
+```{r}
+
+#size-size df
+otolith_df <- size_size_filtered
+
+#fit nls model per family
+fits <- otolith_df %>%
+  group_by(family) %>%
+  group_map(~ nls(total_length_cm~a*otolith_length_mm^b,
+                  data = .x,
+                  start = list(a = 1, b = 1)),
+            .keep = TRUE)
+
+names(fits) <- unique(otolith_df$family)
+
+
+#get bootstrapped coeff for each family fit
+boot_coefs_list <- map(fits, ~ boot_nls_coefs(.x, nboot = 100,seed=123))
+
+#name the list elements (families)
+names(boot_coefs_list) <- names(fits)
+
+#remove low NSE families
+boot_coefs_list_filtered <- boot_coefs_list[ !(names(boot_coefs_list) %in% low_NSE) ]
+
+```
+
+## Otolith width coefficients
+
+Parametric bootstrap of allometric power model coefficients relating otolith width to fish TL.
+
+fallback model
+```{r}
+
+#global model for width, from AFORO data
+fallback_fit_width <- nls(
+  total_length_cm~a*otolith_width_mm^b,
+  data = aforo_width_corefam,
+  start = list(a = 1, b = 1)
+)
+
+boot_coefs_fallback_width <- boot_nls_coefs(fallback_fit_width, nboot = 100, seed = 123)
+
+```
+
+family specific models
+```{r}
+
+#size-size df
+otolith_df_width <- aforo_width_corefam
+
+#fit nls model per family
+fits_width <- otolith_df_width %>%
+  group_by(family) %>%
+  group_map(~ nls(total_length_cm~a*otolith_width_mm^b,
+                  data = .x,
+                  start = list(a = 1, b = 1)),
+            .keep = TRUE)
+
+names(fits_width) <- unique(otolith_df_width$family)
+
+
+#get bootstrapped coeff for each family fit
+boot_coefs_list_width <- map(fits_width, ~ boot_nls_coefs(.x, nboot = 100,seed=123))
+
+#names
+names(boot_coefs_list_width) <- names(fits_width)
+
+#remove low NSE families
+boot_coefs_list_width_filtered <- boot_coefs_list_width[ !(names(boot_coefs_list_width) %in% low_NSE_width) ]
+
+```
+
+
+## Predict fish TL using bootstrapped coefficients
+
+Functions for predicting
+```{r}
+
+predict_allometric_boot <- function(fam, x, boot_coefs_list, fallback_coefs = NULL) {
+  # fam: family
+  # x: otolith measurement (length or width)
+  
+  if (!is.null(boot_coefs_list[[fam]])) {
+    # use family-specific coefs
+    coefs_mat <- boot_coefs_list[[fam]]
+  } else if (!is.null(fallback_coefs)) {
+    # fallback: use global model coefs
+    coefs_mat <- fallback_coefs
+  } else {
+    stop("No coefficients available for family: ", fam)
+  }
+  
+  # one prediction per row of coefficient matrix
+  preds <- coefs_mat[, "a"] * (x ^ coefs_mat[, "b"])
+  return(preds)
+}
+
+
+#extending to whole df
+predict_df_boot <- function(oto_length_df, 
+                            boot_coefs_list_length, fallback_coefs_length = NULL,
+                            boot_coefs_list_width = NULL, fallback_coefs_width = NULL) {
+  
+  results <- lapply(1:nrow(oto_length_df), function(i) {
+    fam <- oto_length_df$family[i]
+    
+    oto_len <- oto_length_df$oto_length_mm[i]
+    oto_wid <- oto_length_df$oto_width_mm[i]
+    
+    # decide which measurement + coefs to use
+    if (!is.na(oto_len)) {
+      preds <- predict_allometric_boot(fam, oto_len, boot_coefs_list_length, fallback_coefs_length)
+      measurement <- "length"
+      oto_value <- oto_len
+    } else if (!is.na(oto_wid)) {
+      preds <- predict_allometric_boot(fam, oto_wid, boot_coefs_list_width, fallback_coefs_width)
+      measurement <- "width"
+      oto_value <- oto_wid
+    } else {
+      stop("No otolith measurement available for row ", i)
+    }
+    
+    # keep metadata for this row
+    meta <- oto_length_df[i, c("basin", "region", "site_name", "unique", "age_group")]
+    
+    data.frame(
+      id = i,
+      basin = meta$basin,
+      region = meta$region,
+      site_name = meta$site_name,
+      unique = meta$unique,
+      age_group = meta$age_group,
+      family = fam,
+      measurement_type = measurement,
+      otolith_value = oto_value,
+      replicate = seq_along(preds),
+      fish_length_cm = preds
+    )
+  })
+  
+  dplyr::bind_rows(results)
+}
+
+```
+
+
+## Apply predictions to dataset
+
+Combine otolith measurement dfs from Pacific and Caribbean for predictions. Follow original workflow but now repeating with bootstrapped power model coefficients and resulting fish TL predictions.
+```{r}
+
+#make formatting consistent
+pacific_df_to_merge <- oto_pac_size_clean %>% 
+  mutate(oto_length_mm=length_um/1000, #model predicts from mm
+       oto_width_mm=width_um/1000) %>% 
+  dplyr::select(basin,region,site_name,sample,unique,age_group,family,oto_length_mm,oto_width_mm)
+
+carib_df_to_merge <- oto_carib_size_clean %>% 
+  mutate(basin="Caribbean") %>% 
+  rename(site_name=locality) %>%
+  rename(age_group=type_age) %>%
+  mutate(age_group = case_when(
+    age_group == "Holocene" ~ "pre_exp",
+    age_group == "Sub Recent" ~ "modern")) %>%  
+  rename(unique=sample) %>% 
+  separate(col = unique,
+           into = c("first_part", "second_part", "third_part","fourth_part"),
+           sep = "-",
+           remove = FALSE) %>% # Keep the original column
+  mutate(sample = paste0(first_part, "-", second_part)) %>%
+  dplyr::select(-first_part, -second_part, -third_part,-fourth_part) %>% 
+  dplyr::select(basin,region,site_name,sample,unique,age_group,family,oto_length_mm,oto_width_mm)
+
+#merge
+oto_length_df <- rbind(pacific_df_to_merge,carib_df_to_merge) %>% 
+  filter(!is.na(oto_length_mm)&!is.na(oto_width_mm)) #just keep otos with measurements
+
+
+```
+
+Apply function to df
+```{r}
+
+preds_boot <- predict_df_boot(oto_length_df, boot_coefs_list_filtered, fallback_coefs,boot_coefs_list_width =boot_coefs_list_width_filtered,fallback_coefs_width=boot_coefs_fallback_width)
+
+```
+
+
+Filtering, to be consistent with main workflow
+```{r}
+#filtering out unreasonably small fish for families that shouldn't be that small (suggesting incorrect taxonomy) - issue in Pacific
+preds_boot <- preds_boot %>%
+  filter(!(basin == "Pacific" & fish_length_cm < 0.5))
+
+#remove any other broken otoliths for which size could not be reconstructed
+preds_boot <- subset(preds_boot, !is.na(fish_length_cm))
+
+```
+
+
+Plot
+```{r}
+
+boot_length_fig <- preds_boot %>% 
+  mutate(age_group=factor(age_group, levels = c("pre_exp", "modern"),labels=c("Mid-Holocene","Modern"))) %>%
+ggplot(aes(x=region, y=fish_length_cm, fill=basin))+
+  geom_sina(aes(fill=basin),color="gray70",alpha=0.2,size=2,position=position_jitterdodge(jitter.width=0.15,dodge.width=0.15,seed=10))+
+  geom_boxplot(aes(fill=basin),alpha=0.6,outlier.shape = NA,width=0.4,position=position_dodge(width = 0.7))+
+  theme_bw()+
+  labs(y="Fish total length (cm)",x="Region",fill="Region",title="A Fish total length") +
+  scale_x_discrete(limits=c("Bocas","Gulf of Panama"),labels=c("Caribbean\n(Bocas del Toro)","Pacific\n(Gulf of Panama)"))+
+  scale_fill_manual(values=c("darkgoldenrod2","deepskyblue3"))+
+  theme(axis.text = element_text(size=12),axis.title= element_text(size=16))+
+  theme(legend.text = element_text(size=12),legend.title = element_text(size=16))+
+  theme(axis.text=element_text(color="black",family="sans"),axis.title= element_text(color="black",family="sans",hjust=0.5))+
+  scale_y_continuous(trans='log2')+
+  theme(legend.position = "none")+
+  theme(aspect.ratio=1)+
+  facet_grid(~age_group)+
+  theme(strip.background = element_rect(fill = NA, color = NA),
+        strip.text = element_text(size = 16))
+boot_length_fig
+
+```
+
+
+# 2) Fish length --> fish biomass
+
+We then propagate the results of the parametric bootstrap and will further bootstrap from the possible FishBase length-weight coefficients for each family.
+
+Set-up
+```{r}
+
+#list of available coefficients
+coef_df <- lwr_data %>% 
+  rename(family=Family) %>%  #for merging
+  mutate(family = ifelse(family == "Dorosomatidae", "Clupeidae", family)) %>% 
+  dplyr::select(family,a,b) %>% 
+  add_row(family="Bythitidae",a=0.0072,b=3.155)
+
+
+#clean df with otolith measurements, pulled from previous bootstrapping
+length_df <- preds_boot %>%
+  left_join(oto_sample_metadata,by="unique") %>%  #add sample metadata
+  mutate(site_name = case_when(
+    str_starts(site_name, "Sweet Bocas Trench") ~ "Sweet Bocas Trench",
+    TRUE ~ site_name
+  ))
+
+#num boot
+nboot <- 10
+
+```
+
+
+Calculate mean per-capita fish biomass, using bootstrap sampling from lwr_data_boot. Start by making a function.
+```{r}
+
+#create bootstrapping function
+boot_predictions_long <- function(length_df, coef_df, nboot = 10) {
+  boot_list <- lapply(1:nboot, function(i) {
+    #pull coef from list per family, with replacement
+    sampled_coefs <- coef_df %>%
+      group_by(family) %>%
+      sample_n(1, replace = TRUE) %>%
+      ungroup()
+    
+    # Predict weights
+    pred_df <- length_df %>%
+      left_join(sampled_coefs, by = "family") %>%
+      mutate(fish_weight_g = a * fish_length_cm^b, #estimate fish wet weight for each otolith
+             rep = i) %>%
+      dplyr::select(basin,region,site_name,age_group,unique,group_name,family,fish_length_cm,replicate,rep,fish_weight_g) #columns to keep
+    
+    pred_df
+  })
+  
+  bind_rows(boot_list)
+}
+
+```
+
+Apply function to df
+```{r}
+
+boot_long <- boot_predictions_long(length_df, coef_df, nboot)
+
+```
+
+Calculate per-capita biomass for each bootstrap sample (`rep` of `replicate`)
+```{r}
+
+boot_biomass <- boot_long %>% 
+  group_by(basin,region,site_name,age_group,group_name,replicate,rep) %>% #calculate per sample group, for each bootstrap replicate
+  summarize(biomass_summed = sum(fish_weight_g,na.rm=T), #calculate total biomass per sample
+            n_otoliths = sum(!is.na(fish_weight_g)), #total oto count with data, i.e. number of "individuals"
+            per_capita_biomass = biomass_summed/n_otoliths) %>% 
+  distinct() %>% 
+  unite(age_group_region, c("basin","age_group"),remove=F) %>% 
+  mutate(age_group_region=as.factor(age_group_region)) %>% 
+  filter(n_otoliths>3)#some weird values creeping in
+
+#number otos
+boot_biomass %>% 
+  group_by(group_name) %>% 
+  summarize(n_otoliths=n_otoliths) %>% 
+  distinct()
+
+```
+
+Plot
+```{r}
+
+boot_biomass_fig <- boot_biomass %>% 
+  mutate(age_group=factor(age_group, levels = c("pre_exp", "modern"),labels=c("Mid-Holocene","Modern"))) %>%
+ggplot(aes(x=region, y=per_capita_biomass, fill=basin))+
+  geom_sina(aes(fill=basin),color="gray70",alpha=0.2,size=2,position=position_jitterdodge(jitter.width=0.15,dodge.width=0.15,seed=10))+
+  geom_boxplot(aes(fill=basin),alpha=0.6,outlier.shape = NA,width=0.4,position=position_dodge(width = 0.7))+
+  theme_bw()+
+  labs(y="Mean per-capita biomass (g)",x="Region",fill="Region",title="B Mean per-capita fish biomass") +
+  scale_x_discrete(limits=c("Bocas","Gulf of Panama"),labels=c("Caribbean\n(Bocas del Toro)","Pacific\n(Gulf of Panama)"))+
+  scale_fill_manual(values=c("darkgoldenrod2","deepskyblue3"))+
+  scale_color_manual(values=c("darkgoldenrod2","deepskyblue3"))+
+  theme(axis.text = element_text(size=12),axis.title= element_text(size=16))+
+  theme(legend.text = element_text(size=12),legend.title = element_text(size=16))+
+  theme(axis.text=element_text(color="black",family="sans"),axis.title= element_text(color="black",family="sans",hjust=0.5))+
+  scale_y_continuous(trans='log2',labels = scales::number_format(accuracy = 0.01))+
+  theme(legend.position = "none")+
+  theme(aspect.ratio=1)+
+  facet_grid(~age_group)+
+  theme(strip.background = element_rect(fill = NA, color = NA),
+        strip.text = element_text(size = 16))
+boot_biomass_fig
+
+```
+
+## figure S9
+Combine plots
+```{r fig.height=4,fig.width=4}
+
+boot_length_fig/boot_biomass_fig
+
+```
